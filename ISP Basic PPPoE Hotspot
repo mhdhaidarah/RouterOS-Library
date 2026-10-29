@@ -4,8 +4,8 @@ add name=LAN
 set [ find default=yes ] html-directory=hotspot
 add hotspot-address=10.30.0.1 html-directory=hotspot name=hsprof1 radius-interim-update=5m use-radius=yes
 /ip pool
-add name=PPPoE ranges=10.20.0.2-10.20.19.99
-add name=DHCP ranges=10.30.0.2-10.30.15.254
+add name=PPPoE ranges=10.20.0.2-10.20.255.254
+add name=DHCP ranges=10.30.0.2-10.30.255.254
 
 /ip hotspot
 add address-pool=DHCP disabled=no interface=LAN name=HotSpot profile=hsprof1
@@ -37,23 +37,23 @@ add local-address=10.20.0.1 name=20M only-one=yes rate-limit=20M/20M remote-addr
 /interface pppoe-server server
 add authentication=pap,chap default-profile=1M disabled=no interface=LAN service-name=PPPoE
 /ip address
-add address=10.30.0.1/20 interface=LAN network=10.30.0.0
+add address=10.30.0.1/16 interface=LAN network=10.30.0.0
 /ip dhcp-server
 add address-pool=DHCP interface=LAN lease-time=8h name=LAN_DHCP
 /ip dhcp-server network
-add address=10.30.0.0/20 dns-server=10.30.0.1 gateway=10.30.0.1
+add address=10.30.0.0/16 dns-server=10.30.0.1 gateway=10.30.0.1
 /ip dns
 set allow-remote-requests=yes cache-size=1000KiB servers=8.8.8.8,8.8.4.4,1.1.1.1
 /ip firewall address-list
-add address=10.20.0.0-10.20.19.255 list=Accepted
-add address=10.30.0.0/20 list=Accepted
+add address=10.20.0.0/16 list=Accepted
+add address=10.30.0.0/16 list=Accepted
 /ip firewall filter
 add action=passthrough chain=unused-hs-chain comment="place hotspot rules here" disabled=yes
 /ip firewall mangle
 add action=accept chain=prerouting comment="Accept Local Address" dst-address-list=Accepted
 /ip firewall nat
-add action=masquerade chain=srcnat comment="NAT PPPoE" src-address=10.20.0.2-10.20.19.255
-add action=masquerade chain=srcnat comment="NAT DHCP" src-address=10.30.0.0/20
+add action=masquerade chain=srcnat comment="NAT PPPoE" src-address=10.20.0.0/16
+add action=masquerade chain=srcnat comment="NAT DHCP" src-address=10.30.0.0/16
 /ppp aaa
 set interim-update=5m use-radius=yes
 

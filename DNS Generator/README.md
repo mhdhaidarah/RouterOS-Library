@@ -66,6 +66,22 @@ all) are still counted. Never give an ASN of a cloud or CDN (Google, Amazon,
 Akamai, Cloudflare, Tencent Cloud, Meta): it would sweep in thousands of other
 sites. Plain generation never touches the network.
 
+**Vendor-published ranges** go straight into `cidrs` (an entry without `asns`
+is never touched by `--refresh-cidrs`), or into `cidrs_extra` for an entry that
+also has `asns`, so a refresh keeps them. Calls (Zoom, Teams, Meet, WhatsApp)
+and VPN tunnels go to raw addresses no DNS lookup ever names, so without these
+the call bytes are not counted at all. Sources (2026-11-01, IPv4 only — the
+`cidrs` land in `/ip firewall address-list`, which holds no IPv6):
+
+| Entry | Source |
+|---|---|
+| Zoom | `https://assets.zoom.us/docs/ipranges/Zoom.txt` |
+| Microsoft Teams | `https://endpoints.office.com/endpoints/worldwide` id 11 (Teams media, Optimize) |
+| Microsoft 365 | same API, id 1 (Exchange Online, Optimize) + id 31 (SharePoint/OneDrive for Business, Optimize) |
+| Telegram | `https://core.telegram.org/resources/cidr.txt` (`cidrs_extra`, plus its ASNs) |
+| Cloudflare WARP | Cloudflare One client firewall page: 162.159.192.0/24 (consumer WARP), 162.159.193.0/24 (WireGuard), 162.159.197.0/24 (MASQUE), the two API addresses |
+| Meta | AS32934 — a separate umbrella entry ("Meta IPs"), never folded into Facebook/Instagram/WhatsApp: every Meta app shares that network, so it is right for "block/free everything Meta" and wrong for any one app. Its bytes are ALSO counted under the app whose DNS list holds the same address. |
+
 ### One domain, one app
 
 RouterOS takes the **first** matching `/ip dns static` entry (lab-proven on

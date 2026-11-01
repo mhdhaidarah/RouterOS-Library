@@ -119,6 +119,15 @@
         "music.youtube.com",
         "youtubei.googleapis.com"
       ],
+      "domain_roles": {
+        "youtube.com": "shared",
+        "youtu.be": "shared",
+        "youtube-nocookie.com": "shared",
+        "youtubekids.com": "shared",
+        "youtubegaming.com": "shared",
+        "music.youtube.com": "shared",
+        "youtubei.googleapis.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -155,6 +164,9 @@
         "tiktokrow-cdn.com",
         "tiktokeu-cdn.com"
       ],
+      "domain_roles": {
+        "musical.ly": "shared"
+      },
       "cidrs": []
     },
     {
@@ -225,6 +237,10 @@
         "addlive.io",
         "snapmap.com"
       ],
+      "domain_roles": {
+        "snapkit.com": "shared",
+        "sc-jpl.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -314,6 +330,14 @@
         "ota.googlezip.net",
         "play-lh.googleusercontent.com"
       ],
+      "domain_roles": {
+        "play.google.com": "shared",
+        "play.googleapis.com": "shared",
+        "play-fe.googleapis.com": "shared",
+        "android.clients.google.com": "shared",
+        "market.android.com": "shared",
+        "play-lh.googleusercontent.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -338,6 +362,15 @@
         "iosapps.itunes.apple.com",
         "gdmf.apple.com"
       ],
+      "domain_roles": {
+        "apps.apple.com": "shared",
+        "appstore.com": "shared",
+        "mzstatic.com": "shared",
+        "apps.mzstatic.com": "shared",
+        "mesu.apple.com": "shared",
+        "updates-http.cdn-apple.com": "shared",
+        "appldnld.apple.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -368,6 +401,10 @@
         "do.dsp.mp.microsoft.com",
         "windowsupdate.microsoft.com"
       ],
+      "domain_roles": {
+        "windowsupdate.com": "shared",
+        "download.windowsupdate.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -397,6 +434,19 @@
         "oculusvr.com",
         "thefacebook.com"
       ],
+      "domain_roles": {
+        "messenger.com": "shared",
+        "facebook-hardware.com": "shared",
+        "facebookgroups.com": "shared",
+        "m.me": "shared",
+        "fbinnovation.com": "shared",
+        "facebookstories.com": "shared",
+        "facebook.de": "shared",
+        "friendfeed.com": "shared",
+        "facebook.pl": "shared",
+        "thefind.com": "shared",
+        "thefacebook.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -483,6 +533,14 @@
         "whatsapp.tv",
         "whatsapp.info"
       ],
+      "domain_roles": {
+        "whatsapp.cc": "shared",
+        "whatsappbrand.com": "shared",
+        "whatsapp-plus.me": "shared",
+        "whatsapp-plus.info": "shared",
+        "whatsapp-plus.net": "shared",
+        "whatsapp.tv": "shared"
+      },
       "cidrs": []
     },
     {
@@ -530,6 +588,11 @@
         "oaiusercontent.com",
         "sora.com"
       ],
+      "domain_roles": {
+        "gemini.google.com": "shared",
+        "meta.ai": "shared",
+        "fliki.ai": "shared"
+      },
       "cidrs": []
     },
     {
@@ -658,6 +721,9 @@
         "meet.turns.goog",
         "workspace.turns.goog"
       ],
+      "domain_roles": {
+        "meet.google.com": "shared"
+      },
       "cidrs": [
         "74.125.247.128/32",
         "74.125.250.0/24",
@@ -717,6 +783,11 @@
         "heads-ak-spotify-com.akamaized.net",
         "heads4-ak-spotify-com.akamaized.net"
       ],
+      "domain_roles": {
+        "audio-ak-spotify-com.akamaized.net": "shared",
+        "audio4-ak-spotify-com.akamaized.net": "shared",
+        "heads-ak-spotify-com.akamaized.net": "shared"
+      },
       "cidrs": []
     },
     {
@@ -741,6 +812,9 @@
         "anghami.com",
         "anghcdn.co"
       ],
+      "domain_roles": {
+        "anghcdn.co": "shared"
+      },
       "cidrs": []
     },
     {
@@ -807,6 +881,12 @@
         "steamusercontent-a.akamaihd.net",
         "steamvideo-a.akamaihd.net"
       ],
+      "domain_roles": {
+        "steamcontent.com": "shared",
+        "steamcdn-a.akamaihd.net": "shared",
+        "steampipe.akamaized.net": "shared",
+        "steamstore-a.akamaihd.net": "shared"
+      },
       "cidrs": [
         "45.121.184.0/24",
         "103.10.124.0/23",
@@ -849,6 +929,9 @@
         "static-assets-prod.unrealengine.com",
         "egdownload.fastly-edge.com"
       ],
+      "domain_roles": {
+        "epicgames-download1.akamaized.net": "shared"
+      },
       "cidrs": []
     },
     {
@@ -877,6 +960,11 @@
         "gamepass.com",
         "xboxab.com"
       ],
+      "domain_roles": {
+        "xbox.com": "shared",
+        "xboxlive.com": "shared",
+        "gamepass.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -900,6 +988,9 @@
         "drive.google.com",
         "drive.usercontent.google.com"
       ],
+      "domain_roles": {
+        "drive.google.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -929,6 +1020,10 @@
         "icloud.com.cn",
         "icloud.com"
       ],
+      "domain_roles": {
+        "icloud-content.com": "shared",
+        "icloud.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -996,6 +1091,9 @@
         "skype.com",
         "skypeassets.com"
       ],
+      "domain_roles": {
+        "skype.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1008,6 +1106,10 @@
         "mail.google.com",
         "gmail.com"
       ],
+      "domain_roles": {
+        "mail.google.com": "shared",
+        "gmail.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1086,6 +1188,9 @@
         "hbo.com",
         "hbomaxcdn.com"
       ],
+      "domain_roles": {
+        "max.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1102,6 +1207,9 @@
         "np-edge.itunes.apple.com",
         "uts-api.itunes.apple.com"
       ],
+      "domain_roles": {
+        "tv.apple.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1114,6 +1222,9 @@
         "deezer.com",
         "dzcdn.net"
       ],
+      "domain_roles": {
+        "dzcdn.net": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1165,6 +1276,9 @@
         "osnplus.com",
         "osn.com"
       ],
+      "domain_roles": {
+        "osnplus.com": "shared"
+      },
       "cidrs": []
     },
     {
@@ -1375,6 +1489,9 @@
         "expressvpn.com",
         "xvservice.net"
       ],
+      "domain_roles": {
+        "expressvpn.com": "shared"
+      },
       "cidrs": []
     },
     {

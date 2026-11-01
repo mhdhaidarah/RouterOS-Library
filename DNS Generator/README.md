@@ -104,6 +104,37 @@ For the same reason a game's marketing site (pubgmobile.com, ff.garena.com,
 mobilelegends.com...) is never listed: only its backends, own network and
 asset hosts.
 
+### Dedicated and shared domains (`domain_roles`)
+
+Some app domains answer with front ends that serve other apps too: Google's
+(youtube.com, play.google.com, mail.google.com, drive.google.com and
+youtubei/play googleapis share them — measured 8 of 8 addresses shared between
+`youtubei.googleapis.com` and `play.googleapis.com`), Meta's vanity hosts,
+shared Akamai caches (Steam, Windows Update, App Store, Epic). Counting those
+addresses for one app made "YouTube free" free Gmail and Play too.
+
+```json
+"domains": ["youtube.com", "googlevideo.com"],
+"domain_roles": {"youtube.com": "shared"}      // not listed = "dedicated"
+```
+
+The key is **additive**: `domains` still lists every domain, so a consumer that
+does not know `domain_roles` keeps working exactly as before, and the generated
+`IP Collector DNS` file is unchanged. Consumers that know it (SAMM, SOVA, SICO)
+put a shared domain's collector in **`<Label> Shared IPs`**:
+
+| Reads | `<Label> IPs` (dedicated) | `<Label> Shared IPs` |
+|---|---|---|
+| traffic counters, QoS, free apps, per-app VPN | yes | no |
+| blocking (parental control, SOVA app policies) | yes | yes |
+
+The generator refuses a role other than `dedicated`/`shared`, a role for a
+domain the app does not list, and a dedicated domain under a shared one of the
+same app (the shared parent's suffix match would take it). Cloudflare-fronted
+apps (many AI and speedtest sites) are not marked: their addresses are shared
+with half the web, so only the domains measured to overlap another catalog app
+are listed.
+
 ### How long a collected address stays (lab-measured, RouterOS 7.24.4)
 
 - An address lives for the DNS record's TTL plus `address-list-extra-time`.

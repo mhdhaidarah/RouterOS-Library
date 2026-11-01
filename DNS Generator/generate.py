@@ -255,6 +255,7 @@ CATEGORIES = {
     "gaming", "store", "productivity", "download", "vpn", "speedtest", "other",
 }
 PRIORITY_RANGE = range(1, 9)      # SAMM QoS has eight slots
+ROLES = {"dedicated", "shared"}   # domain_roles values
 
 
 def validate(catalog):
@@ -298,6 +299,29 @@ def validate(catalog):
             parent = ".".join(parts[i:])
             if owner.get(parent) not in (None, slug):
                 errors.append(f"{slug}: {d} sits under {parent}, which belongs to {owner[parent]}")
+    # Domain roles (additive, 2026-11-01): "shared" marks a domain whose answers also serve other apps (Google and
+    # Meta front ends, shared CDN caches). Consumers put it in "<Label> Shared IPs", which only blocking reads;
+    # free apps, counters, QoS and per-app VPN keep "<Label> IPs". Anything not listed is "dedicated".
+    for a in catalog["apps"] + catalog.get("games", []):
+        roles = a.get("domain_roles")
+        if roles is None:
+            continue
+        if not isinstance(roles, dict):
+            errors.append(f"{a['slug']}: domain_roles must be an object {{domain: role}}")
+            continue
+        doms = {d.lower().strip(".") for d in a.get("domains") or []}
+        for d, role in roles.items():
+            if role not in ROLES:
+                errors.append(f"{a['slug']}: {d} has role {role!r}, not one of {sorted(ROLES)}")
+            if d.lower().strip(".") not in doms:
+                errors.append(f"{a['slug']}: domain_roles names {d}, which is not in its domains")
+        # A dedicated name under a shared one would still be matched by the shared parent's suffix.
+        shared = {d.lower().strip(".") for d, r in roles.items() if r == "shared"}
+        for d in doms - shared:
+            parts = d.split(".")
+            for i in range(1, len(parts) - 1):
+                if ".".join(parts[i:]) in shared:
+                    errors.append(f"{a['slug']}: {d} is dedicated but sits under shared {'.'.join(parts[i:])}")
     if errors:
         raise SystemExit("catalog.json is not valid:\n  - " + "\n  - ".join(errors))
 

@@ -118,7 +118,6 @@ add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=byte
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=ibyteimg.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=ibytedtos.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=muscdn.com type=FWD
-add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=musemuse.cn type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=musical.ly type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktok.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktok.net type=FWD
@@ -127,7 +126,6 @@ add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tikt
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokv.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokv.us type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=worldfcdn.com type=FWD
-add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=wsdvs.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokw.us type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokcdn-us.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokcdn-eu.com type=FWD
@@ -136,6 +134,9 @@ add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tikt
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=byteimg.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=ttdns2.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokcdn-in.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=ttlivecdn.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokrow-cdn.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktokeu-cdn.com type=FWD
 # ===================== TELEGRAM (FULL) =====================
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram.org type=FWD
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram.me type=FWD
@@ -143,7 +144,10 @@ add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=web.telegram.org type=FWD
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=cdn.telegram.org type=FWD
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telesco.pe type=FWD
-add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram-cdn.org type=FWD
+add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=cdn-telegram.org type=FWD
+add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegra.ph type=FWD
+add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=tdesktop.com type=FWD
+add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram.dog type=FWD
 # ===================== SNAPCHAT =====================
 add address-list="Snapchat IPs" comment="Snapchat IPs" match-subdomain=yes name=snapchat.com type=FWD
 add address-list="Snapchat IPs" comment="Snapchat IPs" match-subdomain=yes name=snap.com type=FWD
@@ -183,7 +187,6 @@ add address-list="Netflix IPs" comment="Netflix IPs" match-subdomain=yes name=tu
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=shahid.net type=FWD
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=mbc.net type=FWD
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=mbcgroup.net type=FWD
-add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=shahidvodcdn.com type=FWD
 # ===================== PLAY STORE =====================
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play.google.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play.googleapis.com type=FWD
@@ -191,6 +194,7 @@ add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes n
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=android.clients.google.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=market.android.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD
+add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD
 # ===================== APPLE APP STORE =====================
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=itunes.com type=FWD
@@ -200,7 +204,6 @@ add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes nam
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=updates-http.cdn-apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=swscan.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=swdist.apple.com type=FWD
-add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=itunes.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=apps.mzstatic.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=appldnld.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=updates.cdn-apple.com type=FWD
@@ -287,6 +290,14 @@ add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=stability.ai
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=suno.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=windsurf.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=x.ai type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=claude.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=claudeusercontent.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cursor.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cursorapi.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=grok.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=oaistatic.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=oaiusercontent.com type=FWD
+add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=sora.com type=FWD
 # ===================== Likee =====================
 add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=likee.com type=FWD
 add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=like.video type=FWD
@@ -295,10 +306,10 @@ add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=likeev
 add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=like-video.com type=FWD
 # ===================== Kwai =====================
 add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=kwai.com type=FWD
-add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=kwcdn.com type=FWD
 add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=kwai-pro.com type=FWD
 add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=yximgs.com type=FWD
 add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=kwaipros.com type=FWD
+add address-list="Kwai IPs" comment="Kwai IPs" match-subdomain=yes name=kwai.net type=FWD
 # ===================== DISCORD =====================
 add address-list="Discord IPs" comment="Discord IPs" match-subdomain=yes name=discord.com type=FWD
 add address-list="Discord IPs" comment="Discord IPs" match-subdomain=yes name=discordapp.com type=FWD
@@ -317,6 +328,8 @@ add address-list="Zoom IPs" comment="Zoom IPs" match-subdomain=yes name=zoom.com
 add address-list="Zoom IPs" comment="Zoom IPs" match-subdomain=yes name=zoomgov.com type=FWD
 # ===================== GOOGLE MEET =====================
 add address-list="Google Meet IPs" comment="Google Meet IPs" match-subdomain=yes name=meet.google.com type=FWD
+add address-list="Google Meet IPs" comment="Google Meet IPs" match-subdomain=yes name=meet.turns.goog type=FWD
+add address-list="Google Meet IPs" comment="Google Meet IPs" match-subdomain=yes name=workspace.turns.goog type=FWD
 # ===================== MICROSOFT TEAMS =====================
 add address-list="Microsoft Teams IPs" comment="Microsoft Teams IPs" match-subdomain=yes name=teams.microsoft.com type=FWD
 add address-list="Microsoft Teams IPs" comment="Microsoft Teams IPs" match-subdomain=yes name=teams.live.com type=FWD
@@ -341,6 +354,7 @@ add address-list="Spotify IPs" comment="Spotify IPs" match-subdomain=yes name=sp
 add address-list="Spotify IPs" comment="Spotify IPs" match-subdomain=yes name=audio-ak-spotify-com.akamaized.net type=FWD
 add address-list="Spotify IPs" comment="Spotify IPs" match-subdomain=yes name=audio4-ak-spotify-com.akamaized.net type=FWD
 add address-list="Spotify IPs" comment="Spotify IPs" match-subdomain=yes name=heads-ak-spotify-com.akamaized.net type=FWD
+add address-list="Spotify IPs" comment="Spotify IPs" match-subdomain=yes name=heads4-ak-spotify-com.akamaized.net type=FWD
 # ===================== SOUNDCLOUD =====================
 add address-list="SoundCloud IPs" comment="SoundCloud IPs" match-subdomain=yes name=soundcloud.com type=FWD
 add address-list="SoundCloud IPs" comment="SoundCloud IPs" match-subdomain=yes name=sndcdn.com type=FWD
@@ -374,6 +388,9 @@ add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamp
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamstore-a.akamaihd.net type=FWD
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamcommunity-a.akamaihd.net type=FWD
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamuserimages-a.akamaihd.net type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steambroadcast.akamaized.net type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamusercontent-a.akamaihd.net type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamvideo-a.akamaihd.net type=FWD
 # ===================== EPIC GAMES =====================
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=epicgames.com type=FWD
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=unrealengine.com type=FWD
@@ -382,6 +399,7 @@ add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes n
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=epicgames-download1.akamaized.net type=FWD
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=epicgamescdn.com type=FWD
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=static-assets-prod.unrealengine.com type=FWD
+add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=egdownload.fastly-edge.com type=FWD
 # ===================== PLAYSTATION NETWORK =====================
 add address-list="PlayStation Network IPs" comment="PlayStation Network IPs" match-subdomain=yes name=playstation.com type=FWD
 add address-list="PlayStation Network IPs" comment="PlayStation Network IPs" match-subdomain=yes name=playstation.net type=FWD
@@ -402,6 +420,8 @@ add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=
 add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=onedrive.live.com type=FWD
 add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=1drv.com type=FWD
 add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=storage.live.com type=FWD
+add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=1drv.ms type=FWD
+add address-list="OneDrive IPs" comment="OneDrive IPs" match-subdomain=yes name=livefilestore.com type=FWD
 # ===================== ICLOUD DRIVE =====================
 add address-list="iCloud Drive IPs" comment="iCloud Drive IPs" match-subdomain=yes name=icloud-content.com type=FWD
 add address-list="iCloud Drive IPs" comment="iCloud Drive IPs" match-subdomain=yes name=icloud.com.cn type=FWD
@@ -411,13 +431,15 @@ add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dr
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxusercontent.com type=FWD
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxstatic.com type=FWD
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=db.tt type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxapi.com type=FWD
 # ===================== SIGNAL =====================
 add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.org type=FWD
 add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.art type=FWD
 add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=whispersystems.org type=FWD
+add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.me type=FWD
+add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.group type=FWD
 # ===================== VIBER =====================
 add address-list="Viber IPs" comment="Viber IPs" match-subdomain=yes name=viber.com type=FWD
-add address-list="Viber IPs" comment="Viber IPs" match-subdomain=yes name=vbrpl.io type=FWD
 # ===================== WECHAT =====================
 add address-list="WeChat IPs" comment="WeChat IPs" match-subdomain=yes name=wechat.com type=FWD
 add address-list="WeChat IPs" comment="WeChat IPs" match-subdomain=yes name=weixin.qq.com type=FWD
@@ -435,7 +457,8 @@ add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain
 add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=outlook.office365.com type=FWD
 add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=office.com type=FWD
 add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=office365.com type=FWD
-add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=microsoftonline.com type=FWD
+add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=outlook.cloud.microsoft type=FWD
+add address-list="Microsoft 365 IPs" comment="Microsoft 365 IPs" match-subdomain=yes name=m365.cloud.microsoft type=FWD
 # ===================== DISNEY+ =====================
 add address-list="Disney+ IPs" comment="Disney+ IPs" match-subdomain=yes name=disneyplus.com type=FWD
 add address-list="Disney+ IPs" comment="Disney+ IPs" match-subdomain=yes name=dssott.com type=FWD
@@ -455,6 +478,11 @@ add address-list="HBO Max IPs" comment="HBO Max IPs" match-subdomain=yes name=hb
 add address-list="HBO Max IPs" comment="HBO Max IPs" match-subdomain=yes name=hbomaxcdn.com type=FWD
 # ===================== APPLE TV+ =====================
 add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=tv.apple.com type=FWD
+add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=hls.itunes.apple.com type=FWD
+add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=hls-amt.itunes.apple.com type=FWD
+add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=play-edge.itunes.apple.com type=FWD
+add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=np-edge.itunes.apple.com type=FWD
+add address-list="Apple TV+ IPs" comment="Apple TV+ IPs" match-subdomain=yes name=uts-api.itunes.apple.com type=FWD
 # ===================== DEEZER =====================
 add address-list="Deezer IPs" comment="Deezer IPs" match-subdomain=yes name=deezer.com type=FWD
 add address-list="Deezer IPs" comment="Deezer IPs" match-subdomain=yes name=dzcdn.net type=FWD
@@ -473,7 +501,6 @@ add address-list="beIN Sports IPs" comment="beIN Sports IPs" match-subdomain=yes
 # ===================== OSN+ =====================
 add address-list="OSN+ IPs" comment="OSN+ IPs" match-subdomain=yes name=osnplus.com type=FWD
 add address-list="OSN+ IPs" comment="OSN+ IPs" match-subdomain=yes name=osn.com type=FWD
-add address-list="OSN+ IPs" comment="OSN+ IPs" match-subdomain=yes name=osnplus.net type=FWD
 # ===================== STARZPLAY =====================
 add address-list="Starzplay IPs" comment="Starzplay IPs" match-subdomain=yes name=starzplay.com type=FWD
 add address-list="Starzplay IPs" comment="Starzplay IPs" match-subdomain=yes name=starz.com type=FWD
@@ -506,6 +533,7 @@ add address-list="Genshin Impact IPs" comment="Genshin Impact IPs" match-subdoma
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=battle.net type=FWD
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=blizzard.com type=FWD
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=battlenet.com.cn type=FWD
+add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=blzddist1-a.akamaihd.net type=FWD
 # ===================== COD WARZONE =====================
 add address-list="COD Warzone IPs" comment="COD Warzone IPs" match-subdomain=yes name=callofduty.com type=FWD
 add address-list="COD Warzone IPs" comment="COD Warzone IPs" match-subdomain=yes name=demonware.net type=FWD
@@ -518,7 +546,8 @@ add address-list="ExpressVPN IPs" comment="ExpressVPN IPs" match-subdomain=yes n
 add address-list="ExpressVPN IPs" comment="ExpressVPN IPs" match-subdomain=yes name=xvservice.net type=FWD
 # ===================== VPN — PROTONVPN =====================
 add address-list="ProtonVPN IPs" comment="ProtonVPN IPs" match-subdomain=yes name=protonvpn.com type=FWD
-add address-list="ProtonVPN IPs" comment="ProtonVPN IPs" match-subdomain=yes name=proton.me type=FWD
+add address-list="ProtonVPN IPs" comment="ProtonVPN IPs" match-subdomain=yes name=vpn-api.proton.me type=FWD
+add address-list="ProtonVPN IPs" comment="ProtonVPN IPs" match-subdomain=yes name=protonvpn.ch type=FWD
 # ===================== VPN — SURFSHARK =====================
 add address-list="Surfshark IPs" comment="Surfshark IPs" match-subdomain=yes name=surfshark.com type=FWD
 # ===================== VPN — WINDSCRIBE =====================
@@ -571,6 +600,9 @@ add address=198.38.96.0/19 list="Netflix IPs"
 add address=198.45.48.0/20 list="Netflix IPs"
 add address=207.45.72.0/22 list="Netflix IPs"
 add address=208.75.76.0/22 list="Netflix IPs"
+add address=74.125.247.128/32 list="Google Meet IPs"
+add address=74.125.250.0/24 list="Google Meet IPs"
+add address=142.250.82.0/24 list="Google Meet IPs"
 add address=45.121.184.0/24 list="Steam IPs"
 add address=103.10.124.0/23 list="Steam IPs"
 add address=103.28.54.0/24 list="Steam IPs"

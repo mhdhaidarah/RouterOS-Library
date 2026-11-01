@@ -135,7 +135,6 @@
         "ibyteimg.com",
         "ibytedtos.com",
         "muscdn.com",
-        "musemuse.cn",
         "musical.ly",
         "tiktok.com",
         "tiktok.net",
@@ -144,7 +143,6 @@
         "tiktokv.com",
         "tiktokv.us",
         "worldfcdn.com",
-        "wsdvs.com",
         "tiktokw.us",
         "tiktokcdn-us.com",
         "tiktokcdn-eu.com",
@@ -152,7 +150,10 @@
         "tiktokw.eu",
         "byteimg.com",
         "ttdns2.com",
-        "tiktokcdn-in.com"
+        "tiktokcdn-in.com",
+        "ttlivecdn.com",
+        "tiktokrow-cdn.com",
+        "tiktokeu-cdn.com"
       ],
       "cidrs": []
     },
@@ -169,7 +170,10 @@
         "web.telegram.org",
         "cdn.telegram.org",
         "telesco.pe",
-        "telegram-cdn.org"
+        "cdn-telegram.org",
+        "telegra.ph",
+        "tdesktop.com",
+        "telegram.dog"
       ],
       "cidrs": [
         "91.105.192.0/23",
@@ -282,8 +286,7 @@
       "domains": [
         "shahid.net",
         "mbc.net",
-        "mbcgroup.net",
-        "shahidvodcdn.com"
+        "mbcgroup.net"
       ],
       "cidrs": []
     },
@@ -299,7 +302,8 @@
         "play-fe.googleapis.com",
         "android.clients.google.com",
         "market.android.com",
-        "ota.googlezip.net"
+        "ota.googlezip.net",
+        "play-lh.googleusercontent.com"
       ],
       "cidrs": []
     },
@@ -318,7 +322,6 @@
         "updates-http.cdn-apple.com",
         "swscan.apple.com",
         "swdist.apple.com",
-        "itunes.apple.com",
         "apps.mzstatic.com",
         "appldnld.apple.com",
         "updates.cdn-apple.com",
@@ -459,7 +462,15 @@
         "stability.ai",
         "suno.ai",
         "windsurf.ai",
-        "x.ai"
+        "x.ai",
+        "claude.com",
+        "claudeusercontent.com",
+        "cursor.com",
+        "cursorapi.com",
+        "grok.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "sora.com"
       ],
       "cidrs": []
     },
@@ -486,10 +497,10 @@
       "priority": 5,
       "domains": [
         "kwai.com",
-        "kwcdn.com",
         "kwai-pro.com",
         "yximgs.com",
-        "kwaipros.com"
+        "kwaipros.com",
+        "kwai.net"
       ],
       "cidrs": []
     },
@@ -534,9 +545,15 @@
       "category": "conferencing",
       "priority": 4,
       "domains": [
-        "meet.google.com"
+        "meet.google.com",
+        "meet.turns.goog",
+        "workspace.turns.goog"
       ],
-      "cidrs": []
+      "cidrs": [
+        "74.125.247.128/32",
+        "74.125.250.0/24",
+        "142.250.82.0/24"
+      ]
     },
     {
       "slug": "microsoft-teams",
@@ -585,7 +602,8 @@
         "spotilocal.com",
         "audio-ak-spotify-com.akamaized.net",
         "audio4-ak-spotify-com.akamaized.net",
-        "heads-ak-spotify-com.akamaized.net"
+        "heads-ak-spotify-com.akamaized.net",
+        "heads4-ak-spotify-com.akamaized.net"
       ],
       "cidrs": []
     },
@@ -672,7 +690,10 @@
         "steampipe.akamaized.net",
         "steamstore-a.akamaihd.net",
         "steamcommunity-a.akamaihd.net",
-        "steamuserimages-a.akamaihd.net"
+        "steamuserimages-a.akamaihd.net",
+        "steambroadcast.akamaized.net",
+        "steamusercontent-a.akamaihd.net",
+        "steamvideo-a.akamaihd.net"
       ],
       "cidrs": [
         "45.121.184.0/24",
@@ -713,7 +734,8 @@
         "epicgames.dev",
         "epicgames-download1.akamaized.net",
         "epicgamescdn.com",
-        "static-assets-prod.unrealengine.com"
+        "static-assets-prod.unrealengine.com",
+        "egdownload.fastly-edge.com"
       ],
       "cidrs": []
     },
@@ -778,7 +800,9 @@
         "onedrive.com",
         "onedrive.live.com",
         "1drv.com",
-        "storage.live.com"
+        "storage.live.com",
+        "1drv.ms",
+        "livefilestore.com"
       ],
       "cidrs": []
     },
@@ -805,7 +829,8 @@
         "dropbox.com",
         "dropboxusercontent.com",
         "dropboxstatic.com",
-        "db.tt"
+        "db.tt",
+        "dropboxapi.com"
       ],
       "cidrs": []
     },
@@ -818,7 +843,9 @@
       "domains": [
         "signal.org",
         "signal.art",
-        "whispersystems.org"
+        "whispersystems.org",
+        "signal.me",
+        "signal.group"
       ],
       "cidrs": []
     },
@@ -829,8 +856,7 @@
       "category": "messaging",
       "priority": 1,
       "domains": [
-        "viber.com",
-        "vbrpl.io"
+        "viber.com"
       ],
       "cidrs": []
     },
@@ -884,7 +910,8 @@
         "outlook.office365.com",
         "office.com",
         "office365.com",
-        "microsoftonline.com"
+        "outlook.cloud.microsoft",
+        "m365.cloud.microsoft"
       ],
       "cidrs": []
     },
@@ -939,7 +966,12 @@
       "category": "streaming",
       "priority": 6,
       "domains": [
-        "tv.apple.com"
+        "tv.apple.com",
+        "hls.itunes.apple.com",
+        "hls-amt.itunes.apple.com",
+        "play-edge.itunes.apple.com",
+        "np-edge.itunes.apple.com",
+        "uts-api.itunes.apple.com"
       ],
       "cidrs": []
     },
@@ -1002,8 +1034,7 @@
       "priority": 6,
       "domains": [
         "osnplus.com",
-        "osn.com",
-        "osnplus.net"
+        "osn.com"
       ],
       "cidrs": []
     },
@@ -1116,7 +1147,8 @@
       "domains": [
         "battle.net",
         "blizzard.com",
-        "battlenet.com.cn"
+        "battlenet.com.cn",
+        "blzddist1-a.akamaihd.net"
       ],
       "cidrs": [
         "5.42.160.0/20",
@@ -1224,7 +1256,8 @@
       "priority": 8,
       "domains": [
         "protonvpn.com",
-        "proton.me"
+        "vpn-api.proton.me",
+        "protonvpn.ch"
       ],
       "cidrs": []
     },

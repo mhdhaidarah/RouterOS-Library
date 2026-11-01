@@ -3,7 +3,7 @@
 Small, self-contained RouterOS scripts you can pull straight onto a router:
 
 ```
-/tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/quick-deploy/<file>" dst-path=sico.rsc mode=https; /import sico.rsc
+/tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/quick-deploy/<file>" dst-path=sico.rsc mode=https; /import sico.rsc
 ```
 
 Linked from the Quick Deploy section on [sico.securytik.com](https://sico.securytik.com).

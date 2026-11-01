@@ -1,6 +1,6 @@
 # SICO Quick Deploy — NTP + timezone
 #
-#   /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/quick-deploy/sico-ntp-timezone.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
+#   /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/quick-deploy/sico-ntp-timezone.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
 #
 # Additive and safe to re-run: touches only the NTP client and the clock. It does not
 # change any interface, address or firewall rule, so it cannot lock you out.

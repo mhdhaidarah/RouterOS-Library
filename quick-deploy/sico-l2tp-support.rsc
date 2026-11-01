@@ -4,7 +4,7 @@
 # even though it sits behind NAT. RouterOS scripts cannot prompt, so the three
 # credentials are passed as globals in the same line you paste:
 #
-#   :global l2tpServer "vpn.example.com"; :global l2tpUser "support"; :global l2tpPass "secret"; /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/quick-deploy/sico-l2tp-support.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
+#   :global l2tpServer "vpn.example.com"; :global l2tpUser "support"; :global l2tpPass "secret"; /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/quick-deploy/sico-l2tp-support.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
 #
 # add-default-route=no on purpose: the tunnel is for INBOUND support access only. The
 # router keeps its normal internet path, so importing this cannot black-hole your uplink.

@@ -1,6 +1,6 @@
 # SICO Quick Deploy — backup & export
 #
-#   /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/quick-deploy/sico-backup-export.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
+#   /tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/quick-deploy/sico-backup-export.rsc" dst-path=sico.rsc mode=https; /import sico.rsc
 #
 # Writes a binary backup (.backup, restores onto the SAME model) and a readable text
 # export (.rsc, portable between models) into Files. Changes no running configuration —

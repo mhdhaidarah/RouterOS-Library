@@ -2,7 +2,7 @@
 
 <img src=".assets/samm-logo.svg" width="96" height="96" alt="SAMM logo" />
 
-# Mikrorik — MikroTik / RouterOS Config Library
+# RouterOS-Library — MikroTik / RouterOS Config Library
 
 **Ready-to-paste RouterOS scripts for ISPs and networks, plus the live app/website
 catalog that powers [SAMM](https://samm.securytik.com)'s monitoring & QoS.**
@@ -22,7 +22,7 @@ the latest **IP Collector DNS** catalog once a day (04:17) and replaces the old 
 It downloads from GitHub and falls back to `dl.securytik.com` when GitHub is blocked.
 
 ```
-:do {/tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/ipdns-updater/ipdns-install.rsc" dst-path=ipdns-install.rsc} on-error={/tool fetch url="https://dl.securytik.com/ipdns-install.rsc" dst-path=ipdns-install.rsc}; :delay 2s; /import file-name=ipdns-install.rsc
+:do {/tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/ipdns-updater/ipdns-install.rsc" dst-path=ipdns-install.rsc} on-error={/tool fetch url="https://dl.securytik.com/ipdns-install.rsc" dst-path=ipdns-install.rsc}; :delay 2s; /import file-name=ipdns-install.rsc
 :put ""
 ```
 

@@ -3,10 +3,10 @@
 # Safe to run again: it replaces both.
 /system scheduler remove [find name="securytik-ipdns-daily"]
 /system script remove [find name="securytik-ipdns-update"]
-/system script add name=securytik-ipdns-update policy=read,write,policy,test comment="IPDNS: IP Collector DNS updater (github.com/mhdhaidarah/Mikrorik)" source={
+/system script add name=securytik-ipdns-update policy=read,write,policy,test comment="IPDNS: IP Collector DNS updater (github.com/mhdhaidarah/RouterOS-Library)" source={
 # securytik-ipdns-update: refresh the IP Collector DNS catalog (RouterOS 6 and 7).
 # Downloads first; touches no rule unless the file arrived whole. Removes only entries tagged IPDNS:
-:local bases {"https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/ipdns-updater/";"https://dl.securytik.com/"}
+:local bases {"https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/ipdns-updater/";"https://dl.securytik.com/"}
 :local v "ros7"
 :if ([:pick [/system resource get version] 0 1] = "6") do={ :set v "ros6" }
 :local f ("ipdns-" . $v . ".rsc")

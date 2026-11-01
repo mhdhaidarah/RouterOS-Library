@@ -24,7 +24,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "IP Collector DNS")
 OUT = os.path.join(HERE, "..", "ipdns-updater")
 TAG = "IPDNS:"
-GH = "https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/ipdns-updater/"
+GH = "https://raw.githubusercontent.com/mhdhaidarah/RouterOS-Library/main/ipdns-updater/"
 MIRROR = "https://dl.securytik.com/"
 
 FWD = re.compile(r'^add address-list="([^"]+)" comment="([^"]+)" match-subdomain=yes name=(\S+) type=FWD$')
@@ -176,7 +176,7 @@ def build_install():
 # Safe to run again: it replaces both.
 /system scheduler remove [find name="securytik-ipdns-daily"]
 /system script remove [find name="securytik-ipdns-update"]
-/system script add name=securytik-ipdns-update policy={pol} comment="IPDNS: IP Collector DNS updater (github.com/mhdhaidarah/Mikrorik)" source={{
+/system script add name=securytik-ipdns-update policy={pol} comment="IPDNS: IP Collector DNS updater (github.com/mhdhaidarah/RouterOS-Library)" source={{
 {src}}}
 /system scheduler add name=securytik-ipdns-daily interval=1d start-time=04:17:00 policy={pol} comment="IPDNS: daily IP Collector DNS update" on-event="/system script run securytik-ipdns-update"
 :do {{ /file remove [find name="ipdns-install.rsc"] }} on-error={{}}

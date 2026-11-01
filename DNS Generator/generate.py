@@ -367,6 +367,9 @@ def main():
     ngames = len(catalog.get("games", []))
     ndomains = sum(len(a["domains"]) for a in catalog["apps"])
     print(f"Wrote {os.path.relpath(OUT)} — {napps} apps, {ndomains} domains, {ngames} games")
+    # The router auto-updater files (ipdns-updater/) are built from the collector just written.
+    import build_updater
+    build_updater.main()
 
 
 if __name__ == "__main__":

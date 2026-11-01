@@ -16,7 +16,8 @@ repo root, so:
 python3 "DNS Generator/generate.py"
 ```
 
-This regenerates `../IP Collector DNS` from `catalog.json`. Commit both.
+This regenerates `../IP Collector DNS` from `catalog.json`, then the router
+auto-updater files in `../ipdns-updater/` (`build_updater.py`). Commit all of them.
 
 ## Catalog format
 

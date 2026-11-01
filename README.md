@@ -14,6 +14,42 @@ catalog that powers [SAMM](https://samm.securytik.com)'s monitoring & QoS.**
 
 ---
 
+## IP Collector DNS on any MikroTik, updated daily
+
+Paste this into the router terminal (RouterOS 6 and RouterOS 7, same line). It adds the
+script `securytik-ipdns-update` and the scheduler `securytik-ipdns-daily`, which downloads
+the latest **IP Collector DNS** catalog once a day (04:17) and replaces the old entries.
+It downloads from GitHub and falls back to `dl.securytik.com` when GitHub is blocked.
+
+```
+:do {/tool fetch url="https://raw.githubusercontent.com/mhdhaidarah/Mikrorik/main/ipdns-updater/ipdns-install.rsc" dst-path=ipdns-install.rsc} on-error={/tool fetch url="https://dl.securytik.com/ipdns-install.rsc" dst-path=ipdns-install.rsc}; :delay 2s; /import file-name=ipdns-install.rsc
+:put ""
+```
+
+Load the catalog now instead of waiting for the schedule:
+
+```
+/system script run securytik-ipdns-update
+```
+
+- **RouterOS 7:** DNS collectors (`/ip dns static` FWD with `address-list`), published IP ranges,
+  traffic counters (IPv4 + IPv6 mangle) and game port collectors.
+- **RouterOS 6:** has no DNS collector, so each app domain becomes an address-list entry holding the
+  name (the router resolves it), plus the same IP ranges, IPv4 counters and game collectors.
+- Everything it adds has a comment starting with `IPDNS:`. Only those entries are replaced; your own
+  rules are never touched. If the download fails or is incomplete, the current entries stay as they are.
+- It does not change your DNS servers, NAT or filter rules. Clients must use the router as their DNS
+  server for the collectors to learn addresses.
+
+Remove it:
+
+```
+/system scheduler remove [find name="securytik-ipdns-daily"]; /system script remove [find name="securytik-ipdns-update"]; /ip firewall mangle remove [find where comment~"^IPDNS:"]; /ip firewall address-list remove [find where comment~"^IPDNS:"]; /ip dns static remove [find where comment~"^IPDNS:"]; :do {[[:parse "/ipv6 firewall mangle remove [find where comment~\"^IPDNS:\"]"]]} on-error={}
+:put ""
+```
+
+---
+
 ## What's here
 
 A collection of battle-tested MikroTik (RouterOS) configuration snippets used by
@@ -31,6 +67,7 @@ addresses, interfaces and credentials to your network before applying.
 |---|---|
 | **IP Collector DNS** | Auto-generated RouterOS script that collects per‑app/website IPs from live DNS lookups into address‑lists, with Up/Down traffic counters. Consumed by SAMM (*Websites & App Filter → Update from repo*) and usable stand‑alone. **Do not edit by hand** — see [DNS Generator](#dns-generator). |
 | **DNS Generator/** | Python tool + `catalog.json` that generate `IP Collector DNS`. Add an app in one place, regenerate, done. |
+| **ipdns-updater/** | Auto-generated router auto-updater: installer + the catalog as RouterOS 6 and RouterOS 7 hold it. See [the top of this page](#ip-collector-dns-on-any-mikrotik-updated-daily). |
 | **Basic Router with Vlans** | Full bootstrap for a single‑bridge, VLAN‑filtered router (Server / Office / Staff / Guest zones) with per‑VLAN gateways. |
 | **Basic ISP PPPoE Hotspot** | PPPoE server + Hotspot starter with RADIUS and a ladder of rate‑limit profiles (1M–30M). |
 | **User Manager Radius Setup** | RouterOS **User Manager** as the RADIUS source: rate limitations, priced/validity profiles and router binding. |

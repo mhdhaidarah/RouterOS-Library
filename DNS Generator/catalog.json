@@ -364,6 +364,44 @@
       "cidrs": []
     },
     {
+      "slug": "arabic-movie-sites",
+      "label": "Arabic Movie Sites",
+      "section": "ARABIC MOVIE SITES (EGYBEST / CIMA / AKWAM)",
+      "category": "streaming",
+      "priority": 6,
+      "domains": [
+        "egybest.org",
+        "egybest.ink",
+        "egy.best",
+        "wecima.show",
+        "wecima.click",
+        "mycima.cc",
+        "cimaclub.cam",
+        "akwam.to",
+        "arabseed.ink",
+        "arabseed.show",
+        "faselhd.center",
+        "faselhd.club",
+        "egydead.space",
+        "tuktukcima.art",
+        "shahid4u.pics",
+        "cimalek.com",
+        "topcinema.cam"
+      ],
+      "cidrs": [],
+      "domain_roles": {
+        "wecima.click": "shared",
+        "mycima.cc": "shared",
+        "arabseed.ink": "shared",
+        "arabseed.show": "shared",
+        "faselhd.center": "shared",
+        "faselhd.club": "shared",
+        "egydead.space": "shared",
+        "cimalek.com": "shared",
+        "topcinema.cam": "shared"
+      }
+    },
+    {
       "slug": "play-store",
       "label": "Play Store",
       "section": "PLAY STORE",
@@ -633,49 +671,105 @@
       "category": "ai",
       "priority": 2,
       "domains": [
-        "anthropic.com",
-        "api.openai.com",
         "character.ai",
-        "chatgpt.com",
-        "claude.ai",
         "cohere.com",
-        "copilot.microsoft.com",
         "cursor.sh",
-        "deepseek.com",
         "elevenlabs.io",
         "fliki.ai",
-        "gemini.google.com",
         "ideogram.ai",
         "leonardo.ai",
         "meta.ai",
         "midjourney.com",
         "mistral.ai",
         "notion.ai",
-        "openai.com",
         "openrouter.ai",
         "perplexity.ai",
         "pika.art",
-        "platform.openai.com",
         "replit.com",
         "runwayml.com",
         "stability.ai",
         "suno.ai",
         "windsurf.ai",
         "x.ai",
-        "claude.com",
-        "claudeusercontent.com",
         "cursor.com",
         "cursorapi.com",
-        "grok.com",
+        "grok.com"
+      ],
+      "domain_roles": {
+        "meta.ai": "shared",
+        "fliki.ai": "shared"
+      },
+      "cidrs": []
+    },
+    {
+      "slug": "chatgpt",
+      "label": "ChatGPT",
+      "section": "CHATGPT / OPENAI",
+      "category": "ai",
+      "priority": 2,
+      "domains": [
+        "chatgpt.com",
+        "openai.com",
+        "api.openai.com",
+        "platform.openai.com",
         "oaistatic.com",
         "oaiusercontent.com",
         "sora.com"
       ],
+      "cidrs": []
+    },
+    {
+      "slug": "gemini",
+      "label": "Gemini",
+      "section": "GEMINI / GOOGLE AI",
+      "category": "ai",
+      "priority": 2,
+      "domains": [
+        "gemini.google.com",
+        "aistudio.google.com"
+      ],
+      "cidrs": [],
       "domain_roles": {
         "gemini.google.com": "shared",
-        "meta.ai": "shared",
-        "fliki.ai": "shared"
-      },
+        "aistudio.google.com": "shared"
+      }
+    },
+    {
+      "slug": "claude",
+      "label": "Claude",
+      "section": "CLAUDE / ANTHROPIC",
+      "category": "ai",
+      "priority": 2,
+      "domains": [
+        "claude.ai",
+        "claude.com",
+        "anthropic.com",
+        "claudeusercontent.com"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "copilot",
+      "label": "Copilot",
+      "section": "MICROSOFT COPILOT",
+      "category": "ai",
+      "priority": 2,
+      "domains": [
+        "copilot.microsoft.com",
+        "copilot.cloud.microsoft"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "deepseek",
+      "label": "DeepSeek",
+      "section": "DEEPSEEK",
+      "category": "ai",
+      "priority": 2,
+      "domains": [
+        "deepseek.com",
+        "deepseek.ai"
+      ],
       "cidrs": []
     },
     {
@@ -1714,6 +1808,105 @@
       "priority": 1,
       "domains": [
         "shamcash.sy"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "whish",
+      "label": "Whish Money",
+      "section": "WHISH MONEY",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "whish.money",
+        "whish.app"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "omt",
+      "label": "OMT",
+      "section": "OMT",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "omt.com.lb",
+        "omt.app"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "zain-cash",
+      "label": "Zain Cash",
+      "section": "ZAIN CASH",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "zaincash.iq",
+        "zaincash.com"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "fib",
+      "label": "FIB",
+      "section": "FIRST IRAQI BANK",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "fib.iq"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "fawry",
+      "label": "Fawry",
+      "section": "FAWRY",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "fawry.com",
+        "fawrypay.com",
+        "myfawry.com"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "instapay",
+      "label": "InstaPay",
+      "section": "INSTAPAY EGYPT",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "instapay.eg",
+        "ipn.eg"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "stc-pay",
+      "label": "STC Pay",
+      "section": "STC PAY / STC BANK",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "stcpay.com.sa",
+        "stcbank.com.sa"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "binance",
+      "label": "Binance",
+      "section": "BINANCE",
+      "category": "finance",
+      "priority": 1,
+      "domains": [
+        "binance.com",
+        "binance.info",
+        "binance.me",
+        "binance.org",
+        "bnbstatic.com"
       ],
       "cidrs": []
     }

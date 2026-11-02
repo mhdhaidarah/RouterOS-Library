@@ -235,6 +235,24 @@ add address-list="Netflix IPs" comment="Netflix IPs" match-subdomain=yes name=ne
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=shahid.net type=FWD
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=mbc.net type=FWD
 add address-list="Shahid IPs" comment="Shahid IPs" match-subdomain=yes name=mbcgroup.net type=FWD
+# ===================== ARABIC MOVIE SITES (EGYBEST / CIMA / AKWAM) =====================
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=egybest.org type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=egybest.ink type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=egy.best type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=wecima.show type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=wecima.click type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=mycima.cc type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=cimaclub.cam type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=akwam.to type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=arabseed.ink type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=arabseed.show type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=faselhd.center type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=faselhd.club type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=egydead.space type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=tuktukcima.art type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=shahid4u.pics type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=cimalek.com type=FWD
+add address-list="Arabic Movie Sites IPs" comment="Arabic Movie Sites IPs" match-subdomain=yes name=topcinema.cam type=FWD
 # ===================== PLAY STORE =====================
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play.google.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play.googleapis.com type=FWD
@@ -346,43 +364,51 @@ add address-list="Whatsapp IPs" comment="Whatsapp IPs" match-subdomain=yes name=
 add address-list="Whatsapp IPs" comment="Whatsapp IPs" match-subdomain=yes name=whatsapp.tv type=FWD
 add address-list="Whatsapp IPs" comment="Whatsapp IPs" match-subdomain=yes name=whatsapp.info type=FWD
 # ===================== AI SERVICES =====================
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=anthropic.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=api.openai.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=character.ai type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=chatgpt.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=claude.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cohere.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cursor.sh type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=deepseek.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=elevenlabs.io type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=fliki.ai type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=gemini.google.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=ideogram.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=leonardo.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=meta.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=midjourney.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=mistral.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=notion.ai type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=openai.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=openrouter.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=perplexity.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=pika.art type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=platform.openai.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=replit.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=runwayml.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=stability.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=suno.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=windsurf.ai type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=x.ai type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=claude.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=claudeusercontent.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cursor.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=cursorapi.com type=FWD
 add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=grok.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=oaistatic.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=oaiusercontent.com type=FWD
-add address-list="AI IPs" comment="AI IPs" match-subdomain=yes name=sora.com type=FWD
+# ===================== CHATGPT / OPENAI =====================
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=chatgpt.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=openai.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=api.openai.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=platform.openai.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=oaistatic.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=oaiusercontent.com type=FWD
+add address-list="ChatGPT IPs" comment="ChatGPT IPs" match-subdomain=yes name=sora.com type=FWD
+# ===================== GEMINI / GOOGLE AI =====================
+add address-list="Gemini IPs" comment="Gemini IPs" match-subdomain=yes name=gemini.google.com type=FWD
+add address-list="Gemini IPs" comment="Gemini IPs" match-subdomain=yes name=aistudio.google.com type=FWD
+# ===================== CLAUDE / ANTHROPIC =====================
+add address-list="Claude IPs" comment="Claude IPs" match-subdomain=yes name=claude.ai type=FWD
+add address-list="Claude IPs" comment="Claude IPs" match-subdomain=yes name=claude.com type=FWD
+add address-list="Claude IPs" comment="Claude IPs" match-subdomain=yes name=anthropic.com type=FWD
+add address-list="Claude IPs" comment="Claude IPs" match-subdomain=yes name=claudeusercontent.com type=FWD
+# ===================== MICROSOFT COPILOT =====================
+add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD
+add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.cloud.microsoft type=FWD
+# ===================== DEEPSEEK =====================
+add address-list="DeepSeek IPs" comment="DeepSeek IPs" match-subdomain=yes name=deepseek.com type=FWD
+add address-list="DeepSeek IPs" comment="DeepSeek IPs" match-subdomain=yes name=deepseek.ai type=FWD
 # ===================== Likee =====================
 add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=likee.com type=FWD
 add address-list="Likee IPs" comment="Likee IPs" match-subdomain=yes name=like.video type=FWD
@@ -718,6 +744,33 @@ add address-list="Windscribe IPs" comment="Windscribe IPs" match-subdomain=yes n
 add address-list="Cloudflare WARP IPs" comment="Cloudflare WARP IPs" match-subdomain=yes name=cloudflareclient.com type=FWD
 # ===================== SHAM CASH =====================
 add address-list="Sham Cash IPs" comment="Sham Cash IPs" match-subdomain=yes name=shamcash.sy type=FWD
+# ===================== WHISH MONEY =====================
+add address-list="Whish Money IPs" comment="Whish Money IPs" match-subdomain=yes name=whish.money type=FWD
+add address-list="Whish Money IPs" comment="Whish Money IPs" match-subdomain=yes name=whish.app type=FWD
+# ===================== OMT =====================
+add address-list="OMT IPs" comment="OMT IPs" match-subdomain=yes name=omt.com.lb type=FWD
+add address-list="OMT IPs" comment="OMT IPs" match-subdomain=yes name=omt.app type=FWD
+# ===================== ZAIN CASH =====================
+add address-list="Zain Cash IPs" comment="Zain Cash IPs" match-subdomain=yes name=zaincash.iq type=FWD
+add address-list="Zain Cash IPs" comment="Zain Cash IPs" match-subdomain=yes name=zaincash.com type=FWD
+# ===================== FIRST IRAQI BANK =====================
+add address-list="FIB IPs" comment="FIB IPs" match-subdomain=yes name=fib.iq type=FWD
+# ===================== FAWRY =====================
+add address-list="Fawry IPs" comment="Fawry IPs" match-subdomain=yes name=fawry.com type=FWD
+add address-list="Fawry IPs" comment="Fawry IPs" match-subdomain=yes name=fawrypay.com type=FWD
+add address-list="Fawry IPs" comment="Fawry IPs" match-subdomain=yes name=myfawry.com type=FWD
+# ===================== INSTAPAY EGYPT =====================
+add address-list="InstaPay IPs" comment="InstaPay IPs" match-subdomain=yes name=instapay.eg type=FWD
+add address-list="InstaPay IPs" comment="InstaPay IPs" match-subdomain=yes name=ipn.eg type=FWD
+# ===================== STC PAY / STC BANK =====================
+add address-list="STC Pay IPs" comment="STC Pay IPs" match-subdomain=yes name=stcpay.com.sa type=FWD
+add address-list="STC Pay IPs" comment="STC Pay IPs" match-subdomain=yes name=stcbank.com.sa type=FWD
+# ===================== BINANCE =====================
+add address-list="Binance IPs" comment="Binance IPs" match-subdomain=yes name=binance.com type=FWD
+add address-list="Binance IPs" comment="Binance IPs" match-subdomain=yes name=binance.info type=FWD
+add address-list="Binance IPs" comment="Binance IPs" match-subdomain=yes name=binance.me type=FWD
+add address-list="Binance IPs" comment="Binance IPs" match-subdomain=yes name=binance.org type=FWD
+add address-list="Binance IPs" comment="Binance IPs" match-subdomain=yes name=bnbstatic.com type=FWD
 # ===================== GAME: COD Mobile =====================
 add address-list="COD Mobile IPs" comment="COD Mobile IPs" match-subdomain=yes name=codm.activision.com type=FWD
 # ===================== GAME: Free Fire =====================
@@ -1011,6 +1064,9 @@ add action=passthrough chain=prerouting comment="Netflix Traffic Up" dst-address
 # Shahid
 add action=passthrough chain=prerouting comment="Shahid Traffic Down" src-address-list="Shahid IPs"
 add action=passthrough chain=prerouting comment="Shahid Traffic Up" dst-address-list="Shahid IPs"
+# Arabic Movie Sites
+add action=passthrough chain=prerouting comment="Arabic Movie Sites Traffic Down" src-address-list="Arabic Movie Sites IPs"
+add action=passthrough chain=prerouting comment="Arabic Movie Sites Traffic Up" dst-address-list="Arabic Movie Sites IPs"
 # Play Store
 add action=passthrough chain=prerouting comment="Play Store Traffic Down" src-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="Play Store Traffic Up" dst-address-list="Play Store IPs"
@@ -1038,6 +1094,21 @@ add action=passthrough chain=prerouting comment="Whatsapp Traffic Up" dst-addres
 # AI
 add action=passthrough chain=prerouting comment="AI Traffic Down" src-address-list="AI IPs"
 add action=passthrough chain=prerouting comment="AI Traffic Up" dst-address-list="AI IPs"
+# ChatGPT
+add action=passthrough chain=prerouting comment="ChatGPT Traffic Down" src-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="ChatGPT Traffic Up" dst-address-list="ChatGPT IPs"
+# Gemini
+add action=passthrough chain=prerouting comment="Gemini Traffic Down" src-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="Gemini Traffic Up" dst-address-list="Gemini IPs"
+# Claude
+add action=passthrough chain=prerouting comment="Claude Traffic Down" src-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="Claude Traffic Up" dst-address-list="Claude IPs"
+# Copilot
+add action=passthrough chain=prerouting comment="Copilot Traffic Down" src-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="Copilot Traffic Up" dst-address-list="Copilot IPs"
+# DeepSeek
+add action=passthrough chain=prerouting comment="DeepSeek Traffic Down" src-address-list="DeepSeek IPs"
+add action=passthrough chain=prerouting comment="DeepSeek Traffic Up" dst-address-list="DeepSeek IPs"
 # Likee
 add action=passthrough chain=prerouting comment="Likee Traffic Down" src-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="Likee Traffic Up" dst-address-list="Likee IPs"
@@ -1191,6 +1262,30 @@ add action=passthrough chain=prerouting comment="Cloudflare WARP Traffic Up" dst
 # Sham Cash
 add action=passthrough chain=prerouting comment="Sham Cash Traffic Down" src-address-list="Sham Cash IPs"
 add action=passthrough chain=prerouting comment="Sham Cash Traffic Up" dst-address-list="Sham Cash IPs"
+# Whish Money
+add action=passthrough chain=prerouting comment="Whish Money Traffic Down" src-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="Whish Money Traffic Up" dst-address-list="Whish Money IPs"
+# OMT
+add action=passthrough chain=prerouting comment="OMT Traffic Down" src-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="OMT Traffic Up" dst-address-list="OMT IPs"
+# Zain Cash
+add action=passthrough chain=prerouting comment="Zain Cash Traffic Down" src-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="Zain Cash Traffic Up" dst-address-list="Zain Cash IPs"
+# FIB
+add action=passthrough chain=prerouting comment="FIB Traffic Down" src-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="FIB Traffic Up" dst-address-list="FIB IPs"
+# Fawry
+add action=passthrough chain=prerouting comment="Fawry Traffic Down" src-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="Fawry Traffic Up" dst-address-list="Fawry IPs"
+# InstaPay
+add action=passthrough chain=prerouting comment="InstaPay Traffic Down" src-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="InstaPay Traffic Up" dst-address-list="InstaPay IPs"
+# STC Pay
+add action=passthrough chain=prerouting comment="STC Pay Traffic Down" src-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="STC Pay Traffic Up" dst-address-list="STC Pay IPs"
+# Binance
+add action=passthrough chain=prerouting comment="Binance Traffic Down" src-address-list="Binance IPs"
+add action=passthrough chain=prerouting comment="Binance Traffic Up" dst-address-list="Binance IPs"
 # --- game traffic counters ---
 # COD Mobile
 add action=passthrough chain=prerouting comment="COD Mobile Traffic Down" src-address-list="COD Mobile IPs"
@@ -1243,6 +1338,7 @@ add action=mark-packet chain=prerouting comment="Snapchat Download Mark" disable
 add action=mark-packet chain=prerouting comment="Twitter/X Download Mark" disabled=yes new-packet-mark="Twitter/X download" passthrough=yes src-address-list="Twitter/X IPs"
 add action=mark-packet chain=prerouting comment="Netflix Download Mark" disabled=yes new-packet-mark="Netflix download" passthrough=yes src-address-list="Netflix IPs"
 add action=mark-packet chain=prerouting comment="Shahid Download Mark" disabled=yes new-packet-mark="Shahid download" passthrough=yes src-address-list="Shahid IPs"
+add action=mark-packet chain=prerouting comment="Arabic Movie Sites Download Mark" disabled=yes new-packet-mark="Arabic Movie Sites download" passthrough=yes src-address-list="Arabic Movie Sites IPs"
 add action=mark-packet chain=prerouting comment="Play Store Download Mark" disabled=yes new-packet-mark="Play Store download" passthrough=yes src-address-list="Play Store IPs"
 add action=mark-packet chain=prerouting comment="App Store Download Mark" disabled=yes new-packet-mark="App Store download" passthrough=yes src-address-list="App Store IPs"
 add action=mark-packet chain=prerouting comment="Microsoft Store Download Mark" disabled=yes new-packet-mark="Microsoft Store download" passthrough=yes src-address-list="Microsoft Store IPs"
@@ -1252,6 +1348,11 @@ add action=mark-packet chain=prerouting comment="Instagram Download Mark" disabl
 add action=mark-packet chain=prerouting comment="Meta Download Mark" disabled=yes new-packet-mark="Meta download" passthrough=yes src-address-list="Meta IPs"
 add action=mark-packet chain=prerouting comment="Whatsapp Download Mark" disabled=yes new-packet-mark="Whatsapp download" passthrough=yes src-address-list="Whatsapp IPs"
 add action=mark-packet chain=prerouting comment="AI Download Mark" disabled=yes new-packet-mark="AI download" passthrough=yes src-address-list="AI IPs"
+add action=mark-packet chain=prerouting comment="ChatGPT Download Mark" disabled=yes new-packet-mark="ChatGPT download" passthrough=yes src-address-list="ChatGPT IPs"
+add action=mark-packet chain=prerouting comment="Gemini Download Mark" disabled=yes new-packet-mark="Gemini download" passthrough=yes src-address-list="Gemini IPs"
+add action=mark-packet chain=prerouting comment="Claude Download Mark" disabled=yes new-packet-mark="Claude download" passthrough=yes src-address-list="Claude IPs"
+add action=mark-packet chain=prerouting comment="Copilot Download Mark" disabled=yes new-packet-mark="Copilot download" passthrough=yes src-address-list="Copilot IPs"
+add action=mark-packet chain=prerouting comment="DeepSeek Download Mark" disabled=yes new-packet-mark="DeepSeek download" passthrough=yes src-address-list="DeepSeek IPs"
 add action=mark-packet chain=prerouting comment="Likee Download Mark" disabled=yes new-packet-mark="Likee download" passthrough=yes src-address-list="Likee IPs"
 add action=mark-packet chain=prerouting comment="Kwai Download Mark" disabled=yes new-packet-mark="Kwai download" passthrough=yes src-address-list="Kwai IPs"
 add action=mark-packet chain=prerouting comment="Discord Download Mark" disabled=yes new-packet-mark="Discord download" passthrough=yes src-address-list="Discord IPs"
@@ -1303,6 +1404,14 @@ add action=mark-packet chain=prerouting comment="Surfshark Download Mark" disabl
 add action=mark-packet chain=prerouting comment="Windscribe Download Mark" disabled=yes new-packet-mark="Windscribe download" passthrough=yes src-address-list="Windscribe IPs"
 add action=mark-packet chain=prerouting comment="Cloudflare WARP Download Mark" disabled=yes new-packet-mark="Cloudflare WARP download" passthrough=yes src-address-list="Cloudflare WARP IPs"
 add action=mark-packet chain=prerouting comment="Sham Cash Download Mark" disabled=yes new-packet-mark="Sham Cash download" passthrough=yes src-address-list="Sham Cash IPs"
+add action=mark-packet chain=prerouting comment="Whish Money Download Mark" disabled=yes new-packet-mark="Whish Money download" passthrough=yes src-address-list="Whish Money IPs"
+add action=mark-packet chain=prerouting comment="OMT Download Mark" disabled=yes new-packet-mark="OMT download" passthrough=yes src-address-list="OMT IPs"
+add action=mark-packet chain=prerouting comment="Zain Cash Download Mark" disabled=yes new-packet-mark="Zain Cash download" passthrough=yes src-address-list="Zain Cash IPs"
+add action=mark-packet chain=prerouting comment="FIB Download Mark" disabled=yes new-packet-mark="FIB download" passthrough=yes src-address-list="FIB IPs"
+add action=mark-packet chain=prerouting comment="Fawry Download Mark" disabled=yes new-packet-mark="Fawry download" passthrough=yes src-address-list="Fawry IPs"
+add action=mark-packet chain=prerouting comment="InstaPay Download Mark" disabled=yes new-packet-mark="InstaPay download" passthrough=yes src-address-list="InstaPay IPs"
+add action=mark-packet chain=prerouting comment="STC Pay Download Mark" disabled=yes new-packet-mark="STC Pay download" passthrough=yes src-address-list="STC Pay IPs"
+add action=mark-packet chain=prerouting comment="Binance Download Mark" disabled=yes new-packet-mark="Binance download" passthrough=yes src-address-list="Binance IPs"
 add action=mark-packet chain=prerouting comment="COD Mobile Download Mark" disabled=yes new-packet-mark="COD Mobile download" passthrough=yes src-address-list="COD Mobile IPs"
 add action=mark-packet chain=prerouting comment="Free Fire Download Mark" disabled=yes new-packet-mark="Free Fire download" passthrough=yes src-address-list="Free Fire IPs"
 add action=mark-packet chain=prerouting comment="PUBG Mobile Download Mark" disabled=yes new-packet-mark="PUBG Mobile download" passthrough=yes src-address-list="PUBG Mobile IPs"
@@ -1341,6 +1450,9 @@ add action=passthrough chain=prerouting comment="Netflix Traffic Up" dst-address
 # Shahid
 add action=passthrough chain=prerouting comment="Shahid Traffic Down" src-address-list="Shahid IPs"
 add action=passthrough chain=prerouting comment="Shahid Traffic Up" dst-address-list="Shahid IPs"
+# Arabic Movie Sites
+add action=passthrough chain=prerouting comment="Arabic Movie Sites Traffic Down" src-address-list="Arabic Movie Sites IPs"
+add action=passthrough chain=prerouting comment="Arabic Movie Sites Traffic Up" dst-address-list="Arabic Movie Sites IPs"
 # Play Store
 add action=passthrough chain=prerouting comment="Play Store Traffic Down" src-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="Play Store Traffic Up" dst-address-list="Play Store IPs"
@@ -1368,6 +1480,21 @@ add action=passthrough chain=prerouting comment="Whatsapp Traffic Up" dst-addres
 # AI
 add action=passthrough chain=prerouting comment="AI Traffic Down" src-address-list="AI IPs"
 add action=passthrough chain=prerouting comment="AI Traffic Up" dst-address-list="AI IPs"
+# ChatGPT
+add action=passthrough chain=prerouting comment="ChatGPT Traffic Down" src-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="ChatGPT Traffic Up" dst-address-list="ChatGPT IPs"
+# Gemini
+add action=passthrough chain=prerouting comment="Gemini Traffic Down" src-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="Gemini Traffic Up" dst-address-list="Gemini IPs"
+# Claude
+add action=passthrough chain=prerouting comment="Claude Traffic Down" src-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="Claude Traffic Up" dst-address-list="Claude IPs"
+# Copilot
+add action=passthrough chain=prerouting comment="Copilot Traffic Down" src-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="Copilot Traffic Up" dst-address-list="Copilot IPs"
+# DeepSeek
+add action=passthrough chain=prerouting comment="DeepSeek Traffic Down" src-address-list="DeepSeek IPs"
+add action=passthrough chain=prerouting comment="DeepSeek Traffic Up" dst-address-list="DeepSeek IPs"
 # Likee
 add action=passthrough chain=prerouting comment="Likee Traffic Down" src-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="Likee Traffic Up" dst-address-list="Likee IPs"
@@ -1521,6 +1648,30 @@ add action=passthrough chain=prerouting comment="Cloudflare WARP Traffic Up" dst
 # Sham Cash
 add action=passthrough chain=prerouting comment="Sham Cash Traffic Down" src-address-list="Sham Cash IPs"
 add action=passthrough chain=prerouting comment="Sham Cash Traffic Up" dst-address-list="Sham Cash IPs"
+# Whish Money
+add action=passthrough chain=prerouting comment="Whish Money Traffic Down" src-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="Whish Money Traffic Up" dst-address-list="Whish Money IPs"
+# OMT
+add action=passthrough chain=prerouting comment="OMT Traffic Down" src-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="OMT Traffic Up" dst-address-list="OMT IPs"
+# Zain Cash
+add action=passthrough chain=prerouting comment="Zain Cash Traffic Down" src-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="Zain Cash Traffic Up" dst-address-list="Zain Cash IPs"
+# FIB
+add action=passthrough chain=prerouting comment="FIB Traffic Down" src-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="FIB Traffic Up" dst-address-list="FIB IPs"
+# Fawry
+add action=passthrough chain=prerouting comment="Fawry Traffic Down" src-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="Fawry Traffic Up" dst-address-list="Fawry IPs"
+# InstaPay
+add action=passthrough chain=prerouting comment="InstaPay Traffic Down" src-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="InstaPay Traffic Up" dst-address-list="InstaPay IPs"
+# STC Pay
+add action=passthrough chain=prerouting comment="STC Pay Traffic Down" src-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="STC Pay Traffic Up" dst-address-list="STC Pay IPs"
+# Binance
+add action=passthrough chain=prerouting comment="Binance Traffic Down" src-address-list="Binance IPs"
+add action=passthrough chain=prerouting comment="Binance Traffic Up" dst-address-list="Binance IPs"
 # COD Mobile
 add action=passthrough chain=prerouting comment="COD Mobile Traffic Down" src-address-list="COD Mobile IPs"
 add action=passthrough chain=prerouting comment="COD Mobile Traffic Up" dst-address-list="COD Mobile IPs"

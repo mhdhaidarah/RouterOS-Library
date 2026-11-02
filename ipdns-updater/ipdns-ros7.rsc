@@ -53,6 +53,17 @@ add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes 
 add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubegaming.com type=FWD
 add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=music.youtube.com type=FWD
 add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubei.googleapis.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=withyoutube.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubeeducation.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubefanfest.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.co.id type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.co.in type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.com.br type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.id type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.in type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubemobilesupport.com type=FWD
+add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=yt.be type=FWD
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytecdn.cn type=FWD
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=byted.org type=FWD
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytedance.com type=FWD
@@ -79,6 +90,25 @@ add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes na
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=ttlivecdn.com type=FWD
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktokrow-cdn.com type=FWD
 add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktokeu-cdn.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytedapm.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=amemv.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bdurl.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytegoofy.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytescm.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyin.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyincdn.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinpic.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinliving.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinstatic.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinvod.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshan.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshanstatic.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshanzhibo.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=pstatp.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=snssdk.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=ttlivecdn.com.c.bytefcdn-oversea.com type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktok.tps.dv.tech type=FWD
+add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=zijieapi.com type=FWD
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.org type=FWD
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.me type=FWD
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=t.me type=FWD
@@ -89,6 +119,14 @@ add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=ye
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegra.ph type=FWD
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tdesktop.com type=FWD
 add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.dog type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=comments.app type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=contest.com type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=graph.org type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=quiz.directory type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telega.one type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tg.dev type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tx.me type=FWD
+add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=usercontent.dev type=FWD
 add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=snapchat.com type=FWD
 add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=snap.com type=FWD
 add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=sc-cdn.net type=FWD
@@ -121,9 +159,36 @@ add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes 
 add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=nflxsearch.net type=FWD
 add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest1.com type=FWD
 add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=tudumext.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixinvestor.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixtechblog.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest2.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest3.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest4.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest5.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest6.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest7.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest8.com type=FWD
+add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest9.com type=FWD
 add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=shahid.net type=FWD
 add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=mbc.net type=FWD
 add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=mbcgroup.net type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=egybest.org type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=egybest.ink type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=egy.best type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=wecima.show type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=wecima.click type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=mycima.cc type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=cimaclub.cam type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=akwam.to type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=arabseed.ink type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=arabseed.show type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=faselhd.center type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=faselhd.club type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=egydead.space type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=tuktukcima.art type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=shahid4u.pics type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=cimalek.com type=FWD
+add address-list="Arabic Movie Sites IPs" comment="IPDNS: Arabic Movie Sites IPs" match-subdomain=yes name=topcinema.cam type=FWD
 add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play.google.com type=FWD
 add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play.googleapis.com type=FWD
 add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play-fe.googleapis.com type=FWD
@@ -174,11 +239,46 @@ add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=ye
 add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=thefind.com type=FWD
 add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=oculusvr.com type=FWD
 add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=thefacebook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=aboutfacebook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=accessfacebookfromschool.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=acebooik.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=acebook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=advancediddetection.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=askfacebook.net type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=askfacebook.org type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atdmt2.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atlasdmt.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atlasonepoint.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=buyingfacebooklikes.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=careersatfb.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=celebgramme.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=china-facebook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=click-url.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=dlfacebook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=expresswifi.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=faasbook.com type=FWD
+add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebboc.com type=FWD
 add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram.com type=FWD
 add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD
 add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=threads.net type=FWD
 add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=ig.me type=FWD
 add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=threads.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=bookstagram.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=carstagram.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=chickstagram.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=igsonar.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=imstagram.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=imtagram.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instaadder.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instachecker.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instafallow.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagainer.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagify.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagmania.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-brand.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-engineering.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-help.com type=FWD
+add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-press.com type=FWD
 add address-list="Meta IPs" comment="IPDNS: Meta IPs" match-subdomain=yes name=meta.com type=FWD
 add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.com type=FWD
 add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.net type=FWD
@@ -192,43 +292,46 @@ add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=ye
 add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp-plus.net type=FWD
 add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.tv type=FWD
 add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.info type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=anthropic.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=api.openai.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=character.ai type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=chatgpt.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=claude.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=cohere.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=cursor.sh type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=deepseek.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=elevenlabs.io type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=fliki.ai type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=gemini.google.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=ideogram.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=leonardo.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=meta.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=midjourney.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=mistral.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=notion.ai type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=openai.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=openrouter.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=perplexity.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=pika.art type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=platform.openai.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=replit.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=runwayml.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=stability.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=suno.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=windsurf.ai type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=x.ai type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=claude.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=claudeusercontent.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=cursor.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=cursorapi.com type=FWD
 add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=grok.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=oaistatic.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=oaiusercontent.com type=FWD
-add address-list="AI IPs" comment="IPDNS: AI IPs" match-subdomain=yes name=sora.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=chatgpt.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=openai.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=api.openai.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=platform.openai.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=oaistatic.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=oaiusercontent.com type=FWD
+add address-list="ChatGPT IPs" comment="IPDNS: ChatGPT IPs" match-subdomain=yes name=sora.com type=FWD
+add address-list="Gemini IPs" comment="IPDNS: Gemini IPs" match-subdomain=yes name=gemini.google.com type=FWD
+add address-list="Gemini IPs" comment="IPDNS: Gemini IPs" match-subdomain=yes name=aistudio.google.com type=FWD
+add address-list="Claude IPs" comment="IPDNS: Claude IPs" match-subdomain=yes name=claude.ai type=FWD
+add address-list="Claude IPs" comment="IPDNS: Claude IPs" match-subdomain=yes name=claude.com type=FWD
+add address-list="Claude IPs" comment="IPDNS: Claude IPs" match-subdomain=yes name=anthropic.com type=FWD
+add address-list="Claude IPs" comment="IPDNS: Claude IPs" match-subdomain=yes name=claudeusercontent.com type=FWD
+add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD
+add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.cloud.microsoft type=FWD
+add address-list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs" match-subdomain=yes name=deepseek.com type=FWD
+add address-list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs" match-subdomain=yes name=deepseek.ai type=FWD
 add address-list="Likee IPs" comment="IPDNS: Likee IPs" match-subdomain=yes name=likee.com type=FWD
 add address-list="Likee IPs" comment="IPDNS: Likee IPs" match-subdomain=yes name=like.video type=FWD
 add address-list="Likee IPs" comment="IPDNS: Likee IPs" match-subdomain=yes name=likee.video type=FWD
@@ -250,6 +353,14 @@ add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes 
 add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discord.new type=FWD
 add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordcdn.com type=FWD
 add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordstatus.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discord-activities.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordactivities.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordmerch.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordsays.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=airhorn.solutions type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=airhornbot.com type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=bigbeans.solutions type=FWD
+add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=watchanimeattheoffice.com type=FWD
 add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoom.us type=FWD
 add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoom.com type=FWD
 add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoomgov.com type=FWD
@@ -259,6 +370,7 @@ add address-list="Google Meet IPs" comment="IPDNS: Google Meet IPs" match-subdom
 add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.microsoft.com type=FWD
 add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.live.com type=FWD
 add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.cloud.microsoft type=FWD
+add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.cdn.office.net type=FWD
 add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=twitch.tv type=FWD
 add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=ttvnw.net type=FWD
 add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=jtvnw.net type=FWD
@@ -278,6 +390,12 @@ add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes 
 add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=audio4-ak-spotify-com.akamaized.net type=FWD
 add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=heads-ak-spotify-com.akamaized.net type=FWD
 add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=heads4-ak-spotify-com.akamaized.net type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=byspotify.com type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotify-everywhere.com type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifycharts.com type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifycodes.com type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifyforbrands.com type=FWD
+add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifyjobs.com type=FWD
 add address-list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs" match-subdomain=yes name=soundcloud.com type=FWD
 add address-list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs" match-subdomain=yes name=sndcdn.com type=FWD
 add address-list="Anghami IPs" comment="IPDNS: Anghami IPs" match-subdomain=yes name=anghami.com type=FWD
@@ -286,11 +404,19 @@ add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes na
 add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redd.it type=FWD
 add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditstatic.com type=FWD
 add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditmedia.com type=FWD
+add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditmail.com type=FWD
 add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinterest.com type=FWD
 add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinimg.com type=FWD
+add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pin.it type=FWD
+add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinterestmail.com type=FWD
 add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=linkedin.com type=FWD
 add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=licdn.com type=FWD
 add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=lnkd.in type=FWD
+add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=bizographics.com type=FWD
+add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.dc-msedge.net type=FWD
+add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.l-msedge.net type=FWD
+add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.l-dc-msedge.net type=FWD
+add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0015.l-msedge.net type=FWD
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steampowered.com type=FWD
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamcommunity.com type=FWD
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamcontent.com type=FWD
@@ -308,6 +434,16 @@ add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steambroadcast.akamaized.net type=FWD
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamusercontent-a.akamaihd.net type=FWD
 add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamvideo-a.akamaihd.net type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=playartifact.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=s.team type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steam-api.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamdeck.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=underlords.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=wmsjsteam.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=st.dl.eccdnx.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steampowered.com.8686c.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamstatic.com.8686c.com type=FWD
+add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=xz.pphimalayanrt.com type=FWD
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=epicgames.com type=FWD
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=unrealengine.com type=FWD
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=fortnite.com type=FWD
@@ -316,6 +452,9 @@ add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomai
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=epicgamescdn.com type=FWD
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=static-assets-prod.unrealengine.com type=FWD
 add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=egdownload.fastly-edge.com type=FWD
+add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=eac-cdn.com type=FWD
+add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=easy.ac type=FWD
+add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=easyanticheat.net type=FWD
 add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=playstation.com type=FWD
 add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=playstation.net type=FWD
 add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=sonyentertainmentnetwork.com type=FWD
@@ -324,6 +463,8 @@ add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=
 add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xboxservices.com type=FWD
 add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=gamepass.com type=FWD
 add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xboxab.com type=FWD
+add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xbox-guide-public.rec.mp.microsoft.com type=FWD
+add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xbox.ipv6.microsoft.com type=FWD
 add address-list="Jawaker IPs" comment="IPDNS: Jawaker IPs" match-subdomain=yes name=jawaker.com type=FWD
 add address-list="Google Drive IPs" comment="IPDNS: Google Drive IPs" match-subdomain=yes name=drive.google.com type=FWD
 add address-list="Google Drive IPs" comment="IPDNS: Google Drive IPs" match-subdomain=yes name=drive.usercontent.google.com type=FWD
@@ -341,6 +482,21 @@ add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes 
 add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxstatic.com type=FWD
 add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=db.tt type=FWD
 add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxapi.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=addtodropbox.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dash.ai type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=docsend.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropbox-dns.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxbusiness.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxcaptcha.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxforum.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxforums.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxinsiders.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxlegal.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxpartners.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxteam.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=getdropbox.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropbox.zendesk.com type=FWD
+add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=app.hellosign.com type=FWD
 add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=signal.org type=FWD
 add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=signal.art type=FWD
 add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=whispersystems.org type=FWD
@@ -351,8 +507,10 @@ add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes na
 add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=weixin.qq.com type=FWD
 add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=wechatapp.com type=FWD
 add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=wx.qq.com type=FWD
+add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=weixinbridge.com type=FWD
 add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=skype.com type=FWD
 add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=skypeassets.com type=FWD
+add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=edge-skype-com.s-0001.s-msedge.net type=FWD
 add address-list="Gmail IPs" comment="IPDNS: Gmail IPs" match-subdomain=yes name=mail.google.com type=FWD
 add address-list="Gmail IPs" comment="IPDNS: Gmail IPs" match-subdomain=yes name=gmail.com type=FWD
 add address-list="Microsoft 365 IPs" comment="IPDNS: Microsoft 365 IPs" match-subdomain=yes name=outlook.com type=FWD
@@ -367,6 +525,9 @@ add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes 
 add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disney-plus.net type=FWD
 add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=bamgrid.com type=FWD
 add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disneystreaming.com type=FWD
+add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=hotstar.com type=FWD
+add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=starplus.com type=FWD
+add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disneynow.com type=FWD
 add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=primevideo.com type=FWD
 add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=aiv-delivery.net type=FWD
 add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=aiv-cdn.net type=FWD
@@ -376,6 +537,15 @@ add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes 
 add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomax.com type=FWD
 add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbo.com type=FWD
 add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomaxcdn.com type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.co.th type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.com type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.eu type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.com type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.id type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.ph type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomax-images.warnermediacdn.com type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbonow.com type=FWD
+add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=maxgo.com type=FWD
 add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=tv.apple.com type=FWD
 add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=hls.itunes.apple.com type=FWD
 add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=hls-amt.itunes.apple.com type=FWD
@@ -402,10 +572,17 @@ add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes na
 add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxlabs.com type=FWD
 add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbxinfra.com type=FWD
 add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbx.com type=FWD
+add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=blox.com type=FWD
+add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=roblox.qq.com type=FWD
+add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxcdn.com type=FWD
+add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxdev.cn type=FWD
+add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbxadder.com type=FWD
 add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraft.net type=FWD
 add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraftservices.com type=FWD
 add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=mojang.com type=FWD
 add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraft-services.net type=FWD
+add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=megasmp.gg type=FWD
+add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=cubecraft.net type=FWD
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=riotgames.com type=FWD
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=riotcdn.net type=FWD
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=leagueoflegends.com type=FWD
@@ -414,6 +591,7 @@ add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomai
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=lolstatic.com type=FWD
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=rgpub.io type=FWD
 add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=lolesports.com type=FWD
+add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=dradis-prod.rdatasrv.net type=FWD
 add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=hoyoverse.com type=FWD
 add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=mihoyo.com type=FWD
 add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=yuanshen.com type=FWD
@@ -422,6 +600,8 @@ add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomai
 add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=blizzard.com type=FWD
 add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=battlenet.com.cn type=FWD
 add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=blzddist1-a.akamaihd.net type=FWD
+add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=bnet.163.com type=FWD
+add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=bnet.cn type=FWD
 add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=callofduty.com type=FWD
 add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=demonware.net type=FWD
 add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=callofdutyleague.com type=FWD
@@ -436,6 +616,25 @@ add address-list="Surfshark IPs" comment="IPDNS: Surfshark IPs" match-subdomain=
 add address-list="Windscribe IPs" comment="IPDNS: Windscribe IPs" match-subdomain=yes name=windscribe.com type=FWD
 add address-list="Cloudflare WARP IPs" comment="IPDNS: Cloudflare WARP IPs" match-subdomain=yes name=cloudflareclient.com type=FWD
 add address-list="Sham Cash IPs" comment="IPDNS: Sham Cash IPs" match-subdomain=yes name=shamcash.sy type=FWD
+add address-list="Whish Money IPs" comment="IPDNS: Whish Money IPs" match-subdomain=yes name=whish.money type=FWD
+add address-list="Whish Money IPs" comment="IPDNS: Whish Money IPs" match-subdomain=yes name=whish.app type=FWD
+add address-list="OMT IPs" comment="IPDNS: OMT IPs" match-subdomain=yes name=omt.com.lb type=FWD
+add address-list="OMT IPs" comment="IPDNS: OMT IPs" match-subdomain=yes name=omt.app type=FWD
+add address-list="Zain Cash IPs" comment="IPDNS: Zain Cash IPs" match-subdomain=yes name=zaincash.iq type=FWD
+add address-list="Zain Cash IPs" comment="IPDNS: Zain Cash IPs" match-subdomain=yes name=zaincash.com type=FWD
+add address-list="FIB IPs" comment="IPDNS: FIB IPs" match-subdomain=yes name=fib.iq type=FWD
+add address-list="Fawry IPs" comment="IPDNS: Fawry IPs" match-subdomain=yes name=fawry.com type=FWD
+add address-list="Fawry IPs" comment="IPDNS: Fawry IPs" match-subdomain=yes name=fawrypay.com type=FWD
+add address-list="Fawry IPs" comment="IPDNS: Fawry IPs" match-subdomain=yes name=myfawry.com type=FWD
+add address-list="InstaPay IPs" comment="IPDNS: InstaPay IPs" match-subdomain=yes name=instapay.eg type=FWD
+add address-list="InstaPay IPs" comment="IPDNS: InstaPay IPs" match-subdomain=yes name=ipn.eg type=FWD
+add address-list="STC Pay IPs" comment="IPDNS: STC Pay IPs" match-subdomain=yes name=stcpay.com.sa type=FWD
+add address-list="STC Pay IPs" comment="IPDNS: STC Pay IPs" match-subdomain=yes name=stcbank.com.sa type=FWD
+add address-list="Binance IPs" comment="IPDNS: Binance IPs" match-subdomain=yes name=binance.com type=FWD
+add address-list="Binance IPs" comment="IPDNS: Binance IPs" match-subdomain=yes name=binance.info type=FWD
+add address-list="Binance IPs" comment="IPDNS: Binance IPs" match-subdomain=yes name=binance.me type=FWD
+add address-list="Binance IPs" comment="IPDNS: Binance IPs" match-subdomain=yes name=binance.org type=FWD
+add address-list="Binance IPs" comment="IPDNS: Binance IPs" match-subdomain=yes name=bnbstatic.com type=FWD
 add address-list="COD Mobile IPs" comment="IPDNS: COD Mobile IPs" match-subdomain=yes name=codm.activision.com type=FWD
 add address-list="Free Fire IPs" comment="IPDNS: Free Fire IPs" match-subdomain=yes name=freefiremobile.com type=FWD
 add address-list="Free Fire IPs" comment="IPDNS: Free Fire IPs" match-subdomain=yes name=freefireind.in type=FWD
@@ -644,6 +843,7 @@ add address=37.244.32.0/22 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.36.0/23 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.38.0/24 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.40.0/22 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
+add address=37.244.44.0/24 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.50.0/24 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.52.0/22 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
 add address=37.244.60.0/22 list="Battle.net IPs" comment="IPDNS: Battle.net IPs"
@@ -710,6 +910,8 @@ add action=passthrough chain=prerouting comment="IPDNS: Netflix Traffic Down" sr
 add action=passthrough chain=prerouting comment="IPDNS: Netflix Traffic Up" dst-address-list="Netflix IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Shahid Traffic Down" src-address-list="Shahid IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Shahid Traffic Up" dst-address-list="Shahid IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Arabic Movie Sites Traffic Down" src-address-list="Arabic Movie Sites IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Arabic Movie Sites Traffic Up" dst-address-list="Arabic Movie Sites IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Play Store Traffic Down" src-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Play Store Traffic Up" dst-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="IPDNS: App Store Traffic Down" src-address-list="App Store IPs"
@@ -728,6 +930,16 @@ add action=passthrough chain=prerouting comment="IPDNS: Whatsapp Traffic Down" s
 add action=passthrough chain=prerouting comment="IPDNS: Whatsapp Traffic Up" dst-address-list="Whatsapp IPs"
 add action=passthrough chain=prerouting comment="IPDNS: AI Traffic Down" src-address-list="AI IPs"
 add action=passthrough chain=prerouting comment="IPDNS: AI Traffic Up" dst-address-list="AI IPs"
+add action=passthrough chain=prerouting comment="IPDNS: ChatGPT Traffic Down" src-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: ChatGPT Traffic Up" dst-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Gemini Traffic Down" src-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Gemini Traffic Up" dst-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Claude Traffic Down" src-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Claude Traffic Up" dst-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Copilot Traffic Down" src-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Copilot Traffic Up" dst-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="IPDNS: DeepSeek Traffic Down" src-address-list="DeepSeek IPs"
+add action=passthrough chain=prerouting comment="IPDNS: DeepSeek Traffic Up" dst-address-list="DeepSeek IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Likee Traffic Down" src-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Likee Traffic Up" dst-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Kwai Traffic Down" src-address-list="Kwai IPs"
@@ -830,6 +1042,22 @@ add action=passthrough chain=prerouting comment="IPDNS: Cloudflare WARP Traffic 
 add action=passthrough chain=prerouting comment="IPDNS: Cloudflare WARP Traffic Up" dst-address-list="Cloudflare WARP IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Sham Cash Traffic Down" src-address-list="Sham Cash IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Sham Cash Traffic Up" dst-address-list="Sham Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Whish Money Traffic Down" src-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Whish Money Traffic Up" dst-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="IPDNS: OMT Traffic Down" src-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: OMT Traffic Up" dst-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Zain Cash Traffic Down" src-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Zain Cash Traffic Up" dst-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: FIB Traffic Down" src-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="IPDNS: FIB Traffic Up" dst-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Fawry Traffic Down" src-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Fawry Traffic Up" dst-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="IPDNS: InstaPay Traffic Down" src-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: InstaPay Traffic Up" dst-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: STC Pay Traffic Down" src-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: STC Pay Traffic Up" dst-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Binance Traffic Down" src-address-list="Binance IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Binance Traffic Up" dst-address-list="Binance IPs"
 add action=passthrough chain=prerouting comment="IPDNS: COD Mobile Traffic Down" src-address-list="COD Mobile IPs"
 add action=passthrough chain=prerouting comment="IPDNS: COD Mobile Traffic Up" dst-address-list="COD Mobile IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Free Fire Traffic Down" src-address-list="Free Fire IPs"
@@ -875,6 +1103,8 @@ add action=passthrough chain=prerouting comment="IPDNS: Netflix Traffic Down" sr
 add action=passthrough chain=prerouting comment="IPDNS: Netflix Traffic Up" dst-address-list="Netflix IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Shahid Traffic Down" src-address-list="Shahid IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Shahid Traffic Up" dst-address-list="Shahid IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Arabic Movie Sites Traffic Down" src-address-list="Arabic Movie Sites IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Arabic Movie Sites Traffic Up" dst-address-list="Arabic Movie Sites IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Play Store Traffic Down" src-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Play Store Traffic Up" dst-address-list="Play Store IPs"
 add action=passthrough chain=prerouting comment="IPDNS: App Store Traffic Down" src-address-list="App Store IPs"
@@ -893,6 +1123,16 @@ add action=passthrough chain=prerouting comment="IPDNS: Whatsapp Traffic Down" s
 add action=passthrough chain=prerouting comment="IPDNS: Whatsapp Traffic Up" dst-address-list="Whatsapp IPs"
 add action=passthrough chain=prerouting comment="IPDNS: AI Traffic Down" src-address-list="AI IPs"
 add action=passthrough chain=prerouting comment="IPDNS: AI Traffic Up" dst-address-list="AI IPs"
+add action=passthrough chain=prerouting comment="IPDNS: ChatGPT Traffic Down" src-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: ChatGPT Traffic Up" dst-address-list="ChatGPT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Gemini Traffic Down" src-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Gemini Traffic Up" dst-address-list="Gemini IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Claude Traffic Down" src-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Claude Traffic Up" dst-address-list="Claude IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Copilot Traffic Down" src-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Copilot Traffic Up" dst-address-list="Copilot IPs"
+add action=passthrough chain=prerouting comment="IPDNS: DeepSeek Traffic Down" src-address-list="DeepSeek IPs"
+add action=passthrough chain=prerouting comment="IPDNS: DeepSeek Traffic Up" dst-address-list="DeepSeek IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Likee Traffic Down" src-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Likee Traffic Up" dst-address-list="Likee IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Kwai Traffic Down" src-address-list="Kwai IPs"
@@ -995,6 +1235,22 @@ add action=passthrough chain=prerouting comment="IPDNS: Cloudflare WARP Traffic 
 add action=passthrough chain=prerouting comment="IPDNS: Cloudflare WARP Traffic Up" dst-address-list="Cloudflare WARP IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Sham Cash Traffic Down" src-address-list="Sham Cash IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Sham Cash Traffic Up" dst-address-list="Sham Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Whish Money Traffic Down" src-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Whish Money Traffic Up" dst-address-list="Whish Money IPs"
+add action=passthrough chain=prerouting comment="IPDNS: OMT Traffic Down" src-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: OMT Traffic Up" dst-address-list="OMT IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Zain Cash Traffic Down" src-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Zain Cash Traffic Up" dst-address-list="Zain Cash IPs"
+add action=passthrough chain=prerouting comment="IPDNS: FIB Traffic Down" src-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="IPDNS: FIB Traffic Up" dst-address-list="FIB IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Fawry Traffic Down" src-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Fawry Traffic Up" dst-address-list="Fawry IPs"
+add action=passthrough chain=prerouting comment="IPDNS: InstaPay Traffic Down" src-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: InstaPay Traffic Up" dst-address-list="InstaPay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: STC Pay Traffic Down" src-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: STC Pay Traffic Up" dst-address-list="STC Pay IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Binance Traffic Down" src-address-list="Binance IPs"
+add action=passthrough chain=prerouting comment="IPDNS: Binance Traffic Up" dst-address-list="Binance IPs"
 add action=passthrough chain=prerouting comment="IPDNS: COD Mobile Traffic Down" src-address-list="COD Mobile IPs"
 add action=passthrough chain=prerouting comment="IPDNS: COD Mobile Traffic Up" dst-address-list="COD Mobile IPs"
 add action=passthrough chain=prerouting comment="IPDNS: Free Fire Traffic Down" src-address-list="Free Fire IPs"

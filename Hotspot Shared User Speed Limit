@@ -1,0 +1,15 @@
+# Hotspot Shared User Speed Limit -- paste in Terminal (RouterOS 7; lab-verified on 7.24.4).
+# Every device logged in with the SAME hotspot username (a shared card) shares ONE
+# speed: one simple queue named after the username, holding all its devices.
+# The queue is updated on every login/logout and removed when the last device leaves.
+# Change the three lines below: the user profile, then the speed (upload / download).
+{
+  :local profile "default"
+  :local up "1M"
+  :local down "4M"
+  :local body ":local t \"\"\r\n:foreach i in=[/ip hotspot active find where user=\$username] do={\r\n  :local a ([:tostr [/ip hotspot active get \$i address]] . \"/32\")\r\n  :if (\$t = \"\") do={ :set t \$a } else={ :set t (\$t . \",\" . \$a) }\r\n}\r\n:local q [/queue simple find where name=\$username dynamic=no]\r\n:if (\$t = \"\") do={\r\n  :if ([:len \$q] > 0) do={ /queue simple remove \$q }\r\n} else={\r\n  :if ([:len \$q] = 0) do={\r\n    :do { /queue simple add name=\$username target=\$t limit-at=\"\$up/\$down\" max-limit=\"\$up/\$down\" comment=\"hotspot shared card\" } on-error={}\r\n  }\r\n  :set q [/queue simple find where name=\$username dynamic=no]\r\n  /queue simple set \$q target=\$t\r\n  :local first ([/queue simple find]->0)\r\n  :if ((\$q->0) != \$first) do={ /queue simple move \$q destination=\$first }\r\n}\r\n"
+  :local s (":local up \"$up\"\r\n:local down \"$down\"\r\n" . $body)
+  /ip hotspot user profile set [find name=$profile] on-login=$s on-logout=$s
+  :put ("Hotspot Shared User Speed Limit installed on profile " . $profile . " (" . $up . " up / " . $down . " down)")
+}
+#by Mohammed Haidar

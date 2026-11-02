@@ -76,6 +76,7 @@ addresses, interfaces and credentials to your network before applying.
 | **Mirktoik OSPF.txt** | Minimal OSPF instance/area/interface templates (normal router + default‑route originator). |
 | **VPN Server** | L2TP/IPsec + WireGuard server bootstrap with dual‑stack addressing. |
 | **DHCP Speed Limit** | Paste‑in‑Terminal command: attaches a lease‑script to **every** DHCP server so each client gets its own parent‑less simple queue (default 2M/2M, one line to change). Verified on ROS 7.23. |
+| **Hotspot Shared User Speed Limit** | Paste‑in‑Terminal command for a Hotspot **user profile**: every device logged in with the same username (a shared card) shares **one** speed — one simple queue named after the user, its target updated on each login/logout, removed when the last device leaves. Change the profile and the speed (default 1M up / 4M down) at the top. Needs `shared-users` above 1 on that profile; best with its `rate-limit` empty. Verified on ROS 7.24.4. |
 | **wgcf.zip** | `wgcf` helper binary (generate WireGuard/Cloudflare WARP configs). |
 
 ### Security scripts

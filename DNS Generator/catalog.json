@@ -117,7 +117,17 @@
         "youtubekids.com",
         "youtubegaming.com",
         "music.youtube.com",
-        "youtubei.googleapis.com"
+        "youtubei.googleapis.com",
+        "withyoutube.com",
+        "youtubeeducation.com",
+        "youtubefanfest.com",
+        "youtubego.co.id",
+        "youtubego.co.in",
+        "youtubego.com",
+        "youtubego.com.br",
+        "youtubego.id",
+        "youtubego.in",
+        "youtubemobilesupport.com"
       ],
       "domain_roles": {
         "youtube.com": "shared",
@@ -162,7 +172,17 @@
         "tiktokcdn-in.com",
         "ttlivecdn.com",
         "tiktokrow-cdn.com",
-        "tiktokeu-cdn.com"
+        "tiktokeu-cdn.com",
+        "bytedapm.com",
+        "amemv.com",
+        "bdurl.com",
+        "bytegoofy.com",
+        "bytescm.com",
+        "douyin.com",
+        "douyincdn.com",
+        "douyinpic.com",
+        "douyinliving.com",
+        "douyinstatic.com"
       ],
       "domain_roles": {
         "musical.ly": "shared"
@@ -185,7 +205,15 @@
         "cdn-telegram.org",
         "telegra.ph",
         "tdesktop.com",
-        "telegram.dog"
+        "telegram.dog",
+        "comments.app",
+        "contest.com",
+        "graph.org",
+        "quiz.directory",
+        "telega.one",
+        "tg.dev",
+        "tx.me",
+        "usercontent.dev"
       ],
       "cidrs": [
         "91.105.192.0/23",
@@ -276,7 +304,17 @@
         "nflximg.com",
         "nflxsearch.net",
         "netflixdnstest1.com",
-        "tudumext.com"
+        "tudumext.com",
+        "netflixinvestor.com",
+        "netflixtechblog.com",
+        "netflixdnstest2.com",
+        "netflixdnstest3.com",
+        "netflixdnstest4.com",
+        "netflixdnstest5.com",
+        "netflixdnstest6.com",
+        "netflixdnstest7.com",
+        "netflixdnstest8.com",
+        "netflixdnstest9.com"
       ],
       "cidrs": [
         "9.187.0.0/16",
@@ -432,7 +470,17 @@
         "facebook.pl",
         "thefind.com",
         "oculusvr.com",
-        "thefacebook.com"
+        "thefacebook.com",
+        "aboutfacebook.com",
+        "accessfacebookfromschool.com",
+        "acebooik.com",
+        "acebook.com",
+        "advancediddetection.com",
+        "askfacebook.net",
+        "askfacebook.org",
+        "atdmt2.com",
+        "atlasdmt.com",
+        "atlasonepoint.com"
       ],
       "domain_roles": {
         "messenger.com": "shared",
@@ -460,7 +508,15 @@
         "cdninstagram.com",
         "threads.net",
         "ig.me",
-        "threads.com"
+        "threads.com",
+        "bookstagram.com",
+        "carstagram.com",
+        "chickstagram.com",
+        "igsonar.com",
+        "imstagram.com",
+        "imtagram.com",
+        "instaadder.com",
+        "instachecker.com"
       ],
       "cidrs": []
     },
@@ -642,7 +698,15 @@
         "dis.gd",
         "discord.new",
         "discordcdn.com",
-        "discordstatus.com"
+        "discordstatus.com",
+        "discord-activities.com",
+        "discordactivities.com",
+        "discordmerch.com",
+        "discordsays.com",
+        "airhorn.solutions",
+        "airhornbot.com",
+        "bigbeans.solutions",
+        "watchanimeattheoffice.com"
       ],
       "cidrs": []
     },
@@ -739,7 +803,8 @@
       "domains": [
         "teams.microsoft.com",
         "teams.live.com",
-        "teams.cloud.microsoft"
+        "teams.cloud.microsoft",
+        "teams.cdn.office.net"
       ],
       "cidrs": [
         "52.112.0.0/14",
@@ -781,7 +846,13 @@
         "audio-ak-spotify-com.akamaized.net",
         "audio4-ak-spotify-com.akamaized.net",
         "heads-ak-spotify-com.akamaized.net",
-        "heads4-ak-spotify-com.akamaized.net"
+        "heads4-ak-spotify-com.akamaized.net",
+        "byspotify.com",
+        "spotify-everywhere.com",
+        "spotifycharts.com",
+        "spotifycodes.com",
+        "spotifyforbrands.com",
+        "spotifyjobs.com"
       ],
       "domain_roles": {
         "audio-ak-spotify-com.akamaized.net": "shared",
@@ -827,7 +898,8 @@
         "reddit.com",
         "redd.it",
         "redditstatic.com",
-        "redditmedia.com"
+        "redditmedia.com",
+        "redditmail.com"
       ],
       "cidrs": []
     },
@@ -839,7 +911,9 @@
       "priority": 5,
       "domains": [
         "pinterest.com",
-        "pinimg.com"
+        "pinimg.com",
+        "pin.it",
+        "pinterestmail.com"
       ],
       "cidrs": []
     },
@@ -852,7 +926,12 @@
       "domains": [
         "linkedin.com",
         "licdn.com",
-        "lnkd.in"
+        "lnkd.in",
+        "bizographics.com",
+        "l-0005.dc-msedge.net",
+        "l-0005.l-msedge.net",
+        "l-0005.l-dc-msedge.net",
+        "l-0015.l-msedge.net"
       ],
       "cidrs": []
     },
@@ -879,7 +958,14 @@
         "steamuserimages-a.akamaihd.net",
         "steambroadcast.akamaized.net",
         "steamusercontent-a.akamaihd.net",
-        "steamvideo-a.akamaihd.net"
+        "steamvideo-a.akamaihd.net",
+        "playartifact.com",
+        "s.team",
+        "steam-api.com",
+        "steamdeck.com",
+        "underlords.com",
+        "wmsjsteam.com",
+        "st.dl.eccdnx.com"
       ],
       "domain_roles": {
         "steamcontent.com": "shared",
@@ -927,7 +1013,10 @@
         "epicgames-download1.akamaized.net",
         "epicgamescdn.com",
         "static-assets-prod.unrealengine.com",
-        "egdownload.fastly-edge.com"
+        "egdownload.fastly-edge.com",
+        "eac-cdn.com",
+        "easy.ac",
+        "easyanticheat.net"
       ],
       "domain_roles": {
         "epicgames-download1.akamaized.net": "shared"
@@ -958,7 +1047,9 @@
         "xboxlive.com",
         "xboxservices.com",
         "gamepass.com",
-        "xboxab.com"
+        "xboxab.com",
+        "xbox-guide-public.rec.mp.microsoft.com",
+        "xbox.ipv6.microsoft.com"
       ],
       "domain_roles": {
         "xbox.com": "shared",
@@ -1037,7 +1128,17 @@
         "dropboxusercontent.com",
         "dropboxstatic.com",
         "db.tt",
-        "dropboxapi.com"
+        "dropboxapi.com",
+        "addtodropbox.com",
+        "dash.ai",
+        "docsend.com",
+        "dropbox-dns.com",
+        "dropboxbusiness.com",
+        "dropboxcaptcha.com",
+        "dropboxforum.com",
+        "dropboxforums.com",
+        "dropboxinsiders.com",
+        "dropboxlegal.com"
       ],
       "cidrs": []
     },
@@ -1077,7 +1178,8 @@
         "wechat.com",
         "weixin.qq.com",
         "wechatapp.com",
-        "wx.qq.com"
+        "wx.qq.com",
+        "weixinbridge.com"
       ],
       "cidrs": []
     },
@@ -1089,7 +1191,8 @@
       "priority": 1,
       "domains": [
         "skype.com",
-        "skypeassets.com"
+        "skypeassets.com",
+        "edge-skype-com.s-0001.s-msedge.net"
       ],
       "domain_roles": {
         "skype.com": "shared"
@@ -1157,7 +1260,10 @@
         "dssott.com",
         "disney-plus.net",
         "bamgrid.com",
-        "disneystreaming.com"
+        "disneystreaming.com",
+        "hotstar.com",
+        "starplus.com",
+        "disneynow.com"
       ],
       "cidrs": []
     },
@@ -1186,7 +1292,16 @@
         "max.com",
         "hbomax.com",
         "hbo.com",
-        "hbomaxcdn.com"
+        "hbomaxcdn.com",
+        "hbogo.co.th",
+        "hbogo.com",
+        "hbogo.eu",
+        "hbogoasia.com",
+        "hbogoasia.id",
+        "hbogoasia.ph",
+        "hbomax-images.warnermediacdn.com",
+        "hbonow.com",
+        "maxgo.com"
       ],
       "domain_roles": {
         "max.com": "shared"
@@ -1304,7 +1419,12 @@
         "rbxcdn.com",
         "robloxlabs.com",
         "rbxinfra.com",
-        "rbx.com"
+        "rbx.com",
+        "blox.com",
+        "roblox.qq.com",
+        "robloxcdn.com",
+        "robloxdev.cn",
+        "rbxadder.com"
       ],
       "cidrs": [
         "103.140.28.0/23",
@@ -1326,7 +1446,9 @@
         "minecraft.net",
         "minecraftservices.com",
         "mojang.com",
-        "minecraft-services.net"
+        "minecraft-services.net",
+        "megasmp.gg",
+        "cubecraft.net"
       ],
       "cidrs": []
     },
@@ -1344,7 +1466,8 @@
         "pvp.net",
         "lolstatic.com",
         "rgpub.io",
-        "lolesports.com"
+        "lolesports.com",
+        "dradis-prod.rdatasrv.net"
       ],
       "cidrs": [
         "43.229.64.0/22",
@@ -1391,7 +1514,8 @@
         "battle.net",
         "blizzard.com",
         "battlenet.com.cn",
-        "blzddist1-a.akamaihd.net"
+        "blzddist1-a.akamaihd.net",
+        "bnet.163.com"
       ],
       "cidrs": [
         "5.42.160.0/20",

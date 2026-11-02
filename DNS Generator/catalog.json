@@ -127,7 +127,8 @@
         "youtubego.com.br",
         "youtubego.id",
         "youtubego.in",
-        "youtubemobilesupport.com"
+        "youtubemobilesupport.com",
+        "yt.be"
       ],
       "domain_roles": {
         "youtube.com": "shared",
@@ -182,7 +183,16 @@
         "douyincdn.com",
         "douyinpic.com",
         "douyinliving.com",
-        "douyinstatic.com"
+        "douyinstatic.com",
+        "douyinvod.com",
+        "huoshan.com",
+        "huoshanstatic.com",
+        "huoshanzhibo.com",
+        "pstatp.com",
+        "snssdk.com",
+        "ttlivecdn.com.c.bytefcdn-oversea.com",
+        "tiktok.tps.dv.tech",
+        "zijieapi.com"
       ],
       "domain_roles": {
         "musical.ly": "shared"
@@ -480,7 +490,16 @@
         "askfacebook.org",
         "atdmt2.com",
         "atlasdmt.com",
-        "atlasonepoint.com"
+        "atlasonepoint.com",
+        "buyingfacebooklikes.com",
+        "careersatfb.com",
+        "celebgramme.com",
+        "china-facebook.com",
+        "click-url.com",
+        "dlfacebook.com",
+        "expresswifi.com",
+        "faasbook.com",
+        "facebboc.com"
       ],
       "domain_roles": {
         "messenger.com": "shared",
@@ -516,7 +535,15 @@
         "imstagram.com",
         "imtagram.com",
         "instaadder.com",
-        "instachecker.com"
+        "instachecker.com",
+        "instafallow.com",
+        "instagainer.com",
+        "instagify.com",
+        "instagmania.com",
+        "instagram-brand.com",
+        "instagram-engineering.com",
+        "instagram-help.com",
+        "instagram-press.com"
       ],
       "cidrs": []
     },
@@ -965,7 +992,10 @@
         "steamdeck.com",
         "underlords.com",
         "wmsjsteam.com",
-        "st.dl.eccdnx.com"
+        "st.dl.eccdnx.com",
+        "steampowered.com.8686c.com",
+        "steamstatic.com.8686c.com",
+        "xz.pphimalayanrt.com"
       ],
       "domain_roles": {
         "steamcontent.com": "shared",
@@ -1138,7 +1168,12 @@
         "dropboxforum.com",
         "dropboxforums.com",
         "dropboxinsiders.com",
-        "dropboxlegal.com"
+        "dropboxlegal.com",
+        "dropboxpartners.com",
+        "dropboxteam.com",
+        "getdropbox.com",
+        "dropbox.zendesk.com",
+        "app.hellosign.com"
       ],
       "cidrs": []
     },
@@ -1515,7 +1550,8 @@
         "blizzard.com",
         "battlenet.com.cn",
         "blzddist1-a.akamaihd.net",
-        "bnet.163.com"
+        "bnet.163.com",
+        "bnet.cn"
       ],
       "cidrs": [
         "5.42.160.0/20",

@@ -120,6 +120,7 @@ add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=yo
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtubego.id type=FWD
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtubego.in type=FWD
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtubemobilesupport.com type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=yt.be type=FWD
 # ===================== TIKTOK / BYTEDANCE =====================
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=bytecdn.cn type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=byted.org type=FWD
@@ -157,6 +158,15 @@ add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=douy
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=douyinpic.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=douyinliving.com type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=douyinstatic.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=douyinvod.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=huoshan.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=huoshanstatic.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=huoshanzhibo.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=pstatp.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=snssdk.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=ttlivecdn.com.c.bytefcdn-oversea.com type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=tiktok.tps.dv.tech type=FWD
+add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=zijieapi.com type=FWD
 # ===================== TELEGRAM (FULL) =====================
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram.org type=FWD
 add address-list="Telegram IPs" comment="Telegram IPs" match-subdomain=yes name=telegram.me type=FWD
@@ -290,6 +300,15 @@ add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=atdmt2.com type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=atlasdmt.com type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=atlasonepoint.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=buyingfacebooklikes.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=careersatfb.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=celebgramme.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=china-facebook.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=click-url.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=dlfacebook.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=expresswifi.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=faasbook.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebboc.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=threads.net type=FWD
@@ -303,6 +322,14 @@ add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes nam
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=imtagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instaadder.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instachecker.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instafallow.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagainer.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagify.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagmania.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-brand.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-engineering.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-help.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-press.com type=FWD
 # ===================== META (ALL META NETWORKS) =====================
 add address-list="Meta IPs" comment="Meta IPs" match-subdomain=yes name=meta.com type=FWD
 # ===================== WHATSAPP =====================
@@ -479,6 +506,9 @@ add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamd
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=underlords.com type=FWD
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=wmsjsteam.com type=FWD
 add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=st.dl.eccdnx.com type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steampowered.com.8686c.com type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=steamstatic.com.8686c.com type=FWD
+add address-list="Steam IPs" comment="Steam IPs" match-subdomain=yes name=xz.pphimalayanrt.com type=FWD
 # ===================== EPIC GAMES =====================
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=epicgames.com type=FWD
 add address-list="Epic Games IPs" comment="Epic Games IPs" match-subdomain=yes name=unrealengine.com type=FWD
@@ -535,6 +565,11 @@ add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dr
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxforums.com type=FWD
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxinsiders.com type=FWD
 add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxlegal.com type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxpartners.com type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropboxteam.com type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=getdropbox.com type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=dropbox.zendesk.com type=FWD
+add address-list="Dropbox IPs" comment="Dropbox IPs" match-subdomain=yes name=app.hellosign.com type=FWD
 # ===================== SIGNAL =====================
 add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.org type=FWD
 add address-list="Signal IPs" comment="Signal IPs" match-subdomain=yes name=signal.art type=FWD
@@ -660,6 +695,7 @@ add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes n
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=battlenet.com.cn type=FWD
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=blzddist1-a.akamaihd.net type=FWD
 add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=bnet.163.com type=FWD
+add address-list="Battle.net IPs" comment="Battle.net IPs" match-subdomain=yes name=bnet.cn type=FWD
 # ===================== COD WARZONE =====================
 add address-list="COD Warzone IPs" comment="COD Warzone IPs" match-subdomain=yes name=callofduty.com type=FWD
 add address-list="COD Warzone IPs" comment="COD Warzone IPs" match-subdomain=yes name=demonware.net type=FWD

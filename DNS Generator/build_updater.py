@@ -89,11 +89,10 @@ def build_ros7(fwd, cidrs, mangle, mangle6, extra_time):
     out = [header(7)]
     if extra_time:
         out.append(f"/ip dns set address-list-extra-time={extra_time}")
-    out.append("/ip dns static")
-    out += [f"add address-list={q(lst)} comment={q(TAG + ' ' + c)} match-subdomain=yes name={n} type=FWD"
+    out += [_keep(f"/ip dns static add address-list={q(lst)} comment={q(TAG + ' ' + c)} match-subdomain=yes name={n} type=FWD")
             for lst, c, n in fwd]
-    out.append("/ip firewall address-list")
-    out += [f"add address={a} list={q(lst)} comment={q(TAG + ' ' + lst)}" for lst, a in _uniq(cidrs)]
+    out += [_keep(f"/ip firewall address-list add address={a} list={q(lst)} comment={q(TAG + ' ' + lst)}")
+            for lst, a in _uniq(cidrs)]
     out.append("/ip firewall mangle")
     out += mangle
     out.append("/ipv6 firewall mangle")
@@ -113,12 +112,21 @@ def build_ros6(fwd, cidrs, mangle, mangle6, extra_time):
         if n.count(".") == 1:
             rows.append((lst, "www." + n))
     rows += cidrs
-    out = [header(6), "/ip firewall address-list"]
-    out += [f"add address={a} list={q(lst)} comment={q(TAG + ' ' + lst)}" for lst, a in _uniq(rows)]
+    out = [header(6)]
+    out += [_keep(f"/ip firewall address-list add address={a} list={q(lst)} comment={q(TAG + ' ' + lst)}")
+            for lst, a in _uniq(rows)]
     out.append("/ip firewall mangle")
     out += mangle
     out.append(':global ipdnsLoaded "ros6"')
     return "\n".join(out) + "\n"
+
+
+def _keep(cmd):
+    """One entry that never stops the import: RouterOS refuses a DNS static name or an address-list entry that
+    already exists (SAMM's Apps and websites, an older paste of the untagged collector, the operator's own), and a
+    plain import stops at the first refusal, leaving the router with no collector at all (2026-11-05, RouterOS
+    7.24.4). The existing entry already does the same job, so it is kept as it is."""
+    return f":do {{{cmd}}} on-error={{}}"
 
 
 def _uniq(pairs):

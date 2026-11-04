@@ -327,6 +327,14 @@ add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=expresswifi.com type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=faasbook.com type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebboc.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebkkk.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebokbook.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-corp.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-ebook.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-forum.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-inc.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-login.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-newsroom.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=threads.net type=FWD
@@ -348,6 +356,14 @@ add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes nam
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-engineering.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-help.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram-press.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramhashtags.net type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramhilecim.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramhilesi.org type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramium.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramizlenme.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramkusu.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramlogin.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagramphoto.com type=FWD
 # ===================== META (ALL META NETWORKS) =====================
 add address-list="Meta IPs" comment="Meta IPs" match-subdomain=yes name=meta.com type=FWD
 # ===================== WHATSAPP =====================
@@ -406,6 +422,9 @@ add address-list="Claude IPs" comment="Claude IPs" match-subdomain=yes name=clau
 # ===================== MICROSOFT COPILOT =====================
 add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD
 add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.cloud.microsoft type=FWD
+add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.com type=FWD
+add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilot.ai type=FWD
+add address-list="Copilot IPs" comment="Copilot IPs" match-subdomain=yes name=copilotstudio.microsoft.com type=FWD
 # ===================== DEEPSEEK =====================
 add address-list="DeepSeek IPs" comment="DeepSeek IPs" match-subdomain=yes name=deepseek.com type=FWD
 add address-list="DeepSeek IPs" comment="DeepSeek IPs" match-subdomain=yes name=deepseek.ai type=FWD

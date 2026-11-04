@@ -537,7 +537,15 @@
         "dlfacebook.com",
         "expresswifi.com",
         "faasbook.com",
-        "facebboc.com"
+        "facebboc.com",
+        "facebkkk.com",
+        "facebokbook.com",
+        "facebook-corp.com",
+        "facebook-ebook.com",
+        "facebook-forum.com",
+        "facebook-inc.com",
+        "facebook-login.com",
+        "facebook-newsroom.com"
       ],
       "domain_roles": {
         "messenger.com": "shared",
@@ -581,7 +589,15 @@
         "instagram-brand.com",
         "instagram-engineering.com",
         "instagram-help.com",
-        "instagram-press.com"
+        "instagram-press.com",
+        "instagramhashtags.net",
+        "instagramhilecim.com",
+        "instagramhilesi.org",
+        "instagramium.com",
+        "instagramizlenme.com",
+        "instagramkusu.com",
+        "instagramlogin.com",
+        "instagramphoto.com"
       ],
       "cidrs": []
     },
@@ -756,7 +772,10 @@
       "priority": 2,
       "domains": [
         "copilot.microsoft.com",
-        "copilot.cloud.microsoft"
+        "copilot.cloud.microsoft",
+        "copilot.com",
+        "copilot.ai",
+        "copilotstudio.microsoft.com"
       ],
       "cidrs": []
     },

@@ -32,14 +32,29 @@ Load the catalog now instead of waiting for the schedule:
 /system script run securytik-ipdns-update
 ```
 
-- **RouterOS 7:** DNS collectors (`/ip dns static` FWD with `address-list`), published IP ranges,
-  traffic counters (IPv4 + IPv6 mangle) and game port collectors.
+- **RouterOS 7:** DNS collectors (`/ip dns static` FWD with `address-list`), published IP ranges
+  and game port collectors.
 - **RouterOS 6:** has no DNS collector, so each app domain becomes an address-list entry holding the
-  name (the router resolves it), plus the same IP ranges, IPv4 counters and game collectors.
+  name (the router resolves it), plus the same IP ranges and game collectors.
+- **No monitoring rules.** The installer and the daily update never add traffic counters (mangle
+  `passthrough` Up/Down rules). Older versions did: the next update removes those. To monitor traffic
+  per app, add the counters yourself (below).
 - Everything it adds has a comment starting with `IPDNS:`. Only those entries are replaced; your own
   rules are never touched. If the download fails or is incomplete, the current entries stay as they are.
 - It does not change your DNS servers, NAT or filter rules. Clients must use the router as their DNS
   server for the collectors to learn addresses.
+
+### Traffic monitor (optional, by hand)
+
+Up/Down traffic counters for every app (IPv4, plus IPv6 on RouterOS 7). Open
+[`ipdns-updater/ipdns-monitor.rsc`](ipdns-updater/ipdns-monitor.rsc), copy all of it and paste it into
+the router terminal. Safe to paste again (it replaces its own rules). Its rules are tagged `IPDNS-MON:`,
+so the daily update never adds, changes or removes them. Remove them:
+
+```
+/ip firewall mangle remove [find where comment~"^IPDNS-MON:"]; :do {[[:parse "/ipv6 firewall mangle remove [find where comment~\"^IPDNS-MON:\"]"]]} on-error={}
+:put ""
+```
 
 Remove it:
 

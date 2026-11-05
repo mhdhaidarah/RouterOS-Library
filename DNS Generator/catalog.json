@@ -545,7 +545,15 @@
         "facebook-forum.com",
         "facebook-inc.com",
         "facebook-login.com",
-        "facebook-newsroom.com"
+        "facebook-newsroom.com",
+        "facebook-pmdcenter.com",
+        "facebook-pmdcenter.net",
+        "facebook-pmdcenter.org",
+        "facebook-privacy.com",
+        "facebook-program.com",
+        "facebook-studio.com",
+        "facebook-support.org",
+        "facebook-texas-holdem.com"
       ],
       "domain_roles": {
         "messenger.com": "shared",
@@ -597,7 +605,15 @@
         "instagramizlenme.com",
         "instagramkusu.com",
         "instagramlogin.com",
-        "instagramphoto.com"
+        "instagramphoto.com",
+        "instagramsepeti.com",
+        "instagramtakipcisatinal.net",
+        "instagramtakiphilesi.com",
+        "instanttelegram.com",
+        "instaplayer.net",
+        "instastyle.tv",
+        "online-instagram.com",
+        "onlineinstagram.com"
       ],
       "cidrs": []
     },

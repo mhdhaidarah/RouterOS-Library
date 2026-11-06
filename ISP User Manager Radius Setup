@@ -44,7 +44,7 @@ add name=20M/30D name-for-users=20M/30D price=120 starts-when=first-auth validit
 /ppp aaa
 set interim-update=5m use-radius=yes
 /radius
-add address=127.0.0.1 comment="User Manager" secret="c;5Dw(I+KwHH3;[d" service=ppp,hotspot timeout=3s require-message-auth=no 
+add address=127.0.0.1 comment="User Manager" secret="CHANGE-ME-to-your-own-secret" service=ppp,hotspot timeout=3s require-message-auth=no 
 /radius incoming
 set accept=yes
 /user-manager
@@ -83,5 +83,5 @@ add limitation=20M profile=20M/7D
 add limitation=20M profile=20M/30D
 
 /user-manager router
-add address=127.0.0.1 name=Mikrotik shared-secret="c;5Dw(I+KwHH3;[d"
+add address=127.0.0.1 name=Mikrotik shared-secret="CHANGE-ME-to-your-own-secret"
 

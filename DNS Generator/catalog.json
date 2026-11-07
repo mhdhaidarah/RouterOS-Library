@@ -553,7 +553,15 @@
         "facebook-program.com",
         "facebook-studio.com",
         "facebook-support.org",
-        "facebook-texas-holdem.com"
+        "facebook-texas-holdem.com",
+        "facebook123.org",
+        "facebook4business.com",
+        "facebookadvertisingsecrets.com",
+        "facebookatschool.com",
+        "facebookawards.com",
+        "facebookblueprint.net",
+        "facebookbrand.com",
+        "facebookbrand.net"
       ],
       "domain_roles": {
         "messenger.com": "shared",
@@ -613,7 +621,9 @@
         "instaplayer.net",
         "instastyle.tv",
         "online-instagram.com",
-        "onlineinstagram.com"
+        "onlineinstagram.com",
+        "web-instagram.net",
+        "wwwinstagram.com"
       ],
       "cidrs": []
     },

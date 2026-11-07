@@ -273,6 +273,14 @@
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-studio.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-support.org type=FWD} on-error={}
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-texas-holdem.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook123.org type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook4business.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookadvertisingsecrets.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookatschool.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookawards.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookblueprint.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookbrand.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookbrand.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=threads.net type=FWD} on-error={}
@@ -310,6 +318,8 @@
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instastyle.tv type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=online-instagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=onlineinstagram.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=web-instagram.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=wwwinstagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Meta IPs" comment="IPDNS: Meta IPs" match-subdomain=yes name=meta.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.net type=FWD} on-error={}

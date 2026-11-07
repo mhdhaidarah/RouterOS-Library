@@ -343,6 +343,14 @@ add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-studio.com type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-support.org type=FWD
 add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook-texas-holdem.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook123.org type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebook4business.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookadvertisingsecrets.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookatschool.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookawards.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookblueprint.net type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookbrand.com type=FWD
+add address-list="Facebook IPs" comment="Facebook IPs" match-subdomain=yes name=facebookbrand.net type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=threads.net type=FWD
@@ -380,6 +388,8 @@ add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes nam
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=instastyle.tv type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=online-instagram.com type=FWD
 add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=onlineinstagram.com type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=web-instagram.net type=FWD
+add address-list="Instagram IPs" comment="Instagram IPs" match-subdomain=yes name=wwwinstagram.com type=FWD
 # ===================== META (ALL META NETWORKS) =====================
 add address-list="Meta IPs" comment="Meta IPs" match-subdomain=yes name=meta.com type=FWD
 # ===================== WHATSAPP =====================

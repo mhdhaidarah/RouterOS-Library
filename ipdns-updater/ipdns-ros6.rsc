@@ -363,6 +363,12 @@
 :do {/ip firewall address-list add address=market.android.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=ota.googlezip.net list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=play-lh.googleusercontent.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=www.gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=gvt2.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=www.gvt2.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=gvt3.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
+:do {/ip firewall address-list add address=www.gvt3.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=apps.apple.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=www.itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
@@ -1253,10 +1259,14 @@
 :do {/ip firewall address-list add address=www.moonton.com list="Mobile Legends IPs" comment="IPDNS: Mobile Legends IPs"} on-error={}
 :do {/ip firewall address-list add address=youngjoygame.com list="Mobile Legends IPs" comment="IPDNS: Mobile Legends IPs"} on-error={}
 :do {/ip firewall address-list add address=www.youngjoygame.com list="Mobile Legends IPs" comment="IPDNS: Mobile Legends IPs"} on-error={}
-:do {/ip firewall address-list add address=game.clashofclans.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
-:do {/ip firewall address-list add address=game-assets.clashofclans.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
-:do {/ip firewall address-list add address=game.clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
-:do {/ip firewall address-list add address=game-assets.clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
+:do {/ip firewall address-list add address=clashofclans.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=www.clashofclans.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=supercell.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=www.supercell.com list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=supercell.net list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=www.supercell.net list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
+:do {/ip firewall address-list add address=clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
+:do {/ip firewall address-list add address=www.clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
 :do {/ip firewall address-list add address=91.105.192.0/23 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.4.0/22 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.8.0/21 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}

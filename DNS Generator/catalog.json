@@ -414,7 +414,10 @@
         "android.clients.google.com",
         "market.android.com",
         "ota.googlezip.net",
-        "play-lh.googleusercontent.com"
+        "play-lh.googleusercontent.com",
+        "gvt1.com",
+        "gvt2.com",
+        "gvt3.com"
       ],
       "domain_roles": {
         "play.google.com": "shared",
@@ -422,7 +425,10 @@
         "play-fe.googleapis.com": "shared",
         "android.clients.google.com": "shared",
         "market.android.com": "shared",
-        "play-lh.googleusercontent.com": "shared"
+        "play-lh.googleusercontent.com": "shared",
+        "gvt1.com": "shared",
+        "gvt2.com": "shared",
+        "gvt3.com": "shared"
       },
       "cidrs": []
     },
@@ -2045,9 +2051,14 @@
       "priority": 4,
       "counter": true,
       "domains": [
-        "game.clashofclans.com",
-        "game-assets.clashofclans.com"
-      ]
+        "clashofclans.com",
+        "supercell.com",
+        "supercell.net"
+      ],
+      "domain_roles": {
+        "supercell.com": "shared",
+        "supercell.net": "shared"
+      }
     },
     {
       "slug": "dragon-nest",
@@ -2064,8 +2075,7 @@
       "priority": 4,
       "counter": true,
       "domains": [
-        "game.clashroyaleapp.com",
-        "game-assets.clashroyaleapp.com"
+        "clashroyaleapp.com"
       ]
     },
     {

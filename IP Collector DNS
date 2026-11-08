@@ -261,6 +261,9 @@ add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes n
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=market.android.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD
+add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=gvt1.com type=FWD
+add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=gvt2.com type=FWD
+add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=gvt3.com type=FWD
 # ===================== APPLE APP STORE =====================
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=itunes.com type=FWD
@@ -829,11 +832,11 @@ add address-list="PUBG Mobile IPs" comment="PUBG Mobile IPs" match-subdomain=yes
 add address-list="Mobile Legends IPs" comment="Mobile Legends IPs" match-subdomain=yes name=moonton.com type=FWD
 add address-list="Mobile Legends IPs" comment="Mobile Legends IPs" match-subdomain=yes name=youngjoygame.com type=FWD
 # ===================== GAME: Clash of Clans =====================
-add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=game.clashofclans.com type=FWD
-add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=game-assets.clashofclans.com type=FWD
+add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=clashofclans.com type=FWD
+add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=supercell.com type=FWD
+add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=supercell.net type=FWD
 # ===================== GAME: Clash Royale =====================
-add address-list="Clash Royale IPs" comment="Clash Royale IPs" match-subdomain=yes name=game.clashroyaleapp.com type=FWD
-add address-list="Clash Royale IPs" comment="Clash Royale IPs" match-subdomain=yes name=game-assets.clashroyaleapp.com type=FWD
+add address-list="Clash Royale IPs" comment="Clash Royale IPs" match-subdomain=yes name=clashroyaleapp.com type=FWD
 
 /ip firewall address-list
 add address=91.105.192.0/23 list="Telegram IPs"

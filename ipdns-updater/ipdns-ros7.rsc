@@ -195,6 +195,9 @@
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=market.android.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt1.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt2.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt3.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=itunes.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=appstore.com type=FWD} on-error={}
@@ -687,10 +690,10 @@
 :do {/ip dns static add address-list="PUBG Mobile IPs" comment="IPDNS: PUBG Mobile IPs" match-subdomain=yes name=napubgm.broker.amsoveasea.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Mobile Legends IPs" comment="IPDNS: Mobile Legends IPs" match-subdomain=yes name=moonton.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Mobile Legends IPs" comment="IPDNS: Mobile Legends IPs" match-subdomain=yes name=youngjoygame.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=game.clashofclans.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=game-assets.clashofclans.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs" match-subdomain=yes name=game.clashroyaleapp.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs" match-subdomain=yes name=game-assets.clashroyaleapp.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=clashofclans.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=supercell.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=supercell.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs" match-subdomain=yes name=clashroyaleapp.com type=FWD} on-error={}
 :do {/ip firewall address-list add address=91.105.192.0/23 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.4.0/22 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.8.0/21 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}

@@ -128,7 +128,12 @@
         "youtubego.id",
         "youtubego.in",
         "youtubemobilesupport.com",
-        "yt.be"
+        "yt.be",
+        "doubleclick.net",
+        "googlesyndication.com",
+        "googleadservices.com",
+        "2mdn.net",
+        "imasdk.googleapis.com"
       ],
       "domain_roles": {
         "youtube.com": "shared",
@@ -137,7 +142,12 @@
         "youtubekids.com": "shared",
         "youtubegaming.com": "shared",
         "music.youtube.com": "shared",
-        "youtubei.googleapis.com": "shared"
+        "youtubei.googleapis.com": "shared",
+        "doubleclick.net": "shared",
+        "googlesyndication.com": "shared",
+        "googleadservices.com": "shared",
+        "2mdn.net": "shared",
+        "imasdk.googleapis.com": "shared"
       },
       "cidrs": []
     },

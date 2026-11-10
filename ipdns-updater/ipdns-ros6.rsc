@@ -113,6 +113,15 @@
 :do {/ip firewall address-list add address=www.youtubemobilesupport.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=yt.be list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=www.yt.be list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=doubleclick.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=www.doubleclick.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=googlesyndication.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=www.googlesyndication.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=googleadservices.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=www.googleadservices.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=2mdn.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=www.2mdn.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=imasdk.googleapis.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=bytecdn.cn list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=www.bytecdn.cn list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=byted.org list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}

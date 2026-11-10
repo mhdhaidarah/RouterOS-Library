@@ -121,6 +121,11 @@ add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=yo
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtubego.in type=FWD
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtubemobilesupport.com type=FWD
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=yt.be type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=doubleclick.net type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=googlesyndication.com type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=googleadservices.com type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=2mdn.net type=FWD
+add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=imasdk.googleapis.com type=FWD
 # ===================== TIKTOK / BYTEDANCE =====================
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=bytecdn.cn type=FWD
 add address-list="Tiktok IPs" comment="Tiktok IPs" match-subdomain=yes name=byted.org type=FWD

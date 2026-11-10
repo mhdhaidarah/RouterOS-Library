@@ -63,6 +63,11 @@
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.in type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubemobilesupport.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=yt.be type=FWD} on-error={}
+:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=doubleclick.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=googlesyndication.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=googleadservices.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=2mdn.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=imasdk.googleapis.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytecdn.cn type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=byted.org type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytedance.com type=FWD} on-error={}

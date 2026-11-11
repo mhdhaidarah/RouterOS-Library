@@ -76,6 +76,15 @@
 :do {/ip firewall address-list add address=www.2ip.io list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs"} on-error={}
 :do {/ip firewall address-list add address=iplocation.io list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs"} on-error={}
 :do {/ip firewall address-list add address=www.iplocation.io list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs"} on-error={}
+:do {/ip firewall address-list add address=connectivitycheck.gstatic.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=clients3.google.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=connectivitycheck.android.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=www.apple.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=detectportal.firefox.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=connect.rom.miui.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=connectivitycheck.platform.hicloud.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=conn1.oppomobile.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
+:do {/ip firewall address-list add address=connectivitycheck.samsung.com list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs"} on-error={}
 :do {/ip firewall address-list add address=youtube.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=www.youtube.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=youtu.be list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}

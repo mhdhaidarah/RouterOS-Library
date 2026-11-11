@@ -99,6 +99,16 @@ add address-list="SpeedTest IPs" comment="SpeedTest IPs" match-subdomain=yes nam
 add address-list="SpeedTest IPs" comment="SpeedTest IPs" match-subdomain=yes name=ipburger.com type=FWD
 add address-list="SpeedTest IPs" comment="SpeedTest IPs" match-subdomain=yes name=2ip.io type=FWD
 add address-list="SpeedTest IPs" comment="SpeedTest IPs" match-subdomain=yes name=iplocation.io type=FWD
+# ===================== CONNECTIVITY CHECK (PHONE / PC INTERNET PROBES) =====================
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.gstatic.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=clients3.google.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.android.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=www.apple.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=detectportal.firefox.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=connect.rom.miui.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.platform.hicloud.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=conn1.oppomobile.com type=FWD
+add address-list="Connectivity Check IPs" comment="Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.samsung.com type=FWD
 # ===================== YOUTUBE / GOOGLE VIDEO =====================
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtube.com type=FWD
 add address-list="Youtube IPs" comment="Youtube IPs" match-subdomain=yes name=youtu.be type=FWD
@@ -1096,6 +1106,9 @@ remove [find where comment~"Traffic"]
 # SpeedTest
 add action=passthrough chain=prerouting comment="SpeedTest Traffic Down" src-address-list="SpeedTest IPs"
 add action=passthrough chain=prerouting comment="SpeedTest Traffic Up" dst-address-list="SpeedTest IPs"
+# Connectivity Check
+add action=passthrough chain=prerouting comment="Connectivity Check Traffic Down" src-address-list="Connectivity Check IPs"
+add action=passthrough chain=prerouting comment="Connectivity Check Traffic Up" dst-address-list="Connectivity Check IPs"
 # Youtube
 add action=passthrough chain=prerouting comment="Youtube Traffic Down" src-address-list="Youtube IPs"
 add action=passthrough chain=prerouting comment="Youtube Traffic Up" dst-address-list="Youtube IPs"
@@ -1384,6 +1397,7 @@ add action=passthrough chain=prerouting comment="Arena of Valor Traffic Up" dst-
 # ===================== DOWNLOAD PACKET MARKS (disabled — manual QoS only) =====================
 /ip firewall mangle
 add action=mark-packet chain=prerouting comment="SpeedTest Download Mark" disabled=yes new-packet-mark="SpeedTest download" passthrough=yes src-address-list="SpeedTest IPs"
+add action=mark-packet chain=prerouting comment="Connectivity Check Download Mark" disabled=yes new-packet-mark="Connectivity Check download" passthrough=yes src-address-list="Connectivity Check IPs"
 add action=mark-packet chain=prerouting comment="Youtube Download Mark" disabled=yes new-packet-mark="Youtube download" passthrough=yes src-address-list="Youtube IPs"
 add action=mark-packet chain=prerouting comment="Tiktok Download Mark" disabled=yes new-packet-mark="Tiktok download" passthrough=yes src-address-list="Tiktok IPs"
 add action=mark-packet chain=prerouting comment="Telegram Download Mark" disabled=yes new-packet-mark="Telegram download" passthrough=yes src-address-list="Telegram IPs"
@@ -1482,6 +1496,9 @@ remove [find where comment~"Traffic"]
 # SpeedTest
 add action=passthrough chain=prerouting comment="SpeedTest Traffic Down" src-address-list="SpeedTest IPs"
 add action=passthrough chain=prerouting comment="SpeedTest Traffic Up" dst-address-list="SpeedTest IPs"
+# Connectivity Check
+add action=passthrough chain=prerouting comment="Connectivity Check Traffic Down" src-address-list="Connectivity Check IPs"
+add action=passthrough chain=prerouting comment="Connectivity Check Traffic Up" dst-address-list="Connectivity Check IPs"
 # Youtube
 add action=passthrough chain=prerouting comment="Youtube Traffic Down" src-address-list="Youtube IPs"
 add action=passthrough chain=prerouting comment="Youtube Traffic Up" dst-address-list="Youtube IPs"

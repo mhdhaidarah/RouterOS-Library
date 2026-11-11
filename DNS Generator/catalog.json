@@ -8,7 +8,7 @@
   "settings": {
     "ipv6_counters": true,
     "connectivity_passthrough": {
-      "note": "OS connectivity-check hosts must NOT be collected/mangled, or the device shows a false 'No internet access' / captive-portal popup despite working internet. Windows checks an EXACT IP -> pin it via 'static'. Apple just needs to reach the real CDN -> resolve via 'forward', never pin. Android's check hosts (gstatic / generate_204) aren't collected, so nothing is needed there. An exact entry here also OVERRIDES any match-subdomain collector (e.g. apple.com sweeping in captive.apple.com). Do NOT add msftncsi.com / msftconnecttest.com to any app.",
+      "note": "OS connectivity-check hosts must NOT be collected/mangled, or the device shows a false 'No internet access' / captive-portal popup despite working internet. Windows checks an EXACT IP -> pin it via 'static'. Apple just needs to reach the real CDN -> resolve via 'forward', never pin. Android, Firefox, Xiaomi, Huawei, Oppo, Samsung and www.apple.com check hosts ARE collected into the 'Connectivity Check' app (2026-11-11) ONLY so a multi-line router can keep them on its most stable line; never block them or send them through a VPN. An exact entry here also OVERRIDES any match-subdomain collector (e.g. apple.com sweeping in captive.apple.com). Do NOT add msftncsi.com / msftconnecttest.com to any app.",
       "enabled": true,
       "forward_to": "8.8.8.8",
       "static": [
@@ -98,6 +98,25 @@
         "ipburger.com",
         "2ip.io",
         "iplocation.io"
+      ],
+      "cidrs": []
+    },
+    {
+      "slug": "connectivity-check",
+      "label": "Connectivity Check",
+      "section": "CONNECTIVITY CHECK (PHONE / PC INTERNET PROBES)",
+      "category": "other",
+      "priority": 1,
+      "domains": [
+        "connectivitycheck.gstatic.com",
+        "clients3.google.com",
+        "connectivitycheck.android.com",
+        "www.apple.com",
+        "detectportal.firefox.com",
+        "connect.rom.miui.com",
+        "connectivitycheck.platform.hicloud.com",
+        "conn1.oppomobile.com",
+        "connectivitycheck.samsung.com"
       ],
       "cidrs": []
     },

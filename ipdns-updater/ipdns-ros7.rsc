@@ -42,6 +42,15 @@
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=ipburger.com type=FWD} on-error={}
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=2ip.io type=FWD} on-error={}
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=iplocation.io type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.gstatic.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=clients3.google.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.android.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=www.apple.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=detectportal.firefox.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=connect.rom.miui.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.platform.hicloud.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=conn1.oppomobile.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Connectivity Check IPs" comment="IPDNS: Connectivity Check IPs" match-subdomain=yes name=connectivitycheck.samsung.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtube.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtu.be type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=googlevideo.com type=FWD} on-error={}

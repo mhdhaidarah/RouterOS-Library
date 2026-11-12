@@ -50,6 +50,11 @@ use the same port. The older single `"protocol"` + `"ports"` pair still works.
 Port collectors carry `connection-state=new`, so they run once per connection
 instead of on every packet of every game session.
 
+**Port collectors are TCP, the original sets.** Read on customer routers (2026-11-12): COD Mobile's TCP ports
+saw 55 new connections in 4.5 days, the UDP range 7500-8000 added in October saw 8.7 million — strangers, all of
+them put in "COD Mobile IPs". The UDP sets are gone; the generator refuses a UDP collector on a game that has a
+name, a network or a TCP port. Clash of Clans and Clash Royale share TCP 9330-9340, as they always did.
+
 ### Networks (`asns` → `cidrs`)
 
 For a service whose traffic comes from **its own network** — Netflix Open
@@ -105,41 +110,50 @@ For the same reason a game's marketing site (pubgmobile.com, ff.garena.com,
 mobilelegends.com...) is never listed: only its backends, own network and
 asset hosts.
 
-### Dedicated and shared domains (`domain_roles`)
+### One app, one list
 
-Some app domains answer with front ends that serve other apps too: Google's
-(youtube.com, play.google.com, mail.google.com, drive.google.com and
-youtubei/play googleapis share them — measured 8 of 8 addresses shared between
-`youtubei.googleapis.com` and `play.googleapis.com`), Meta's vanity hosts,
-shared Akamai caches (Steam, Windows Update, App Store, Epic). Counting those
-addresses for one app made "YouTube free" free Gmail and Play too.
+Every app has **one** address list, `<Label> IPs`, and it is the same list in SAMM, SOVA, SICO and on a router
+that pasted the file or runs the updater. Operators write their own rules on these lists (send an app through a
+line or a VPN, keep one direct), so a list is never renamed, split or emptied: the old "dedicated / shared"
+split (`domain_roles`, November 2026) moved names like `youtube.com` out of the list their rules read, and is
+gone. The generator refuses the key.
+
+| Job | Use |
+|---|---|
+| Send an app through a line or a VPN, keep it direct | `<Label> IPs` in your own mangle rule; the first rule that matches an address wins |
+| Count, shape (QoS) | `<Label> IPs` |
+| Block an app | by **name**, not by address: `/ip dns static add name=tiktok.com match-subdomain=yes type=NXDOMAIN` for the whole network; per user or per site it is SAMM's parental control and SOVA's app policies. An address rule also blocks every other app on the same addresses |
+
+### Apps that share addresses (`group`)
+
+Some addresses belong to more than one app, and no list can change that:
 
 ```json
-"domains": ["youtube.com", "googlevideo.com"],
-"domain_roles": {"youtube.com": "shared"}      // not listed = "dedicated"
+{ "slug": "youtube", "label": "Youtube", "group": "google", "domains": ["youtube.com", "googlevideo.com"] }
 ```
 
-The key is **additive**: `domains` still lists every domain, so a consumer that
-does not know `domain_roles` keeps working exactly as before, and the generated
-`IP Collector DNS` file is unchanged. Consumers that know it (SAMM, SOVA, SICO)
-put a shared domain's collector in **`<Label> Shared IPs`**:
+| `group` | Meaning |
+|---|---|
+| `google`, `meta`, `microsoft`, `apple` | apps of one company: one front-end pool (and, for Google, one set of caches: YouTube video and Play Store downloads come from the same address). They travel together — a rule for one also carries the other's traffic on the shared addresses, and your rule order decides. "Play Store through a VPN, YouTube direct" cannot be exact on any router |
+| `cdn` | the app sits on a public CDN (Akamai, CloudFront, Fastly, Cloudflare): its list holds edges that also serve unrelated sites. Written by `check.py --write-groups`, not by hand |
 
-| Reads | `<Label> IPs` (dedicated) | `<Label> Shared IPs` |
-|---|---|---|
-| traffic counters, QoS, free apps, per-app VPN | yes | no |
-| blocking (parental control, SOVA app policies) | yes | yes |
+`group` is information only: it never changes what the router gets. Products show it as a hint.
 
-The generator refuses a role other than `dedicated`/`shared`, a role for a
-domain the app does not list, and a dedicated domain under a shared one of the
-same app (the shared parent's suffix match would take it). Cloudflare-fronted
-apps (many AI and speedtest sites) are not marked: their addresses are shared
-with half the web, so only the domains measured to overlap another catalog app
-are listed.
+### The accuracy test (`check.py`)
+
+```bash
+python3 "DNS Generator/check.py"
+```
+
+resolves every name as a router in each customer country would (Syria, Iraq, Lebanon, Egypt, Saudi Arabia,
+Turkey, plus this machine) and fails when an app that claims its own addresses shares one with another app or
+with a name that must never be touched (sign-in, banks, connectivity checks). Run it before every publish.
 
 ### How long a collected address stays (lab-measured, RouterOS 7.24.4)
 
 - An address lives for the DNS record's TTL plus `address-list-extra-time`.
-  SAMM leaves that at the RouterOS default `0s`; the full file sets `1d`.
+  SAMM leaves that at the RouterOS default `0s`; the full file and the updater set `1h` (`1d` until November
+  2026: on a busy router a CDN-hosted app's list then held three to four times more neighbours).
   5-minute YouTube and Twitch sessions were counted the same at `0s`, `1h` and
   `1d` (92–99%), while the longer times only kept shared CDN addresses around
   longer (more cross-app counting). Clients look names up again often enough.
@@ -169,15 +183,19 @@ fails at generate time instead of shipping to every router.
 `generate.py` *and* to SAMM's `_APP_CAT_ORDER`, `_app_cat_label` and QoS chip
 colours (`app/admin/routes.py`, `app/admin/templates/_mikrotik_qos.html`).
 
-### To add an app
-1. Copy an existing entry in `catalog.json`, change `label`, `domains`,
-   `category`, `priority`.
-2. Run the generator — it validates the catalog before writing.
-3. Commit `catalog.json` + the regenerated `IP Collector DNS`.
-4. Publish the mirror so GitHub-blocked installs get it too. SAMM reads GitHub
-   raw **first** and only falls back to `dl.securytik.com` when GitHub is
-   unreachable, so an unpushed commit means "Update from repo" keeps returning
-   the old catalog even though the mirror is current.
+### Changing the catalogue (by hand, once a month)
+
+Nothing is added automatically. A name enters only when routers really see it for that app (the learnt entry
+reads "created for <name>", or the router's DNS cache shows the alias behind it) or the vendor documents it —
+a public list of "domains of app X" is not evidence.
+
+1. Edit `catalog.json` (copy an entry; `label`, `domains`, `category`, `priority`).
+2. `python3 "DNS Generator/generate.py"` — validates, writes `IP Collector DNS` and `ipdns-updater/`.
+3. `python3 "DNS Generator/check.py"` — the accuracy test.
+4. Keep the change small: an installed SAMM or SOVA refuses a list more than 20% smaller than the one it uses.
+5. Commit and push, then publish the mirror so GitHub-blocked installs get it too. SAMM reads GitHub raw
+   **first** and falls back to `dl.securytik.com`, so an unpushed commit means "Update from repo" keeps
+   returning the old catalogue even though the mirror is current.
 
 The IPs themselves are **not** stored here — they're collected live on each
 router from real DNS lookups. The catalog only defines *which* apps to watch.

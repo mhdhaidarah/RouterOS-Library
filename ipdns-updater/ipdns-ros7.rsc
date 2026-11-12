@@ -2,7 +2,7 @@
 # Imported by the router script securytik-ipdns-update (see README). Every entry is tagged "IPDNS:";
 # the updater removes those before importing this file. Not for pasting by hand.
 
-/ip dns set address-list-extra-time=1d
+/ip dns set address-list-extra-time=1h
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=c.speedtest.net type=FWD} on-error={}
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=wifiman.com type=FWD} on-error={}
 :do {/ip dns static add address-list="SpeedTest IPs" comment="IPDNS: SpeedTest IPs" match-subdomain=yes name=check-host.net type=FWD} on-error={}
@@ -61,22 +61,11 @@
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubegaming.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=music.youtube.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubei.googleapis.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=withyoutube.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubeeducation.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubefanfest.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.co.id type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.co.in type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.com.br type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.id type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubego.in type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=youtubemobilesupport.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=yt.be type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=doubleclick.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=googlesyndication.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=googleadservices.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=2mdn.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Youtube IPs" comment="IPDNS: Youtube IPs" match-subdomain=yes name=imasdk.googleapis.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Google Ads IPs" comment="IPDNS: Google Ads IPs" match-subdomain=yes name=doubleclick.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Google Ads IPs" comment="IPDNS: Google Ads IPs" match-subdomain=yes name=googlesyndication.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Google Ads IPs" comment="IPDNS: Google Ads IPs" match-subdomain=yes name=googleadservices.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Google Ads IPs" comment="IPDNS: Google Ads IPs" match-subdomain=yes name=2mdn.net type=FWD} on-error={}
+:do {/ip dns static add address-list="Google Ads IPs" comment="IPDNS: Google Ads IPs" match-subdomain=yes name=imasdk.googleapis.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytecdn.cn type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=byted.org type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytedance.com type=FWD} on-error={}
@@ -103,25 +92,6 @@
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=ttlivecdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktokrow-cdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktokeu-cdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytedapm.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=amemv.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bdurl.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytegoofy.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=bytescm.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyin.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyincdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinpic.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinliving.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinstatic.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=douyinvod.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshan.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshanstatic.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=huoshanzhibo.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=pstatp.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=snssdk.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=ttlivecdn.com.c.bytefcdn-oversea.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=tiktok.tps.dv.tech type=FWD} on-error={}
-:do {/ip dns static add address-list="Tiktok IPs" comment="IPDNS: Tiktok IPs" match-subdomain=yes name=zijieapi.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.org type=FWD} on-error={}
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.me type=FWD} on-error={}
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=t.me type=FWD} on-error={}
@@ -132,14 +102,6 @@
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegra.ph type=FWD} on-error={}
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tdesktop.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telegram.dog type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=comments.app type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=contest.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=graph.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=quiz.directory type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=telega.one type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tg.dev type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=tx.me type=FWD} on-error={}
-:do {/ip dns static add address-list="Telegram IPs" comment="IPDNS: Telegram IPs" match-subdomain=yes name=usercontent.dev type=FWD} on-error={}
 :do {/ip dns static add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=snapchat.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=snap.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Snapchat IPs" comment="IPDNS: Snapchat IPs" match-subdomain=yes name=sc-cdn.net type=FWD} on-error={}
@@ -170,18 +132,7 @@
 :do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=nflxext.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=nflximg.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=nflxsearch.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest1.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=tudumext.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixinvestor.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixtechblog.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest2.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest3.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest4.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest5.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest6.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest7.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest8.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Netflix IPs" comment="IPDNS: Netflix IPs" match-subdomain=yes name=netflixdnstest9.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=shahid.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=mbc.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Shahid IPs" comment="IPDNS: Shahid IPs" match-subdomain=yes name=mbcgroup.net type=FWD} on-error={}
@@ -210,8 +161,6 @@
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt1.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt2.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt3.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=itunes.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=appstore.com type=FWD} on-error={}
@@ -255,88 +204,11 @@
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=thefind.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=oculusvr.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=thefacebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=aboutfacebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=accessfacebookfromschool.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=acebooik.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=acebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=advancediddetection.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=askfacebook.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=askfacebook.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atdmt2.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atlasdmt.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=atlasonepoint.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=buyingfacebooklikes.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=careersatfb.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=celebgramme.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=china-facebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=click-url.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=dlfacebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=expresswifi.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=faasbook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebboc.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebkkk.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebokbook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-corp.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-ebook.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-forum.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-inc.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-login.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-newsroom.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-pmdcenter.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-pmdcenter.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-pmdcenter.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-privacy.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-program.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-studio.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-support.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook-texas-holdem.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook123.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebook4business.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookadvertisingsecrets.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookatschool.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookawards.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookblueprint.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookbrand.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Facebook IPs" comment="IPDNS: Facebook IPs" match-subdomain=yes name=facebookbrand.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=cdninstagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=threads.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=ig.me type=FWD} on-error={}
 :do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=threads.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=bookstagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=carstagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=chickstagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=igsonar.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=imstagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=imtagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instaadder.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instachecker.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instafallow.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagainer.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagify.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagmania.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-brand.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-engineering.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-help.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagram-press.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramhashtags.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramhilecim.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramhilesi.org type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramium.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramizlenme.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramkusu.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramlogin.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramphoto.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramsepeti.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramtakipcisatinal.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instagramtakiphilesi.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instanttelegram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instaplayer.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=instastyle.tv type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=online-instagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=onlineinstagram.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=web-instagram.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Instagram IPs" comment="IPDNS: Instagram IPs" match-subdomain=yes name=wwwinstagram.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Meta IPs" comment="IPDNS: Meta IPs" match-subdomain=yes name=meta.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs" match-subdomain=yes name=whatsapp.net type=FWD} on-error={}
@@ -388,9 +260,6 @@
 :do {/ip dns static add address-list="Claude IPs" comment="IPDNS: Claude IPs" match-subdomain=yes name=claudeusercontent.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.microsoft.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.cloud.microsoft type=FWD} on-error={}
-:do {/ip dns static add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilot.ai type=FWD} on-error={}
-:do {/ip dns static add address-list="Copilot IPs" comment="IPDNS: Copilot IPs" match-subdomain=yes name=copilotstudio.microsoft.com type=FWD} on-error={}
 :do {/ip dns static add address-list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs" match-subdomain=yes name=deepseek.com type=FWD} on-error={}
 :do {/ip dns static add address-list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs" match-subdomain=yes name=deepseek.ai type=FWD} on-error={}
 :do {/ip dns static add address-list="Likee IPs" comment="IPDNS: Likee IPs" match-subdomain=yes name=likee.com type=FWD} on-error={}
@@ -414,14 +283,6 @@
 :do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discord.new type=FWD} on-error={}
 :do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordcdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordstatus.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discord-activities.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordactivities.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordmerch.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=discordsays.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=airhorn.solutions type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=airhornbot.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=bigbeans.solutions type=FWD} on-error={}
-:do {/ip dns static add address-list="Discord IPs" comment="IPDNS: Discord IPs" match-subdomain=yes name=watchanimeattheoffice.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoom.us type=FWD} on-error={}
 :do {/ip dns static add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoom.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Zoom IPs" comment="IPDNS: Zoom IPs" match-subdomain=yes name=zoomgov.com type=FWD} on-error={}
@@ -431,7 +292,6 @@
 :do {/ip dns static add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.microsoft.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.live.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.cloud.microsoft type=FWD} on-error={}
-:do {/ip dns static add address-list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs" match-subdomain=yes name=teams.cdn.office.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=twitch.tv type=FWD} on-error={}
 :do {/ip dns static add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=ttvnw.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Twitch IPs" comment="IPDNS: Twitch IPs" match-subdomain=yes name=jtvnw.net type=FWD} on-error={}
@@ -451,12 +311,6 @@
 :do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=audio4-ak-spotify-com.akamaized.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=heads-ak-spotify-com.akamaized.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=heads4-ak-spotify-com.akamaized.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=byspotify.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotify-everywhere.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifycharts.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifycodes.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifyforbrands.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Spotify IPs" comment="IPDNS: Spotify IPs" match-subdomain=yes name=spotifyjobs.com type=FWD} on-error={}
 :do {/ip dns static add address-list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs" match-subdomain=yes name=soundcloud.com type=FWD} on-error={}
 :do {/ip dns static add address-list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs" match-subdomain=yes name=sndcdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Anghami IPs" comment="IPDNS: Anghami IPs" match-subdomain=yes name=anghami.com type=FWD} on-error={}
@@ -465,19 +319,11 @@
 :do {/ip dns static add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redd.it type=FWD} on-error={}
 :do {/ip dns static add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditstatic.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditmedia.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Reddit IPs" comment="IPDNS: Reddit IPs" match-subdomain=yes name=redditmail.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinterest.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinimg.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pin.it type=FWD} on-error={}
-:do {/ip dns static add address-list="Pinterest IPs" comment="IPDNS: Pinterest IPs" match-subdomain=yes name=pinterestmail.com type=FWD} on-error={}
 :do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=linkedin.com type=FWD} on-error={}
 :do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=licdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=lnkd.in type=FWD} on-error={}
-:do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=bizographics.com type=FWD} on-error={}
-:do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.dc-msedge.net type=FWD} on-error={}
-:do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.l-msedge.net type=FWD} on-error={}
-:do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0005.l-dc-msedge.net type=FWD} on-error={}
-:do {/ip dns static add address-list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs" match-subdomain=yes name=l-0015.l-msedge.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steampowered.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamcommunity.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamcontent.com type=FWD} on-error={}
@@ -495,16 +341,6 @@
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steambroadcast.akamaized.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamusercontent-a.akamaihd.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamvideo-a.akamaihd.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=playartifact.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=s.team type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steam-api.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamdeck.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=underlords.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=wmsjsteam.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=st.dl.eccdnx.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steampowered.com.8686c.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=steamstatic.com.8686c.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Steam IPs" comment="IPDNS: Steam IPs" match-subdomain=yes name=xz.pphimalayanrt.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=epicgames.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=unrealengine.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=fortnite.com type=FWD} on-error={}
@@ -513,9 +349,6 @@
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=epicgamescdn.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=static-assets-prod.unrealengine.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=egdownload.fastly-edge.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=eac-cdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=easy.ac type=FWD} on-error={}
-:do {/ip dns static add address-list="Epic Games IPs" comment="IPDNS: Epic Games IPs" match-subdomain=yes name=easyanticheat.net type=FWD} on-error={}
 :do {/ip dns static add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=playstation.com type=FWD} on-error={}
 :do {/ip dns static add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=playstation.net type=FWD} on-error={}
 :do {/ip dns static add address-list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs" match-subdomain=yes name=sonyentertainmentnetwork.com type=FWD} on-error={}
@@ -524,8 +357,6 @@
 :do {/ip dns static add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xboxservices.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=gamepass.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xboxab.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xbox-guide-public.rec.mp.microsoft.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs" match-subdomain=yes name=xbox.ipv6.microsoft.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Jawaker IPs" comment="IPDNS: Jawaker IPs" match-subdomain=yes name=jawaker.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Google Drive IPs" comment="IPDNS: Google Drive IPs" match-subdomain=yes name=drive.google.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Google Drive IPs" comment="IPDNS: Google Drive IPs" match-subdomain=yes name=drive.usercontent.google.com type=FWD} on-error={}
@@ -543,21 +374,6 @@
 :do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxstatic.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=db.tt type=FWD} on-error={}
 :do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxapi.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=addtodropbox.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dash.ai type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=docsend.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropbox-dns.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxbusiness.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxcaptcha.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxforum.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxforums.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxinsiders.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxlegal.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxpartners.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropboxteam.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=getdropbox.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=dropbox.zendesk.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Dropbox IPs" comment="IPDNS: Dropbox IPs" match-subdomain=yes name=app.hellosign.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=signal.org type=FWD} on-error={}
 :do {/ip dns static add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=signal.art type=FWD} on-error={}
 :do {/ip dns static add address-list="Signal IPs" comment="IPDNS: Signal IPs" match-subdomain=yes name=whispersystems.org type=FWD} on-error={}
@@ -568,10 +384,8 @@
 :do {/ip dns static add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=weixin.qq.com type=FWD} on-error={}
 :do {/ip dns static add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=wechatapp.com type=FWD} on-error={}
 :do {/ip dns static add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=wx.qq.com type=FWD} on-error={}
-:do {/ip dns static add address-list="WeChat IPs" comment="IPDNS: WeChat IPs" match-subdomain=yes name=weixinbridge.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=skype.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=skypeassets.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Skype IPs" comment="IPDNS: Skype IPs" match-subdomain=yes name=edge-skype-com.s-0001.s-msedge.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Gmail IPs" comment="IPDNS: Gmail IPs" match-subdomain=yes name=mail.google.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Gmail IPs" comment="IPDNS: Gmail IPs" match-subdomain=yes name=gmail.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Microsoft 365 IPs" comment="IPDNS: Microsoft 365 IPs" match-subdomain=yes name=outlook.com type=FWD} on-error={}
@@ -586,9 +400,6 @@
 :do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disney-plus.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=bamgrid.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disneystreaming.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=hotstar.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=starplus.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Disney+ IPs" comment="IPDNS: Disney+ IPs" match-subdomain=yes name=disneynow.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=primevideo.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=aiv-delivery.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Prime Video IPs" comment="IPDNS: Prime Video IPs" match-subdomain=yes name=aiv-cdn.net type=FWD} on-error={}
@@ -598,15 +409,6 @@
 :do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomax.com type=FWD} on-error={}
 :do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbo.com type=FWD} on-error={}
 :do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomaxcdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.co.th type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.com type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogo.eu type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.com type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.id type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbogoasia.ph type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbomax-images.warnermediacdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=hbonow.com type=FWD} on-error={}
-:do {/ip dns static add address-list="HBO Max IPs" comment="IPDNS: HBO Max IPs" match-subdomain=yes name=maxgo.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=tv.apple.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=hls.itunes.apple.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs" match-subdomain=yes name=hls-amt.itunes.apple.com type=FWD} on-error={}
@@ -633,17 +435,10 @@
 :do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxlabs.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbxinfra.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbx.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=blox.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=roblox.qq.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxcdn.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=robloxdev.cn type=FWD} on-error={}
-:do {/ip dns static add address-list="Roblox IPs" comment="IPDNS: Roblox IPs" match-subdomain=yes name=rbxadder.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraft.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraftservices.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=mojang.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=minecraft-services.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=megasmp.gg type=FWD} on-error={}
-:do {/ip dns static add address-list="Minecraft IPs" comment="IPDNS: Minecraft IPs" match-subdomain=yes name=cubecraft.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=riotgames.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=riotcdn.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=leagueoflegends.com type=FWD} on-error={}
@@ -652,7 +447,6 @@
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=lolstatic.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=rgpub.io type=FWD} on-error={}
 :do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=lolesports.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Riot Games IPs" comment="IPDNS: Riot Games IPs" match-subdomain=yes name=dradis-prod.rdatasrv.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=hoyoverse.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=mihoyo.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs" match-subdomain=yes name=yuanshen.com type=FWD} on-error={}
@@ -661,8 +455,6 @@
 :do {/ip dns static add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=blizzard.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=battlenet.com.cn type=FWD} on-error={}
 :do {/ip dns static add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=blzddist1-a.akamaihd.net type=FWD} on-error={}
-:do {/ip dns static add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=bnet.163.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Battle.net IPs" comment="IPDNS: Battle.net IPs" match-subdomain=yes name=bnet.cn type=FWD} on-error={}
 :do {/ip dns static add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=callofduty.com type=FWD} on-error={}
 :do {/ip dns static add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=demonware.net type=FWD} on-error={}
 :do {/ip dns static add address-list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs" match-subdomain=yes name=callofdutyleague.com type=FWD} on-error={}
@@ -955,13 +747,12 @@
 :do {/ip firewall address-list add address=202.181.72.0/21 list="Free Fire IPs" comment="IPDNS: Free Fire IPs"} on-error={}
 /ip firewall mangle
 add chain=prerouting action=add-dst-to-address-list address-list="COD Mobile IPs" address-list-timeout=1d protocol=tcp dst-port=3013,18082,65010,65050 connection-state=new dst-address-type=!local comment="IPDNS: COD Mobile IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="COD Mobile IPs" address-list-timeout=1d protocol=udp dst-port=7500-8000 connection-state=new dst-address-type=!local comment="IPDNS: COD Mobile IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Free Fire IPs" address-list-timeout=1d protocol=tcp dst-port=39003,39698,39779 connection-state=new dst-address-type=!local comment="IPDNS: Free Fire IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="Free Fire IPs" address-list-timeout=1d protocol=udp dst-port=10001,10003,10012 connection-state=new dst-address-type=!local comment="IPDNS: Free Fire IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="PUBG Mobile IPs" address-list-timeout=1d protocol=tcp dst-port=10012,17500 connection-state=new dst-address-type=!local comment="IPDNS: PUBG Mobile IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="PUBG Mobile IPs" address-list-timeout=1d protocol=udp dst-port=10010,10013,10039,10096,10491,10612,11455,12235,13748,13894,13972,20000-20002 connection-state=new dst-address-type=!local comment="IPDNS: PUBG Mobile IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Mobile Legends IPs" address-list-timeout=1d protocol=tcp dst-port=5001,5003,9001,30000-30200 connection-state=new dst-address-type=!local comment="IPDNS: Mobile Legends IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Rules of Survival IPs" address-list-timeout=1d protocol=udp dst-port=24000-24050 connection-state=new dst-address-type=!local comment="IPDNS: Rules of Survival IPs"
+add chain=prerouting action=add-dst-to-address-list address-list="Clash of Clans IPs" address-list-timeout=1d protocol=tcp dst-port=9330-9340 connection-state=new dst-address-type=!local comment="IPDNS: Clash of Clans IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Dragon Nest IPs" address-list-timeout=1d protocol=tcp dst-port=10514 connection-state=new dst-address-type=!local comment="IPDNS: Dragon Nest IPs"
+add chain=prerouting action=add-dst-to-address-list address-list="Clash Royale IPs" address-list-timeout=1d protocol=tcp dst-port=9330-9340 connection-state=new dst-address-type=!local comment="IPDNS: Clash Royale IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Arena of Valor IPs" address-list-timeout=1d protocol=tcp dst-port=10001-10094 connection-state=new dst-address-type=!local comment="IPDNS: Arena of Valor IPs"
 :global ipdnsLoaded "ros7"

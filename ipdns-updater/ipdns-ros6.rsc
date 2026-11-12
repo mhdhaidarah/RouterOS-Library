@@ -103,34 +103,15 @@
 :do {/ip firewall address-list add address=www.youtubegaming.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=music.youtube.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
 :do {/ip firewall address-list add address=youtubei.googleapis.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=withyoutube.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.withyoutube.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubeeducation.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubeeducation.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubefanfest.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubefanfest.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.co.id list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.co.in list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubego.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.com.br list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.id list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubego.id list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubego.in list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubego.in list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=youtubemobilesupport.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.youtubemobilesupport.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=yt.be list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.yt.be list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=doubleclick.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.doubleclick.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=googlesyndication.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.googlesyndication.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=googleadservices.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.googleadservices.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=2mdn.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=www.2mdn.net list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
-:do {/ip firewall address-list add address=imasdk.googleapis.com list="Youtube IPs" comment="IPDNS: Youtube IPs"} on-error={}
+:do {/ip firewall address-list add address=doubleclick.net list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=www.doubleclick.net list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=googlesyndication.com list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=www.googlesyndication.com list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=googleadservices.com list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=www.googleadservices.com list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=2mdn.net list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=www.2mdn.net list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
+:do {/ip firewall address-list add address=imasdk.googleapis.com list="Google Ads IPs" comment="IPDNS: Google Ads IPs"} on-error={}
 :do {/ip firewall address-list add address=bytecdn.cn list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=www.bytecdn.cn list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=byted.org list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
@@ -183,42 +164,6 @@
 :do {/ip firewall address-list add address=www.tiktokrow-cdn.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=tiktokeu-cdn.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=www.tiktokeu-cdn.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=bytedapm.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bytedapm.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=amemv.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.amemv.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=bdurl.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bdurl.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=bytegoofy.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bytegoofy.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=bytescm.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bytescm.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyin.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyin.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyincdn.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyincdn.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyinpic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyinpic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyinliving.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyinliving.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyinstatic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyinstatic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=douyinvod.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.douyinvod.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=huoshan.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.huoshan.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=huoshanstatic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.huoshanstatic.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=huoshanzhibo.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.huoshanzhibo.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=pstatp.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.pstatp.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=snssdk.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.snssdk.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=ttlivecdn.com.c.bytefcdn-oversea.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=tiktok.tps.dv.tech list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=zijieapi.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
-:do {/ip firewall address-list add address=www.zijieapi.com list="Tiktok IPs" comment="IPDNS: Tiktok IPs"} on-error={}
 :do {/ip firewall address-list add address=telegram.org list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=www.telegram.org list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=telegram.me list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
@@ -237,22 +182,6 @@
 :do {/ip firewall address-list add address=www.tdesktop.com list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=telegram.dog list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=www.telegram.dog list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=comments.app list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.comments.app list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=contest.com list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.contest.com list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=graph.org list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.graph.org list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=quiz.directory list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.quiz.directory list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=telega.one list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.telega.one list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=tg.dev list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.tg.dev list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=tx.me list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.tx.me list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=usercontent.dev list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.usercontent.dev list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=snapchat.com list="Snapchat IPs" comment="IPDNS: Snapchat IPs"} on-error={}
 :do {/ip firewall address-list add address=www.snapchat.com list="Snapchat IPs" comment="IPDNS: Snapchat IPs"} on-error={}
 :do {/ip firewall address-list add address=snap.com list="Snapchat IPs" comment="IPDNS: Snapchat IPs"} on-error={}
@@ -310,30 +239,8 @@
 :do {/ip firewall address-list add address=www.nflximg.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
 :do {/ip firewall address-list add address=nflxsearch.net list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
 :do {/ip firewall address-list add address=www.nflxsearch.net list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest1.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest1.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
 :do {/ip firewall address-list add address=tudumext.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
 :do {/ip firewall address-list add address=www.tudumext.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixinvestor.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixinvestor.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixtechblog.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixtechblog.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest2.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest2.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest3.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest3.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest4.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest4.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest5.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest5.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest6.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest6.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest7.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest7.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest8.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest8.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=netflixdnstest9.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
-:do {/ip firewall address-list add address=www.netflixdnstest9.com list="Netflix IPs" comment="IPDNS: Netflix IPs"} on-error={}
 :do {/ip firewall address-list add address=shahid.net list="Shahid IPs" comment="IPDNS: Shahid IPs"} on-error={}
 :do {/ip firewall address-list add address=www.shahid.net list="Shahid IPs" comment="IPDNS: Shahid IPs"} on-error={}
 :do {/ip firewall address-list add address=mbc.net list="Shahid IPs" comment="IPDNS: Shahid IPs"} on-error={}
@@ -383,10 +290,6 @@
 :do {/ip firewall address-list add address=play-lh.googleusercontent.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=www.gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=gvt2.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=www.gvt2.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=gvt3.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=www.gvt3.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=apps.apple.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=www.itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
@@ -453,92 +356,6 @@
 :do {/ip firewall address-list add address=www.oculusvr.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
 :do {/ip firewall address-list add address=thefacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
 :do {/ip firewall address-list add address=www.thefacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=aboutfacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.aboutfacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=accessfacebookfromschool.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.accessfacebookfromschool.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=acebooik.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.acebooik.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=acebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.acebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=advancediddetection.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.advancediddetection.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=askfacebook.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.askfacebook.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=askfacebook.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.askfacebook.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=atdmt2.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.atdmt2.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=atlasdmt.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.atlasdmt.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=atlasonepoint.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.atlasonepoint.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=buyingfacebooklikes.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.buyingfacebooklikes.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=careersatfb.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.careersatfb.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=celebgramme.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.celebgramme.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=china-facebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.china-facebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=click-url.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.click-url.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=dlfacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dlfacebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=expresswifi.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.expresswifi.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=faasbook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.faasbook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebboc.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebboc.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebkkk.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebkkk.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebokbook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebokbook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-corp.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-corp.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-ebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-ebook.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-forum.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-forum.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-inc.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-inc.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-login.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-login.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-newsroom.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-newsroom.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-pmdcenter.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-pmdcenter.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-pmdcenter.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-pmdcenter.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-pmdcenter.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-pmdcenter.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-privacy.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-privacy.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-program.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-program.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-studio.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-studio.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-support.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-support.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook-texas-holdem.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook-texas-holdem.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook123.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook123.org list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebook4business.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebook4business.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookadvertisingsecrets.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookadvertisingsecrets.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookatschool.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookatschool.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookawards.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookawards.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookblueprint.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookblueprint.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookbrand.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookbrand.com list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=facebookbrand.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
-:do {/ip firewall address-list add address=www.facebookbrand.net list="Facebook IPs" comment="IPDNS: Facebook IPs"} on-error={}
 :do {/ip firewall address-list add address=instagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
 :do {/ip firewall address-list add address=www.instagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
 :do {/ip firewall address-list add address=cdninstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
@@ -549,74 +366,6 @@
 :do {/ip firewall address-list add address=www.ig.me list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
 :do {/ip firewall address-list add address=threads.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
 :do {/ip firewall address-list add address=www.threads.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=bookstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bookstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=carstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.carstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=chickstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.chickstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=igsonar.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.igsonar.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=imstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.imstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=imtagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.imtagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instaadder.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instaadder.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instachecker.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instachecker.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instafallow.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instafallow.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagainer.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagainer.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagify.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagify.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagmania.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagmania.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagram-brand.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagram-brand.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagram-engineering.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagram-engineering.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagram-help.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagram-help.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagram-press.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagram-press.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramhashtags.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramhashtags.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramhilecim.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramhilecim.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramhilesi.org list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramhilesi.org list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramium.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramium.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramizlenme.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramizlenme.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramkusu.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramkusu.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramlogin.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramlogin.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramphoto.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramphoto.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramsepeti.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramsepeti.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramtakipcisatinal.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramtakipcisatinal.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instagramtakiphilesi.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instagramtakiphilesi.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instanttelegram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instanttelegram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instaplayer.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instaplayer.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=instastyle.tv list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.instastyle.tv list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=online-instagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.online-instagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=onlineinstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.onlineinstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=web-instagram.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.web-instagram.net list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=wwwinstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
-:do {/ip firewall address-list add address=www.wwwinstagram.com list="Instagram IPs" comment="IPDNS: Instagram IPs"} on-error={}
 :do {/ip firewall address-list add address=meta.com list="Meta IPs" comment="IPDNS: Meta IPs"} on-error={}
 :do {/ip firewall address-list add address=www.meta.com list="Meta IPs" comment="IPDNS: Meta IPs"} on-error={}
 :do {/ip firewall address-list add address=whatsapp.com list="Whatsapp IPs" comment="IPDNS: Whatsapp IPs"} on-error={}
@@ -713,11 +462,6 @@
 :do {/ip firewall address-list add address=www.claudeusercontent.com list="Claude IPs" comment="IPDNS: Claude IPs"} on-error={}
 :do {/ip firewall address-list add address=copilot.microsoft.com list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
 :do {/ip firewall address-list add address=copilot.cloud.microsoft list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
-:do {/ip firewall address-list add address=copilot.com list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
-:do {/ip firewall address-list add address=www.copilot.com list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
-:do {/ip firewall address-list add address=copilot.ai list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
-:do {/ip firewall address-list add address=www.copilot.ai list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
-:do {/ip firewall address-list add address=copilotstudio.microsoft.com list="Copilot IPs" comment="IPDNS: Copilot IPs"} on-error={}
 :do {/ip firewall address-list add address=deepseek.com list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs"} on-error={}
 :do {/ip firewall address-list add address=www.deepseek.com list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs"} on-error={}
 :do {/ip firewall address-list add address=deepseek.ai list="DeepSeek IPs" comment="IPDNS: DeepSeek IPs"} on-error={}
@@ -764,22 +508,6 @@
 :do {/ip firewall address-list add address=www.discordcdn.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
 :do {/ip firewall address-list add address=discordstatus.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
 :do {/ip firewall address-list add address=www.discordstatus.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=discord-activities.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.discord-activities.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=discordactivities.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.discordactivities.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=discordmerch.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.discordmerch.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=discordsays.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.discordsays.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=airhorn.solutions list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.airhorn.solutions list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=airhornbot.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.airhornbot.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=bigbeans.solutions list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bigbeans.solutions list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=watchanimeattheoffice.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
-:do {/ip firewall address-list add address=www.watchanimeattheoffice.com list="Discord IPs" comment="IPDNS: Discord IPs"} on-error={}
 :do {/ip firewall address-list add address=zoom.us list="Zoom IPs" comment="IPDNS: Zoom IPs"} on-error={}
 :do {/ip firewall address-list add address=www.zoom.us list="Zoom IPs" comment="IPDNS: Zoom IPs"} on-error={}
 :do {/ip firewall address-list add address=zoom.com list="Zoom IPs" comment="IPDNS: Zoom IPs"} on-error={}
@@ -792,7 +520,6 @@
 :do {/ip firewall address-list add address=teams.microsoft.com list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs"} on-error={}
 :do {/ip firewall address-list add address=teams.live.com list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs"} on-error={}
 :do {/ip firewall address-list add address=teams.cloud.microsoft list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs"} on-error={}
-:do {/ip firewall address-list add address=teams.cdn.office.net list="Microsoft Teams IPs" comment="IPDNS: Microsoft Teams IPs"} on-error={}
 :do {/ip firewall address-list add address=twitch.tv list="Twitch IPs" comment="IPDNS: Twitch IPs"} on-error={}
 :do {/ip firewall address-list add address=www.twitch.tv list="Twitch IPs" comment="IPDNS: Twitch IPs"} on-error={}
 :do {/ip firewall address-list add address=ttvnw.net list="Twitch IPs" comment="IPDNS: Twitch IPs"} on-error={}
@@ -826,18 +553,6 @@
 :do {/ip firewall address-list add address=audio4-ak-spotify-com.akamaized.net list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
 :do {/ip firewall address-list add address=heads-ak-spotify-com.akamaized.net list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
 :do {/ip firewall address-list add address=heads4-ak-spotify-com.akamaized.net list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=byspotify.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.byspotify.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=spotify-everywhere.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.spotify-everywhere.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=spotifycharts.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.spotifycharts.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=spotifycodes.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.spotifycodes.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=spotifyforbrands.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.spotifyforbrands.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=spotifyjobs.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
-:do {/ip firewall address-list add address=www.spotifyjobs.com list="Spotify IPs" comment="IPDNS: Spotify IPs"} on-error={}
 :do {/ip firewall address-list add address=soundcloud.com list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs"} on-error={}
 :do {/ip firewall address-list add address=www.soundcloud.com list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs"} on-error={}
 :do {/ip firewall address-list add address=sndcdn.com list="SoundCloud IPs" comment="IPDNS: SoundCloud IPs"} on-error={}
@@ -854,28 +569,16 @@
 :do {/ip firewall address-list add address=www.redditstatic.com list="Reddit IPs" comment="IPDNS: Reddit IPs"} on-error={}
 :do {/ip firewall address-list add address=redditmedia.com list="Reddit IPs" comment="IPDNS: Reddit IPs"} on-error={}
 :do {/ip firewall address-list add address=www.redditmedia.com list="Reddit IPs" comment="IPDNS: Reddit IPs"} on-error={}
-:do {/ip firewall address-list add address=redditmail.com list="Reddit IPs" comment="IPDNS: Reddit IPs"} on-error={}
-:do {/ip firewall address-list add address=www.redditmail.com list="Reddit IPs" comment="IPDNS: Reddit IPs"} on-error={}
 :do {/ip firewall address-list add address=pinterest.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
 :do {/ip firewall address-list add address=www.pinterest.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
 :do {/ip firewall address-list add address=pinimg.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
 :do {/ip firewall address-list add address=www.pinimg.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
-:do {/ip firewall address-list add address=pin.it list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
-:do {/ip firewall address-list add address=www.pin.it list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
-:do {/ip firewall address-list add address=pinterestmail.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
-:do {/ip firewall address-list add address=www.pinterestmail.com list="Pinterest IPs" comment="IPDNS: Pinterest IPs"} on-error={}
 :do {/ip firewall address-list add address=linkedin.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=www.linkedin.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=licdn.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=www.licdn.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=lnkd.in list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=www.lnkd.in list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=bizographics.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bizographics.com list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=l-0005.dc-msedge.net list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=l-0005.l-msedge.net list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=l-0005.l-dc-msedge.net list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
-:do {/ip firewall address-list add address=l-0015.l-msedge.net list="LinkedIn IPs" comment="IPDNS: LinkedIn IPs"} on-error={}
 :do {/ip firewall address-list add address=steampowered.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
 :do {/ip firewall address-list add address=www.steampowered.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
 :do {/ip firewall address-list add address=steamcommunity.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
@@ -902,22 +605,6 @@
 :do {/ip firewall address-list add address=steambroadcast.akamaized.net list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
 :do {/ip firewall address-list add address=steamusercontent-a.akamaihd.net list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
 :do {/ip firewall address-list add address=steamvideo-a.akamaihd.net list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=playartifact.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.playartifact.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=s.team list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.s.team list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=steam-api.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.steam-api.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=steamdeck.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.steamdeck.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=underlords.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.underlords.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=wmsjsteam.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=www.wmsjsteam.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=st.dl.eccdnx.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=steampowered.com.8686c.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=steamstatic.com.8686c.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
-:do {/ip firewall address-list add address=xz.pphimalayanrt.com list="Steam IPs" comment="IPDNS: Steam IPs"} on-error={}
 :do {/ip firewall address-list add address=epicgames.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
 :do {/ip firewall address-list add address=www.epicgames.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
 :do {/ip firewall address-list add address=unrealengine.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
@@ -931,12 +618,6 @@
 :do {/ip firewall address-list add address=www.epicgamescdn.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
 :do {/ip firewall address-list add address=static-assets-prod.unrealengine.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
 :do {/ip firewall address-list add address=egdownload.fastly-edge.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=eac-cdn.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=www.eac-cdn.com list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=easy.ac list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=www.easy.ac list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=easyanticheat.net list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
-:do {/ip firewall address-list add address=www.easyanticheat.net list="Epic Games IPs" comment="IPDNS: Epic Games IPs"} on-error={}
 :do {/ip firewall address-list add address=playstation.com list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs"} on-error={}
 :do {/ip firewall address-list add address=www.playstation.com list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs"} on-error={}
 :do {/ip firewall address-list add address=playstation.net list="PlayStation Network IPs" comment="IPDNS: PlayStation Network IPs"} on-error={}
@@ -953,8 +634,6 @@
 :do {/ip firewall address-list add address=www.gamepass.com list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs"} on-error={}
 :do {/ip firewall address-list add address=xboxab.com list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs"} on-error={}
 :do {/ip firewall address-list add address=www.xboxab.com list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs"} on-error={}
-:do {/ip firewall address-list add address=xbox-guide-public.rec.mp.microsoft.com list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs"} on-error={}
-:do {/ip firewall address-list add address=xbox.ipv6.microsoft.com list="Xbox Live IPs" comment="IPDNS: Xbox Live IPs"} on-error={}
 :do {/ip firewall address-list add address=jawaker.com list="Jawaker IPs" comment="IPDNS: Jawaker IPs"} on-error={}
 :do {/ip firewall address-list add address=www.jawaker.com list="Jawaker IPs" comment="IPDNS: Jawaker IPs"} on-error={}
 :do {/ip firewall address-list add address=drive.google.com list="Google Drive IPs" comment="IPDNS: Google Drive IPs"} on-error={}
@@ -984,34 +663,6 @@
 :do {/ip firewall address-list add address=www.db.tt list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
 :do {/ip firewall address-list add address=dropboxapi.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
 :do {/ip firewall address-list add address=www.dropboxapi.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=addtodropbox.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.addtodropbox.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dash.ai list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dash.ai list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=docsend.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.docsend.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropbox-dns.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropbox-dns.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxbusiness.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxbusiness.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxcaptcha.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxcaptcha.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxforum.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxforum.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxforums.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxforums.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxinsiders.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxinsiders.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxlegal.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxlegal.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxpartners.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxpartners.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropboxteam.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.dropboxteam.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=getdropbox.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.getdropbox.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=dropbox.zendesk.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
-:do {/ip firewall address-list add address=app.hellosign.com list="Dropbox IPs" comment="IPDNS: Dropbox IPs"} on-error={}
 :do {/ip firewall address-list add address=signal.org list="Signal IPs" comment="IPDNS: Signal IPs"} on-error={}
 :do {/ip firewall address-list add address=www.signal.org list="Signal IPs" comment="IPDNS: Signal IPs"} on-error={}
 :do {/ip firewall address-list add address=signal.art list="Signal IPs" comment="IPDNS: Signal IPs"} on-error={}
@@ -1030,13 +681,10 @@
 :do {/ip firewall address-list add address=wechatapp.com list="WeChat IPs" comment="IPDNS: WeChat IPs"} on-error={}
 :do {/ip firewall address-list add address=www.wechatapp.com list="WeChat IPs" comment="IPDNS: WeChat IPs"} on-error={}
 :do {/ip firewall address-list add address=wx.qq.com list="WeChat IPs" comment="IPDNS: WeChat IPs"} on-error={}
-:do {/ip firewall address-list add address=weixinbridge.com list="WeChat IPs" comment="IPDNS: WeChat IPs"} on-error={}
-:do {/ip firewall address-list add address=www.weixinbridge.com list="WeChat IPs" comment="IPDNS: WeChat IPs"} on-error={}
 :do {/ip firewall address-list add address=skype.com list="Skype IPs" comment="IPDNS: Skype IPs"} on-error={}
 :do {/ip firewall address-list add address=www.skype.com list="Skype IPs" comment="IPDNS: Skype IPs"} on-error={}
 :do {/ip firewall address-list add address=skypeassets.com list="Skype IPs" comment="IPDNS: Skype IPs"} on-error={}
 :do {/ip firewall address-list add address=www.skypeassets.com list="Skype IPs" comment="IPDNS: Skype IPs"} on-error={}
-:do {/ip firewall address-list add address=edge-skype-com.s-0001.s-msedge.net list="Skype IPs" comment="IPDNS: Skype IPs"} on-error={}
 :do {/ip firewall address-list add address=mail.google.com list="Gmail IPs" comment="IPDNS: Gmail IPs"} on-error={}
 :do {/ip firewall address-list add address=gmail.com list="Gmail IPs" comment="IPDNS: Gmail IPs"} on-error={}
 :do {/ip firewall address-list add address=www.gmail.com list="Gmail IPs" comment="IPDNS: Gmail IPs"} on-error={}
@@ -1060,12 +708,6 @@
 :do {/ip firewall address-list add address=www.bamgrid.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
 :do {/ip firewall address-list add address=disneystreaming.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
 :do {/ip firewall address-list add address=www.disneystreaming.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=hotstar.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hotstar.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=starplus.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=www.starplus.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=disneynow.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
-:do {/ip firewall address-list add address=www.disneynow.com list="Disney+ IPs" comment="IPDNS: Disney+ IPs"} on-error={}
 :do {/ip firewall address-list add address=primevideo.com list="Prime Video IPs" comment="IPDNS: Prime Video IPs"} on-error={}
 :do {/ip firewall address-list add address=www.primevideo.com list="Prime Video IPs" comment="IPDNS: Prime Video IPs"} on-error={}
 :do {/ip firewall address-list add address=aiv-delivery.net list="Prime Video IPs" comment="IPDNS: Prime Video IPs"} on-error={}
@@ -1084,22 +726,6 @@
 :do {/ip firewall address-list add address=www.hbo.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
 :do {/ip firewall address-list add address=hbomaxcdn.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
 :do {/ip firewall address-list add address=www.hbomaxcdn.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogo.co.th list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogo.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbogo.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogo.eu list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbogo.eu list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogoasia.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbogoasia.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogoasia.id list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbogoasia.id list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbogoasia.ph list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbogoasia.ph list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbomax-images.warnermediacdn.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=hbonow.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.hbonow.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=maxgo.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
-:do {/ip firewall address-list add address=www.maxgo.com list="HBO Max IPs" comment="IPDNS: HBO Max IPs"} on-error={}
 :do {/ip firewall address-list add address=tv.apple.com list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs"} on-error={}
 :do {/ip firewall address-list add address=hls.itunes.apple.com list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs"} on-error={}
 :do {/ip firewall address-list add address=hls-amt.itunes.apple.com list="Apple TV+ IPs" comment="IPDNS: Apple TV+ IPs"} on-error={}
@@ -1146,15 +772,6 @@
 :do {/ip firewall address-list add address=www.rbxinfra.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
 :do {/ip firewall address-list add address=rbx.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
 :do {/ip firewall address-list add address=www.rbx.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=blox.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.blox.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=roblox.qq.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=robloxcdn.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.robloxcdn.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=robloxdev.cn list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.robloxdev.cn list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=rbxadder.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
-:do {/ip firewall address-list add address=www.rbxadder.com list="Roblox IPs" comment="IPDNS: Roblox IPs"} on-error={}
 :do {/ip firewall address-list add address=minecraft.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
 :do {/ip firewall address-list add address=www.minecraft.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
 :do {/ip firewall address-list add address=minecraftservices.com list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
@@ -1163,10 +780,6 @@
 :do {/ip firewall address-list add address=www.mojang.com list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
 :do {/ip firewall address-list add address=minecraft-services.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
 :do {/ip firewall address-list add address=www.minecraft-services.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
-:do {/ip firewall address-list add address=megasmp.gg list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
-:do {/ip firewall address-list add address=www.megasmp.gg list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
-:do {/ip firewall address-list add address=cubecraft.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
-:do {/ip firewall address-list add address=www.cubecraft.net list="Minecraft IPs" comment="IPDNS: Minecraft IPs"} on-error={}
 :do {/ip firewall address-list add address=riotgames.com list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
 :do {/ip firewall address-list add address=www.riotgames.com list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
 :do {/ip firewall address-list add address=riotcdn.net list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
@@ -1183,7 +796,6 @@
 :do {/ip firewall address-list add address=www.rgpub.io list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
 :do {/ip firewall address-list add address=lolesports.com list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
 :do {/ip firewall address-list add address=www.lolesports.com list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
-:do {/ip firewall address-list add address=dradis-prod.rdatasrv.net list="Riot Games IPs" comment="IPDNS: Riot Games IPs"} on-error={}
 :do {/ip firewall address-list add address=hoyoverse.com list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs"} on-error={}
 :do {/ip firewall address-list add address=www.hoyoverse.com list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs"} on-error={}
 :do {/ip firewall address-list add address=mihoyo.com list="Genshin Impact IPs" comment="IPDNS: Genshin Impact IPs"} on-error={}
@@ -1198,9 +810,6 @@
 :do {/ip firewall address-list add address=www.blizzard.com list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
 :do {/ip firewall address-list add address=battlenet.com.cn list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
 :do {/ip firewall address-list add address=blzddist1-a.akamaihd.net list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
-:do {/ip firewall address-list add address=bnet.163.com list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
-:do {/ip firewall address-list add address=bnet.cn list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
-:do {/ip firewall address-list add address=www.bnet.cn list="Battle.net IPs" comment="IPDNS: Battle.net IPs"} on-error={}
 :do {/ip firewall address-list add address=callofduty.com list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs"} on-error={}
 :do {/ip firewall address-list add address=www.callofduty.com list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs"} on-error={}
 :do {/ip firewall address-list add address=demonware.net list="COD Warzone IPs" comment="IPDNS: COD Warzone IPs"} on-error={}
@@ -1532,13 +1141,12 @@
 :do {/ip firewall address-list add address=202.181.72.0/21 list="Free Fire IPs" comment="IPDNS: Free Fire IPs"} on-error={}
 /ip firewall mangle
 add chain=prerouting action=add-dst-to-address-list address-list="COD Mobile IPs" address-list-timeout=1d protocol=tcp dst-port=3013,18082,65010,65050 connection-state=new dst-address-type=!local comment="IPDNS: COD Mobile IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="COD Mobile IPs" address-list-timeout=1d protocol=udp dst-port=7500-8000 connection-state=new dst-address-type=!local comment="IPDNS: COD Mobile IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Free Fire IPs" address-list-timeout=1d protocol=tcp dst-port=39003,39698,39779 connection-state=new dst-address-type=!local comment="IPDNS: Free Fire IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="Free Fire IPs" address-list-timeout=1d protocol=udp dst-port=10001,10003,10012 connection-state=new dst-address-type=!local comment="IPDNS: Free Fire IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="PUBG Mobile IPs" address-list-timeout=1d protocol=tcp dst-port=10012,17500 connection-state=new dst-address-type=!local comment="IPDNS: PUBG Mobile IPs"
-add chain=prerouting action=add-dst-to-address-list address-list="PUBG Mobile IPs" address-list-timeout=1d protocol=udp dst-port=10010,10013,10039,10096,10491,10612,11455,12235,13748,13894,13972,20000-20002 connection-state=new dst-address-type=!local comment="IPDNS: PUBG Mobile IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Mobile Legends IPs" address-list-timeout=1d protocol=tcp dst-port=5001,5003,9001,30000-30200 connection-state=new dst-address-type=!local comment="IPDNS: Mobile Legends IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Rules of Survival IPs" address-list-timeout=1d protocol=udp dst-port=24000-24050 connection-state=new dst-address-type=!local comment="IPDNS: Rules of Survival IPs"
+add chain=prerouting action=add-dst-to-address-list address-list="Clash of Clans IPs" address-list-timeout=1d protocol=tcp dst-port=9330-9340 connection-state=new dst-address-type=!local comment="IPDNS: Clash of Clans IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Dragon Nest IPs" address-list-timeout=1d protocol=tcp dst-port=10514 connection-state=new dst-address-type=!local comment="IPDNS: Dragon Nest IPs"
+add chain=prerouting action=add-dst-to-address-list address-list="Clash Royale IPs" address-list-timeout=1d protocol=tcp dst-port=9330-9340 connection-state=new dst-address-type=!local comment="IPDNS: Clash Royale IPs"
 add chain=prerouting action=add-dst-to-address-list address-list="Arena of Valor IPs" address-list-timeout=1d protocol=tcp dst-port=10001-10094 connection-state=new dst-address-type=!local comment="IPDNS: Arena of Valor IPs"
 :global ipdnsLoaded "ros6"

@@ -34,7 +34,7 @@ def build_preamble(settings):
     # entries only when the router actually has IPv6 upstream; harmless otherwise.
     o = ["# SAMM skipped start",
          "/ip dns",
-         "set address-list-extra-time=1d allow-remote-requests=yes cache-max-ttl=1d \\",
+         "set address-list-extra-time=1h allow-remote-requests=yes cache-max-ttl=1d \\",
          "    cache-size=10000KiB max-concurrent-queries=1000 servers=\\",
          "    8.8.8.8,8.8.4.4,1.1.1.1,2001:4860:4860::8888,2001:4860:4860::8844,2606:4700:4700::1111,2606:4700:4700::1001"]
 
@@ -127,7 +127,7 @@ def build(catalog):
     games = catalog.get("games", [])
     settings = catalog.get("settings", {})
     out = [HEADER, "", build_preamble(settings), "",
-           "/ip dns set address-list-extra-time=1d", ""]
+           "/ip dns set address-list-extra-time=1h", ""]
 
     # ---- DNS static (the IP collectors) ----
     out.append("/ip dns static")
@@ -255,7 +255,20 @@ CATEGORIES = {
     "gaming", "store", "productivity", "download", "vpn", "speedtest", "other",
 }
 PRIORITY_RANGE = range(1, 9)      # SAMM QoS has eight slots
-ROLES = {"dedicated", "shared"}   # domain_roles values
+# `group` (information only): apps of one company share addresses and travel together; "cdn" = the app sits on a
+# public CDN, so a rule on its list also carries other sites that use the same edges. One app is still ONE list.
+GROUPS = {"google", "meta", "microsoft", "apple", "cdn"}
+# Look-alike, resale and test names the public lists carry next to the real service: never the service itself.
+JUNK_WORDS = ("follower", "adder", "checker", "dnstest", "liker", "booster", "generator", "hack", "cheat")
+# A CDN or cloud parent collects addresses of thousands of unrelated sites: only a host under it may be listed.
+CDN_PARENTS = {
+    "cloudfront.net", "akamai.net", "akamaiedge.net", "akamaized.net", "akamaihd.net", "edgesuite.net",
+    "edgekey.net", "akadns.net", "fastly.net", "fastlylb.net", "fastly-edge.com", "cloudflare.net",
+    "cloudflare.com", "azureedge.net", "azurefd.net", "trafficmanager.net", "amazonaws.com",
+    "googleusercontent.com", "appspot.com", "googleapis.com", "gstatic.com", "google.com", "msedge.net",
+    "edgecastcdn.net", "llnwd.net", "cdn77.org", "b-cdn.net", "alicdn.com",
+}
+
 
 
 def validate(catalog):
@@ -299,29 +312,29 @@ def validate(catalog):
             parent = ".".join(parts[i:])
             if owner.get(parent) not in (None, slug):
                 errors.append(f"{slug}: {d} sits under {parent}, which belongs to {owner[parent]}")
-    # Domain roles (additive, 2026-11-01): "shared" marks a domain whose answers also serve other apps (Google and
-    # Meta front ends, shared CDN caches). Consumers put it in "<Label> Shared IPs", which only blocking reads;
-    # free apps, counters, QoS and per-app VPN keep "<Label> IPs". Anything not listed is "dedicated".
+    # One app, one list (2026-11-12). The dedicated/shared split (`domain_roles`, 2026-11-01) is gone: it moved
+    # names out of the lists customers' own router rules read. Every consumer that still knows the key would split
+    # again, so it is refused here.
     for a in catalog["apps"] + catalog.get("games", []):
-        roles = a.get("domain_roles")
-        if roles is None:
-            continue
-        if not isinstance(roles, dict):
-            errors.append(f"{a['slug']}: domain_roles must be an object {{domain: role}}")
-            continue
-        doms = {d.lower().strip(".") for d in a.get("domains") or []}
-        for d, role in roles.items():
-            if role not in ROLES:
-                errors.append(f"{a['slug']}: {d} has role {role!r}, not one of {sorted(ROLES)}")
-            if d.lower().strip(".") not in doms:
-                errors.append(f"{a['slug']}: domain_roles names {d}, which is not in its domains")
-        # A dedicated name under a shared one would still be matched by the shared parent's suffix.
-        shared = {d.lower().strip(".") for d, r in roles.items() if r == "shared"}
-        for d in doms - shared:
-            parts = d.split(".")
-            for i in range(1, len(parts) - 1):
-                if ".".join(parts[i:]) in shared:
-                    errors.append(f"{a['slug']}: {d} is dedicated but sits under shared {'.'.join(parts[i:])}")
+        if "domain_roles" in a:
+            errors.append(f"{a['slug']}: domain_roles is no longer allowed (one app = one list)")
+        if a.get("group") is not None and a["group"] not in GROUPS:
+            errors.append(f"{a['slug']}: group {a['group']!r} is not one of {sorted(GROUPS)}")
+        for d in a.get("domains") or []:
+            d = d.lower().strip(".")
+            if d in CDN_PARENTS:
+                errors.append(f"{a['slug']}: {d} is a CDN/cloud parent - list the app's own host under it")
+            if any(w in d for w in JUNK_WORDS):
+                errors.append(f"{a['slug']}: {d} looks like a look-alike or test name, not the service")
+    # Game port collectors (2026-11-12, read on customer routers): they are the ORIGINAL TCP sets, the ones that
+    # worked from June to October. The UDP sets added on 2026-10-19 caught strangers by the million (COD Mobile at
+    # one ISP in 4.5 days: tcp 55 new connections, udp 7500-8000 8.7 million), so a UDP collector is refused unless
+    # the game has no other way to be found (no name, no network, no TCP port).
+    for g in catalog.get("games", []):
+        rules = dict(port_rules(g))
+        if "udp" in rules and (g.get("domains") or g.get("cidrs") or "tcp" in rules):
+            errors.append(f"{g['slug']}: a UDP port collector next to names/ranges/TCP ports catches strangers - "
+                          f"remove it")
     if errors:
         raise SystemExit("catalog.json is not valid:\n  - " + "\n  - ".join(errors))
 
@@ -370,6 +383,35 @@ def main():
     # The router auto-updater files (ipdns-updater/) are built from the collector just written.
     import build_updater
     build_updater.main()
+    if "--stamp" in sys.argv[1:]:
+        stamp()
+
+
+def stamp():
+    """Write catalog.version.json for a publish (by hand, 2026-11-12: the server no longer publishes):
+    version YYYY.MM.DD.N, the sha256 of the catalog and of the collector as committed, and the time."""
+    import datetime
+    import hashlib
+    path = os.path.join(HERE, "catalog.version.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            prev = json.load(f).get("version", "")
+    except (OSError, ValueError):
+        prev = ""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    day = now.strftime("%Y.%m.%d")
+    n = int(prev.rsplit(".", 1)[1]) + 1 if prev.startswith(day + ".") else 1
+
+    def sha(p):
+        with open(p, "rb") as f:
+            return hashlib.sha256(f.read()).hexdigest()
+
+    data = {"version": f"{day}.{n}", "catalog_sha256": sha(CATALOG), "collector_sha256": sha(OUT),
+            "published_at": now.replace(microsecond=0).isoformat()}
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+        f.write("\n")
+    print(f"Stamped {data['version']}")
 
 
 if __name__ == "__main__":

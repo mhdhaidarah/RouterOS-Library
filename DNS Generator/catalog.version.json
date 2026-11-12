@@ -1,7 +1,6 @@
 {
-  "version": "2026.11.11.1",
-  "catalog_sha256": "8057e4c9acc98fbef9bb6ed5e39b4e953c1e3895b741f47b36b02464d46746ef",
-  "collector_sha256": "8e500110464a14802c6afa31e4e36c47077d6cbbcb18e485dbb597b8448f74b8",
-  "published_at": "2026-11-11T13:25:13+00:00",
-  "changes": 1
+  "version": "2026.11.12.1",
+  "catalog_sha256": "8f30f70ca2e919a353cbc36ffb1aed82690ec65606e90374bb75b7a205ca2a69",
+  "collector_sha256": "790f148eb4a595294bed8bec8fa23051939cd517e06848750ec26da09e6ff93f",
+  "published_at": "2026-11-12T12:51:45+00:00"
 }

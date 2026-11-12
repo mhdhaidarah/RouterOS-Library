@@ -9,6 +9,8 @@
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Connectivity Check Traffic Up" dst-address-list="Connectivity Check IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Youtube Traffic Down" src-address-list="Youtube IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Youtube Traffic Up" dst-address-list="Youtube IPs"
+/ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Google Ads Traffic Down" src-address-list="Google Ads IPs"
+/ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Google Ads Traffic Up" dst-address-list="Google Ads IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Tiktok Traffic Down" src-address-list="Tiktok IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Tiktok Traffic Up" dst-address-list="Tiktok IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Telegram Traffic Down" src-address-list="Telegram IPs"
@@ -193,6 +195,8 @@
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Connectivity Check Traffic Up\" dst-address-list=\"Connectivity Check IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Youtube Traffic Down\" src-address-list=\"Youtube IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Youtube Traffic Up\" dst-address-list=\"Youtube IPs\""]] } on-error={}
+:do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Google Ads Traffic Down\" src-address-list=\"Google Ads IPs\""]] } on-error={}
+:do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Google Ads Traffic Up\" dst-address-list=\"Google Ads IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Tiktok Traffic Down\" src-address-list=\"Tiktok IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Tiktok Traffic Up\" dst-address-list=\"Tiktok IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Telegram Traffic Down\" src-address-list=\"Telegram IPs\""]] } on-error={}

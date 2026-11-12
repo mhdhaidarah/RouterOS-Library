@@ -99,7 +99,8 @@
         "2ip.io",
         "iplocation.io"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "connectivity-check",
@@ -118,7 +119,8 @@
         "conn1.oppomobile.com",
         "connectivitycheck.samsung.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "youtube",
@@ -136,39 +138,26 @@
         "youtubekids.com",
         "youtubegaming.com",
         "music.youtube.com",
-        "youtubei.googleapis.com",
-        "withyoutube.com",
-        "youtubeeducation.com",
-        "youtubefanfest.com",
-        "youtubego.co.id",
-        "youtubego.co.in",
-        "youtubego.com",
-        "youtubego.com.br",
-        "youtubego.id",
-        "youtubego.in",
-        "youtubemobilesupport.com",
-        "yt.be",
+        "youtubei.googleapis.com"
+      ],
+      "cidrs": [],
+      "group": "google"
+    },
+    {
+      "slug": "google-ads",
+      "label": "Google Ads",
+      "section": "GOOGLE ADS",
+      "category": "other",
+      "priority": 6,
+      "domains": [
         "doubleclick.net",
         "googlesyndication.com",
         "googleadservices.com",
         "2mdn.net",
         "imasdk.googleapis.com"
       ],
-      "domain_roles": {
-        "youtube.com": "shared",
-        "youtu.be": "shared",
-        "youtube-nocookie.com": "shared",
-        "youtubekids.com": "shared",
-        "youtubegaming.com": "shared",
-        "music.youtube.com": "shared",
-        "youtubei.googleapis.com": "shared",
-        "doubleclick.net": "shared",
-        "googlesyndication.com": "shared",
-        "googleadservices.com": "shared",
-        "2mdn.net": "shared",
-        "imasdk.googleapis.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "google"
     },
     {
       "slug": "tiktok",
@@ -202,31 +191,10 @@
         "tiktokcdn-in.com",
         "ttlivecdn.com",
         "tiktokrow-cdn.com",
-        "tiktokeu-cdn.com",
-        "bytedapm.com",
-        "amemv.com",
-        "bdurl.com",
-        "bytegoofy.com",
-        "bytescm.com",
-        "douyin.com",
-        "douyincdn.com",
-        "douyinpic.com",
-        "douyinliving.com",
-        "douyinstatic.com",
-        "douyinvod.com",
-        "huoshan.com",
-        "huoshanstatic.com",
-        "huoshanzhibo.com",
-        "pstatp.com",
-        "snssdk.com",
-        "ttlivecdn.com.c.bytefcdn-oversea.com",
-        "tiktok.tps.dv.tech",
-        "zijieapi.com"
+        "tiktokeu-cdn.com"
       ],
-      "domain_roles": {
-        "musical.ly": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "telegram",
@@ -244,15 +212,7 @@
         "cdn-telegram.org",
         "telegra.ph",
         "tdesktop.com",
-        "telegram.dog",
-        "comments.app",
-        "contest.com",
-        "graph.org",
-        "quiz.directory",
-        "telega.one",
-        "tg.dev",
-        "tx.me",
-        "usercontent.dev"
+        "telegram.dog"
       ],
       "cidrs": [
         "91.105.192.0/23",
@@ -304,11 +264,8 @@
         "addlive.io",
         "snapmap.com"
       ],
-      "domain_roles": {
-        "snapkit.com": "shared",
-        "sc-jpl.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "twitter-x",
@@ -342,18 +299,7 @@
         "nflxext.com",
         "nflximg.com",
         "nflxsearch.net",
-        "netflixdnstest1.com",
-        "tudumext.com",
-        "netflixinvestor.com",
-        "netflixtechblog.com",
-        "netflixdnstest2.com",
-        "netflixdnstest3.com",
-        "netflixdnstest4.com",
-        "netflixdnstest5.com",
-        "netflixdnstest6.com",
-        "netflixdnstest7.com",
-        "netflixdnstest8.com",
-        "netflixdnstest9.com"
+        "tudumext.com"
       ],
       "cidrs": [
         "9.187.0.0/16",
@@ -390,7 +336,8 @@
         "mbc.net",
         "mbcgroup.net"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "arabic-movie-sites",
@@ -418,17 +365,7 @@
         "topcinema.cam"
       ],
       "cidrs": [],
-      "domain_roles": {
-        "wecima.click": "shared",
-        "mycima.cc": "shared",
-        "arabseed.ink": "shared",
-        "arabseed.show": "shared",
-        "faselhd.center": "shared",
-        "faselhd.club": "shared",
-        "egydead.space": "shared",
-        "cimalek.com": "shared",
-        "topcinema.cam": "shared"
-      }
+      "group": "cdn"
     },
     {
       "slug": "play-store",
@@ -444,22 +381,10 @@
         "market.android.com",
         "ota.googlezip.net",
         "play-lh.googleusercontent.com",
-        "gvt1.com",
-        "gvt2.com",
-        "gvt3.com"
+        "gvt1.com"
       ],
-      "domain_roles": {
-        "play.google.com": "shared",
-        "play.googleapis.com": "shared",
-        "play-fe.googleapis.com": "shared",
-        "android.clients.google.com": "shared",
-        "market.android.com": "shared",
-        "play-lh.googleusercontent.com": "shared",
-        "gvt1.com": "shared",
-        "gvt2.com": "shared",
-        "gvt3.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "google"
     },
     {
       "slug": "app-store",
@@ -483,16 +408,8 @@
         "iosapps.itunes.apple.com",
         "gdmf.apple.com"
       ],
-      "domain_roles": {
-        "apps.apple.com": "shared",
-        "appstore.com": "shared",
-        "mzstatic.com": "shared",
-        "apps.mzstatic.com": "shared",
-        "mesu.apple.com": "shared",
-        "updates-http.cdn-apple.com": "shared",
-        "appldnld.apple.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "apple"
     },
     {
       "slug": "microsoft-store",
@@ -506,7 +423,8 @@
         "displaycatalog.mp.microsoft.com",
         "store-images.s-microsoft.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "windows-update",
@@ -522,11 +440,8 @@
         "do.dsp.mp.microsoft.com",
         "windowsupdate.microsoft.com"
       ],
-      "domain_roles": {
-        "windowsupdate.com": "shared",
-        "download.windowsupdate.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "facebook",
@@ -553,65 +468,10 @@
         "facebook.pl",
         "thefind.com",
         "oculusvr.com",
-        "thefacebook.com",
-        "aboutfacebook.com",
-        "accessfacebookfromschool.com",
-        "acebooik.com",
-        "acebook.com",
-        "advancediddetection.com",
-        "askfacebook.net",
-        "askfacebook.org",
-        "atdmt2.com",
-        "atlasdmt.com",
-        "atlasonepoint.com",
-        "buyingfacebooklikes.com",
-        "careersatfb.com",
-        "celebgramme.com",
-        "china-facebook.com",
-        "click-url.com",
-        "dlfacebook.com",
-        "expresswifi.com",
-        "faasbook.com",
-        "facebboc.com",
-        "facebkkk.com",
-        "facebokbook.com",
-        "facebook-corp.com",
-        "facebook-ebook.com",
-        "facebook-forum.com",
-        "facebook-inc.com",
-        "facebook-login.com",
-        "facebook-newsroom.com",
-        "facebook-pmdcenter.com",
-        "facebook-pmdcenter.net",
-        "facebook-pmdcenter.org",
-        "facebook-privacy.com",
-        "facebook-program.com",
-        "facebook-studio.com",
-        "facebook-support.org",
-        "facebook-texas-holdem.com",
-        "facebook123.org",
-        "facebook4business.com",
-        "facebookadvertisingsecrets.com",
-        "facebookatschool.com",
-        "facebookawards.com",
-        "facebookblueprint.net",
-        "facebookbrand.com",
-        "facebookbrand.net"
+        "thefacebook.com"
       ],
-      "domain_roles": {
-        "messenger.com": "shared",
-        "facebook-hardware.com": "shared",
-        "facebookgroups.com": "shared",
-        "m.me": "shared",
-        "fbinnovation.com": "shared",
-        "facebookstories.com": "shared",
-        "facebook.de": "shared",
-        "friendfeed.com": "shared",
-        "facebook.pl": "shared",
-        "thefind.com": "shared",
-        "thefacebook.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "meta"
     },
     {
       "slug": "instagram",
@@ -624,43 +484,10 @@
         "cdninstagram.com",
         "threads.net",
         "ig.me",
-        "threads.com",
-        "bookstagram.com",
-        "carstagram.com",
-        "chickstagram.com",
-        "igsonar.com",
-        "imstagram.com",
-        "imtagram.com",
-        "instaadder.com",
-        "instachecker.com",
-        "instafallow.com",
-        "instagainer.com",
-        "instagify.com",
-        "instagmania.com",
-        "instagram-brand.com",
-        "instagram-engineering.com",
-        "instagram-help.com",
-        "instagram-press.com",
-        "instagramhashtags.net",
-        "instagramhilecim.com",
-        "instagramhilesi.org",
-        "instagramium.com",
-        "instagramizlenme.com",
-        "instagramkusu.com",
-        "instagramlogin.com",
-        "instagramphoto.com",
-        "instagramsepeti.com",
-        "instagramtakipcisatinal.net",
-        "instagramtakiphilesi.com",
-        "instanttelegram.com",
-        "instaplayer.net",
-        "instastyle.tv",
-        "online-instagram.com",
-        "onlineinstagram.com",
-        "web-instagram.net",
-        "wwwinstagram.com"
+        "threads.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "meta"
     },
     {
       "slug": "meta",
@@ -709,7 +536,8 @@
         "185.60.216.0/22",
         "185.89.216.0/22",
         "204.15.20.0/22"
-      ]
+      ],
+      "group": "meta"
     },
     {
       "slug": "whatsapp",
@@ -731,15 +559,8 @@
         "whatsapp.tv",
         "whatsapp.info"
       ],
-      "domain_roles": {
-        "whatsapp.cc": "shared",
-        "whatsappbrand.com": "shared",
-        "whatsapp-plus.me": "shared",
-        "whatsapp-plus.info": "shared",
-        "whatsapp-plus.net": "shared",
-        "whatsapp.tv": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "meta"
     },
     {
       "slug": "ai",
@@ -772,11 +593,8 @@
         "cursorapi.com",
         "grok.com"
       ],
-      "domain_roles": {
-        "meta.ai": "shared",
-        "fliki.ai": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "chatgpt",
@@ -806,10 +624,7 @@
         "aistudio.google.com"
       ],
       "cidrs": [],
-      "domain_roles": {
-        "gemini.google.com": "shared",
-        "aistudio.google.com": "shared"
-      }
+      "group": "google"
     },
     {
       "slug": "claude",
@@ -833,12 +648,10 @@
       "priority": 2,
       "domains": [
         "copilot.microsoft.com",
-        "copilot.cloud.microsoft",
-        "copilot.com",
-        "copilot.ai",
-        "copilotstudio.microsoft.com"
+        "copilot.cloud.microsoft"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "deepseek",
@@ -850,7 +663,8 @@
         "deepseek.com",
         "deepseek.ai"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "likee",
@@ -880,7 +694,8 @@
         "kwaipros.com",
         "kwai.net"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "discord",
@@ -899,17 +714,10 @@
         "dis.gd",
         "discord.new",
         "discordcdn.com",
-        "discordstatus.com",
-        "discord-activities.com",
-        "discordactivities.com",
-        "discordmerch.com",
-        "discordsays.com",
-        "airhorn.solutions",
-        "airhornbot.com",
-        "bigbeans.solutions",
-        "watchanimeattheoffice.com"
+        "discordstatus.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "zoom",
@@ -986,14 +794,12 @@
         "meet.turns.goog",
         "workspace.turns.goog"
       ],
-      "domain_roles": {
-        "meet.google.com": "shared"
-      },
       "cidrs": [
         "74.125.247.128/32",
         "74.125.250.0/24",
         "142.250.82.0/24"
-      ]
+      ],
+      "group": "google"
     },
     {
       "slug": "microsoft-teams",
@@ -1004,13 +810,13 @@
       "domains": [
         "teams.microsoft.com",
         "teams.live.com",
-        "teams.cloud.microsoft",
-        "teams.cdn.office.net"
+        "teams.cloud.microsoft"
       ],
       "cidrs": [
         "52.112.0.0/14",
         "52.122.0.0/15"
-      ]
+      ],
+      "group": "microsoft"
     },
     {
       "slug": "twitch",
@@ -1028,7 +834,8 @@
         "ext-twitch.tv",
         "twitch.a2z.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "spotify",
@@ -1047,20 +854,10 @@
         "audio-ak-spotify-com.akamaized.net",
         "audio4-ak-spotify-com.akamaized.net",
         "heads-ak-spotify-com.akamaized.net",
-        "heads4-ak-spotify-com.akamaized.net",
-        "byspotify.com",
-        "spotify-everywhere.com",
-        "spotifycharts.com",
-        "spotifycodes.com",
-        "spotifyforbrands.com",
-        "spotifyjobs.com"
+        "heads4-ak-spotify-com.akamaized.net"
       ],
-      "domain_roles": {
-        "audio-ak-spotify-com.akamaized.net": "shared",
-        "audio4-ak-spotify-com.akamaized.net": "shared",
-        "heads-ak-spotify-com.akamaized.net": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "soundcloud",
@@ -1072,7 +869,8 @@
         "soundcloud.com",
         "sndcdn.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "anghami",
@@ -1084,10 +882,8 @@
         "anghami.com",
         "anghcdn.co"
       ],
-      "domain_roles": {
-        "anghcdn.co": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "reddit",
@@ -1099,8 +895,7 @@
         "reddit.com",
         "redd.it",
         "redditstatic.com",
-        "redditmedia.com",
-        "redditmail.com"
+        "redditmedia.com"
       ],
       "cidrs": []
     },
@@ -1112,9 +907,7 @@
       "priority": 5,
       "domains": [
         "pinterest.com",
-        "pinimg.com",
-        "pin.it",
-        "pinterestmail.com"
+        "pinimg.com"
       ],
       "cidrs": []
     },
@@ -1127,14 +920,10 @@
       "domains": [
         "linkedin.com",
         "licdn.com",
-        "lnkd.in",
-        "bizographics.com",
-        "l-0005.dc-msedge.net",
-        "l-0005.l-msedge.net",
-        "l-0005.l-dc-msedge.net",
-        "l-0015.l-msedge.net"
+        "lnkd.in"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "steam",
@@ -1159,24 +948,8 @@
         "steamuserimages-a.akamaihd.net",
         "steambroadcast.akamaized.net",
         "steamusercontent-a.akamaihd.net",
-        "steamvideo-a.akamaihd.net",
-        "playartifact.com",
-        "s.team",
-        "steam-api.com",
-        "steamdeck.com",
-        "underlords.com",
-        "wmsjsteam.com",
-        "st.dl.eccdnx.com",
-        "steampowered.com.8686c.com",
-        "steamstatic.com.8686c.com",
-        "xz.pphimalayanrt.com"
+        "steamvideo-a.akamaihd.net"
       ],
-      "domain_roles": {
-        "steamcontent.com": "shared",
-        "steamcdn-a.akamaihd.net": "shared",
-        "steampipe.akamaized.net": "shared",
-        "steamstore-a.akamaihd.net": "shared"
-      },
       "cidrs": [
         "45.121.184.0/24",
         "103.10.124.0/23",
@@ -1201,7 +974,8 @@
       ],
       "asns": [
         32590
-      ]
+      ],
+      "group": "cdn"
     },
     {
       "slug": "epic-games",
@@ -1217,15 +991,10 @@
         "epicgames-download1.akamaized.net",
         "epicgamescdn.com",
         "static-assets-prod.unrealengine.com",
-        "egdownload.fastly-edge.com",
-        "eac-cdn.com",
-        "easy.ac",
-        "easyanticheat.net"
+        "egdownload.fastly-edge.com"
       ],
-      "domain_roles": {
-        "epicgames-download1.akamaized.net": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "playstation-network",
@@ -1251,16 +1020,10 @@
         "xboxlive.com",
         "xboxservices.com",
         "gamepass.com",
-        "xboxab.com",
-        "xbox-guide-public.rec.mp.microsoft.com",
-        "xbox.ipv6.microsoft.com"
+        "xboxab.com"
       ],
-      "domain_roles": {
-        "xbox.com": "shared",
-        "xboxlive.com": "shared",
-        "gamepass.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "jawaker",
@@ -1283,10 +1046,8 @@
         "drive.google.com",
         "drive.usercontent.google.com"
       ],
-      "domain_roles": {
-        "drive.google.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "google"
     },
     {
       "slug": "onedrive",
@@ -1302,7 +1063,8 @@
         "1drv.ms",
         "livefilestore.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "icloud-drive",
@@ -1315,11 +1077,8 @@
         "icloud.com.cn",
         "icloud.com"
       ],
-      "domain_roles": {
-        "icloud-content.com": "shared",
-        "icloud.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "apple"
     },
     {
       "slug": "dropbox",
@@ -1332,22 +1091,7 @@
         "dropboxusercontent.com",
         "dropboxstatic.com",
         "db.tt",
-        "dropboxapi.com",
-        "addtodropbox.com",
-        "dash.ai",
-        "docsend.com",
-        "dropbox-dns.com",
-        "dropboxbusiness.com",
-        "dropboxcaptcha.com",
-        "dropboxforum.com",
-        "dropboxforums.com",
-        "dropboxinsiders.com",
-        "dropboxlegal.com",
-        "dropboxpartners.com",
-        "dropboxteam.com",
-        "getdropbox.com",
-        "dropbox.zendesk.com",
-        "app.hellosign.com"
+        "dropboxapi.com"
       ],
       "cidrs": []
     },
@@ -1364,7 +1108,8 @@
         "signal.me",
         "signal.group"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "viber",
@@ -1387,8 +1132,7 @@
         "wechat.com",
         "weixin.qq.com",
         "wechatapp.com",
-        "wx.qq.com",
-        "weixinbridge.com"
+        "wx.qq.com"
       ],
       "cidrs": []
     },
@@ -1400,13 +1144,10 @@
       "priority": 1,
       "domains": [
         "skype.com",
-        "skypeassets.com",
-        "edge-skype-com.s-0001.s-msedge.net"
+        "skypeassets.com"
       ],
-      "domain_roles": {
-        "skype.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "gmail",
@@ -1418,11 +1159,8 @@
         "mail.google.com",
         "gmail.com"
       ],
-      "domain_roles": {
-        "mail.google.com": "shared",
-        "gmail.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "google"
     },
     {
       "slug": "microsoft-365",
@@ -1456,7 +1194,8 @@
         "150.171.32.0/22",
         "150.171.40.0/22",
         "204.79.197.215/32"
-      ]
+      ],
+      "group": "microsoft"
     },
     {
       "slug": "disney",
@@ -1469,10 +1208,7 @@
         "dssott.com",
         "disney-plus.net",
         "bamgrid.com",
-        "disneystreaming.com",
-        "hotstar.com",
-        "starplus.com",
-        "disneynow.com"
+        "disneystreaming.com"
       ],
       "cidrs": []
     },
@@ -1489,7 +1225,8 @@
         "pv-cdn.net",
         "amazonvideo.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "hbo-max",
@@ -1501,21 +1238,10 @@
         "max.com",
         "hbomax.com",
         "hbo.com",
-        "hbomaxcdn.com",
-        "hbogo.co.th",
-        "hbogo.com",
-        "hbogo.eu",
-        "hbogoasia.com",
-        "hbogoasia.id",
-        "hbogoasia.ph",
-        "hbomax-images.warnermediacdn.com",
-        "hbonow.com",
-        "maxgo.com"
+        "hbomaxcdn.com"
       ],
-      "domain_roles": {
-        "max.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "apple-tv",
@@ -1531,10 +1257,8 @@
         "np-edge.itunes.apple.com",
         "uts-api.itunes.apple.com"
       ],
-      "domain_roles": {
-        "tv.apple.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "apple"
     },
     {
       "slug": "deezer",
@@ -1546,10 +1270,8 @@
         "deezer.com",
         "dzcdn.net"
       ],
-      "domain_roles": {
-        "dzcdn.net": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "imo",
@@ -1588,7 +1310,8 @@
         "beinconnect.com",
         "tod.tv"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "osn",
@@ -1600,10 +1323,8 @@
         "osnplus.com",
         "osn.com"
       ],
-      "domain_roles": {
-        "osnplus.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "starzplay",
@@ -1615,7 +1336,8 @@
         "starzplay.com",
         "starz.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "roblox",
@@ -1628,12 +1350,7 @@
         "rbxcdn.com",
         "robloxlabs.com",
         "rbxinfra.com",
-        "rbx.com",
-        "blox.com",
-        "roblox.qq.com",
-        "robloxcdn.com",
-        "robloxdev.cn",
-        "rbxadder.com"
+        "rbx.com"
       ],
       "cidrs": [
         "103.140.28.0/23",
@@ -1655,11 +1372,10 @@
         "minecraft.net",
         "minecraftservices.com",
         "mojang.com",
-        "minecraft-services.net",
-        "megasmp.gg",
-        "cubecraft.net"
+        "minecraft-services.net"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "microsoft"
     },
     {
       "slug": "riot-games",
@@ -1675,8 +1391,7 @@
         "pvp.net",
         "lolstatic.com",
         "rgpub.io",
-        "lolesports.com",
-        "dradis-prod.rdatasrv.net"
+        "lolesports.com"
       ],
       "cidrs": [
         "43.229.64.0/22",
@@ -1711,7 +1426,8 @@
         "yuanshen.com",
         "hoyolab.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "battle-net",
@@ -1723,9 +1439,7 @@
         "battle.net",
         "blizzard.com",
         "battlenet.com.cn",
-        "blzddist1-a.akamaihd.net",
-        "bnet.163.com",
-        "bnet.cn"
+        "blzddist1-a.akamaihd.net"
       ],
       "cidrs": [
         "5.42.160.0/20",
@@ -1787,7 +1501,8 @@
       ],
       "asns": [
         57976
-      ]
+      ],
+      "group": "cdn"
     },
     {
       "slug": "cod-warzone",
@@ -1800,7 +1515,8 @@
         "demonware.net",
         "callofdutyleague.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "nordvpn",
@@ -1824,10 +1540,8 @@
         "expressvpn.com",
         "xvservice.net"
       ],
-      "domain_roles": {
-        "expressvpn.com": "shared"
-      },
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "protonvpn",
@@ -1901,7 +1615,8 @@
         "whish.money",
         "whish.app"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "omt",
@@ -1988,7 +1703,8 @@
         "binance.org",
         "bnbstatic.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     }
   ],
   "games": [
@@ -2001,8 +1717,7 @@
       "domains": [
         "codm.activision.com"
       ],
-      "tcp": "3013,18082,65010,65050",
-      "udp": "7500-8000"
+      "tcp": "3013,18082,65010,65050"
     },
     {
       "slug": "free-fire",
@@ -2014,11 +1729,10 @@
         "freefiremobile.com",
         "freefireind.in"
       ],
+      "tcp": "39003,39698,39779",
       "asns": [
         58521
       ],
-      "tcp": "39003,39698,39779",
-      "udp": "10001,10003,10012",
       "cidrs": [
         "103.247.204.0/22",
         "143.92.112.0/23",
@@ -2050,8 +1764,7 @@
         "igamecj.com",
         "napubgm.broker.amsoveasea.com"
       ],
-      "tcp": "10012,17500",
-      "udp": "10010,10013,10039,10096,10491,10612,11455,12235,13748,13894,13972,20000-20002"
+      "tcp": "10012,17500"
     },
     {
       "slug": "mobile-legends",
@@ -2084,10 +1797,8 @@
         "supercell.com",
         "supercell.net"
       ],
-      "domain_roles": {
-        "supercell.com": "shared",
-        "supercell.net": "shared"
-      }
+      "tcp": "9330-9340",
+      "group": "cdn"
     },
     {
       "slug": "dragon-nest",
@@ -2105,7 +1816,8 @@
       "counter": true,
       "domains": [
         "clashroyaleapp.com"
-      ]
+      ],
+      "tcp": "9330-9340"
     },
     {
       "slug": "arena-of-valor",

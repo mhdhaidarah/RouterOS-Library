@@ -894,6 +894,8 @@
 :do {/ip firewall address-list add address=www.supercell.net list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs"} on-error={}
 :do {/ip firewall address-list add address=clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
 :do {/ip firewall address-list add address=www.clashroyaleapp.com list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs"} on-error={}
+:do {/ip firewall address-list add address=haydaygame.com list="Hay Day IPs" comment="IPDNS: Hay Day IPs"} on-error={}
+:do {/ip firewall address-list add address=www.haydaygame.com list="Hay Day IPs" comment="IPDNS: Hay Day IPs"} on-error={}
 :do {/ip firewall address-list add address=91.105.192.0/23 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.4.0/22 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.8.0/21 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}

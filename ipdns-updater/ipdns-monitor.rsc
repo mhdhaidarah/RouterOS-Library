@@ -187,6 +187,8 @@
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Dragon Nest Traffic Up" dst-address-list="Dragon Nest IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Clash Royale Traffic Down" src-address-list="Clash Royale IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Clash Royale Traffic Up" dst-address-list="Clash Royale IPs"
+/ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Hay Day Traffic Down" src-address-list="Hay Day IPs"
+/ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Hay Day Traffic Up" dst-address-list="Hay Day IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Arena of Valor Traffic Down" src-address-list="Arena of Valor IPs"
 /ip firewall mangle add action=passthrough chain=prerouting comment="IPDNS-MON: Arena of Valor Traffic Up" dst-address-list="Arena of Valor IPs"
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: SpeedTest Traffic Down\" src-address-list=\"SpeedTest IPs\""]] } on-error={}
@@ -373,6 +375,8 @@
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Dragon Nest Traffic Up\" dst-address-list=\"Dragon Nest IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Clash Royale Traffic Down\" src-address-list=\"Clash Royale IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Clash Royale Traffic Up\" dst-address-list=\"Clash Royale IPs\""]] } on-error={}
+:do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Hay Day Traffic Down\" src-address-list=\"Hay Day IPs\""]] } on-error={}
+:do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Hay Day Traffic Up\" dst-address-list=\"Hay Day IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Arena of Valor Traffic Down\" src-address-list=\"Arena of Valor IPs\""]] } on-error={}
 :do { [[:parse "/ipv6 firewall mangle add action=passthrough chain=prerouting comment=\"IPDNS-MON: Arena of Valor Traffic Up\" dst-address-list=\"Arena of Valor IPs\""]] } on-error={}
 :put "IP Collector DNS traffic monitor installed"

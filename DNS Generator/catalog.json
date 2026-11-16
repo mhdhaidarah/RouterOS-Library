@@ -323,7 +323,8 @@
         2906,
         40027,
         55095
-      ]
+      ],
+      "group": "cdn"
     },
     {
       "slug": "shahid",
@@ -909,7 +910,8 @@
         "pinterest.com",
         "pinimg.com"
       ],
-      "cidrs": []
+      "cidrs": [],
+      "group": "cdn"
     },
     {
       "slug": "linkedin",
@@ -1818,6 +1820,17 @@
         "clashroyaleapp.com"
       ],
       "tcp": "9330-9340"
+    },
+    {
+      "slug": "hay-day",
+      "label": "Hay Day",
+      "category": "gaming",
+      "priority": 4,
+      "counter": true,
+      "domains": [
+        "haydaygame.com"
+      ],
+      "group": "cdn"
     },
     {
       "slug": "arena-of-valor",

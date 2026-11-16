@@ -645,6 +645,8 @@ add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdoma
 add address-list="Clash of Clans IPs" comment="Clash of Clans IPs" match-subdomain=yes name=supercell.net type=FWD
 # ===================== GAME: Clash Royale =====================
 add address-list="Clash Royale IPs" comment="Clash Royale IPs" match-subdomain=yes name=clashroyaleapp.com type=FWD
+# ===================== GAME: Hay Day =====================
+add address-list="Hay Day IPs" comment="Hay Day IPs" match-subdomain=yes name=haydaygame.com type=FWD
 
 /ip firewall address-list
 add address=91.105.192.0/23 list="Telegram IPs"
@@ -1173,6 +1175,9 @@ add action=passthrough chain=prerouting comment="Dragon Nest Traffic Up" dst-add
 # Clash Royale
 add action=passthrough chain=prerouting comment="Clash Royale Traffic Down" src-address-list="Clash Royale IPs"
 add action=passthrough chain=prerouting comment="Clash Royale Traffic Up" dst-address-list="Clash Royale IPs"
+# Hay Day
+add action=passthrough chain=prerouting comment="Hay Day Traffic Down" src-address-list="Hay Day IPs"
+add action=passthrough chain=prerouting comment="Hay Day Traffic Up" dst-address-list="Hay Day IPs"
 # Arena of Valor
 add action=passthrough chain=prerouting comment="Arena of Valor Traffic Down" src-address-list="Arena of Valor IPs"
 add action=passthrough chain=prerouting comment="Arena of Valor Traffic Up" dst-address-list="Arena of Valor IPs"
@@ -1283,6 +1288,7 @@ add action=mark-packet chain=prerouting comment="Rules of Survival Download Mark
 add action=mark-packet chain=prerouting comment="Clash of Clans Download Mark" disabled=yes new-packet-mark="Clash of Clans download" passthrough=yes src-address-list="Clash of Clans IPs"
 add action=mark-packet chain=prerouting comment="Dragon Nest Download Mark" disabled=yes new-packet-mark="Dragon Nest download" passthrough=yes src-address-list="Dragon Nest IPs"
 add action=mark-packet chain=prerouting comment="Clash Royale Download Mark" disabled=yes new-packet-mark="Clash Royale download" passthrough=yes src-address-list="Clash Royale IPs"
+add action=mark-packet chain=prerouting comment="Hay Day Download Mark" disabled=yes new-packet-mark="Hay Day download" passthrough=yes src-address-list="Hay Day IPs"
 add action=mark-packet chain=prerouting comment="Arena of Valor Download Mark" disabled=yes new-packet-mark="Arena of Valor download" passthrough=yes src-address-list="Arena of Valor IPs"
 # SAMM skipped end
 
@@ -1565,6 +1571,9 @@ add action=passthrough chain=prerouting comment="Dragon Nest Traffic Up" dst-add
 # Clash Royale
 add action=passthrough chain=prerouting comment="Clash Royale Traffic Down" src-address-list="Clash Royale IPs"
 add action=passthrough chain=prerouting comment="Clash Royale Traffic Up" dst-address-list="Clash Royale IPs"
+# Hay Day
+add action=passthrough chain=prerouting comment="Hay Day Traffic Down" src-address-list="Hay Day IPs"
+add action=passthrough chain=prerouting comment="Hay Day Traffic Up" dst-address-list="Hay Day IPs"
 # Arena of Valor
 add action=passthrough chain=prerouting comment="Arena of Valor Traffic Down" src-address-list="Arena of Valor IPs"
 add action=passthrough chain=prerouting comment="Arena of Valor Traffic Up" dst-address-list="Arena of Valor IPs"

@@ -500,6 +500,7 @@
 :do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=supercell.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Clash of Clans IPs" comment="IPDNS: Clash of Clans IPs" match-subdomain=yes name=supercell.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Clash Royale IPs" comment="IPDNS: Clash Royale IPs" match-subdomain=yes name=clashroyaleapp.com type=FWD} on-error={}
+:do {/ip dns static add address-list="Hay Day IPs" comment="IPDNS: Hay Day IPs" match-subdomain=yes name=haydaygame.com type=FWD} on-error={}
 :do {/ip firewall address-list add address=91.105.192.0/23 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.4.0/22 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}
 :do {/ip firewall address-list add address=91.108.8.0/21 list="Telegram IPs" comment="IPDNS: Telegram IPs"} on-error={}

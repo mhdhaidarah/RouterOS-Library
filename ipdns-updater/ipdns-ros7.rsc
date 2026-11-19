@@ -160,7 +160,6 @@
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=market.android.com type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD} on-error={}
 :do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD} on-error={}
-:do {/ip dns static add address-list="Play Store IPs" comment="IPDNS: Play Store IPs" match-subdomain=yes name=gvt1.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=itunes.com type=FWD} on-error={}
 :do {/ip dns static add address-list="App Store IPs" comment="IPDNS: App Store IPs" match-subdomain=yes name=appstore.com type=FWD} on-error={}

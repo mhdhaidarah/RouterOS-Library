@@ -228,7 +228,6 @@ add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes n
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=market.android.com type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=ota.googlezip.net type=FWD
 add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=play-lh.googleusercontent.com type=FWD
-add address-list="Play Store IPs" comment="Play Store IPs" match-subdomain=yes name=gvt1.com type=FWD
 # ===================== APPLE APP STORE =====================
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=apps.apple.com type=FWD
 add address-list="App Store IPs" comment="App Store IPs" match-subdomain=yes name=itunes.com type=FWD

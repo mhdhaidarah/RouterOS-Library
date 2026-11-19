@@ -288,8 +288,6 @@
 :do {/ip firewall address-list add address=market.android.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=ota.googlezip.net list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=play-lh.googleusercontent.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
-:do {/ip firewall address-list add address=www.gvt1.com list="Play Store IPs" comment="IPDNS: Play Store IPs"} on-error={}
 :do {/ip firewall address-list add address=apps.apple.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}
 :do {/ip firewall address-list add address=www.itunes.com list="App Store IPs" comment="IPDNS: App Store IPs"} on-error={}

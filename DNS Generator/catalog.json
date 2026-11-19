@@ -381,8 +381,7 @@
         "android.clients.google.com",
         "market.android.com",
         "ota.googlezip.net",
-        "play-lh.googleusercontent.com",
-        "gvt1.com"
+        "play-lh.googleusercontent.com"
       ],
       "cidrs": [],
       "group": "google"
